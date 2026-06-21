@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "王骁式世界分析"
+  short_description: "用王骁视频中沉淀的框架分析地缘、产业与国际秩序问题。"
+  default_prompt: "Use $wangxiao-world-analysis to analyze this geopolitical or industrial event from first principles."

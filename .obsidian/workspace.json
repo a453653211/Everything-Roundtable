@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "d1ab3534be111da5",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f3b132ee742d50d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b7ac363f7527ea9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "discussions/20260615T091039--圆桌-上海买房靠近市中心底层逻辑.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260615T091039--圆桌-上海买房靠近市中心底层逻辑"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "849118c042f14604",
+    "type": "split",
+    "children": [
+      {
+        "id": "02d363f1501d9523",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b1ad671522cd95c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "489d14e1e184e65c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "b08b26d4936a3465",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e73a9410b864c939",
+    "type": "split",
+    "children": [
+      {
+        "id": "09913861e709ab83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9666e921fada6b9b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "discussions/20260615T091039--圆桌-上海买房靠近市中心底层逻辑.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "20260615T091039--圆桌-上海买房靠近市中心底层逻辑 的反向链接列表"
+            }
+          },
+          {
+            "id": "ff2e0c1f00137a10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "discussions/20260615T091039--圆桌-上海买房靠近市中心底层逻辑.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "20260615T091039--圆桌-上海买房靠近市中心底层逻辑 的出链列表"
+            }
+          },
+          {
+            "id": "a7d88c48bb417e57",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "72c1e126da347862",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "fb34fd9a8c22134e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "discussions/20260615T091039--圆桌-上海买房靠近市中心底层逻辑.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "20260615T091039--圆桌-上海买房靠近市中心底层逻辑 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "2b7ac363f7527ea9",
+  "lastOpenFiles": [
+    "library/中国宏观经济/主题/出口韧性与抢出口.md.tmp.39076.66d1435cdfab",
+    "library/中国宏观经济/index.md.tmp.39076.ca6e18759166",
+    "library/结论记录/index.md.tmp.39076.d45b9b72ae59",
+    "library/来源/index.md.tmp.39076.45ed088fd195",
+    "library/结论记录/2026-06-21-宏观周期阶段判断与判据.md",
+    "library/来源/中国宏观经济/统计局央行海关-2026年5月宏观经济数据.md",
+    "library/来源/中国宏观经济",
+    "library/中国宏观经济/主题/出口韧性与抢出口.md",
+    "library/中国宏观经济/主题/结构端倪与总量端倪.md",
+    "library/中国宏观经济/主题/政策传导与信用.md",
+    "library/中国宏观经济/主题/周期阶段与K型分化.md",
+    "library/中国宏观经济/主题/index.md",
+    "library/中国宏观经济/主题",
+    "library/中国宏观经济/index.md",
+    "library/中国宏观经济",
+    "library/结论记录/2026-06-16-AI基建真嵌入框架与保质期.md",
+    "library/A股投资/主题/境内外价格口径分离.md",
+    "library/A股投资/主题/份额与定价权判据.md",
+    "library/大宗商品/主题/稀土钨出口管制与保质期收敛.md",
+    "library/A股投资/主题/AI基建真嵌入框架与保质期.md",
+    "library/来源/AI基建与地缘/天岳先进2025-SiC份额第一却预亏.md",
+    "library/来源/AI基建与地缘/Lumentum-UHP-CW激光器CPO.md",
+    "library/来源/AI基建与地缘/中国核能发展报告2025与应流股份.md",
+    "library/来源/AI基建与地缘/厦门钨业2025年报.md",
+    "library/来源/AI基建与地缘/USGS-MCS2025-钨.pdf.md",
+    "library/来源/AI基建与地缘/商务部出口管制公告稀土钨系2025.md",
+    "library/来源/AI基建与地缘/美国防部1260H清单2026-06-08.md",
+    "library/来源/AI基建与地缘",
+    "work/bilibili/淘沙博士_字幕/02_宏观与全球局势/【淘沙博士】—黄仁勋大笔减持英伟达股票！中东局势骤然升级，注意风险！—【2024-08-13】-中文.txt",
+    "work/bilibili/淘沙博士_字幕/01_AI科技投资主线/【淘沙博士】—黄仁勋减持英伟达！巴菲特又卖比亚迪，英伟达会重演思科泡沫吗？—【2024-06-18】-中文.txt",
+    "work/bilibili/淘沙博士_字幕/03_市场行情与大盘点评/【淘沙博士】—麻烦！牛真有点累了，注意风险！—【2025-09-09】-中文.txt",
+    "discussions/20260615T091039--圆桌-上海买房靠近市中心底层逻辑.md",
+    "library/上海房产/方法与决策规则/靠近市中心溢价分歧根因.md",
+    "library/来源/上海房产/上海市统计局2024统计公报-外来常住.md",
+    "library/来源/上海房产/上海公积金管委会2023-10-房龄贷款红线.md",
+    "library/来源/上海房产/上海市政府新华网-成片二级旧里收官时点.md"
+  ]
+}

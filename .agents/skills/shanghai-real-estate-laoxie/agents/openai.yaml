@@ -1,0 +1,6 @@
+interface:
+  display_name: "Shanghai Real Estate Lao Xie"
+  short_description: "上海地产板块、地铁、规划与买房研判"
+  default_prompt: "Use $shanghai-real-estate-laoxie to analyze a Shanghai real-estate plate, metro, planning, market-cycle, or buyer-fit question with Lao Xie-style first-principles reasoning."
+policy:
+  allow_implicit_invocation: true

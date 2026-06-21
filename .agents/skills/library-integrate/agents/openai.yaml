@@ -1,0 +1,4 @@
+interface:
+  display_name: "Library Integrate"
+  short_description: "Integrate selected sources and conclusions"
+  default_prompt: "Use $library-integrate to integrate this source or conclusion into the personal knowledge library."

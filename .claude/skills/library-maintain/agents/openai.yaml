@@ -1,0 +1,4 @@
+interface:
+  display_name: "Library Maintain"
+  short_description: "Audit and consolidate the personal library"
+  default_prompt: "Use $library-maintain to audit and consolidate the personal knowledge library."

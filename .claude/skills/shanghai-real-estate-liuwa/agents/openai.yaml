@@ -1,0 +1,6 @@
+interface:
+  display_name: "上海地产六娃"
+  short_description: "六娃式上海地产与居住价值分析"
+  default_prompt: "Use $shanghai-real-estate-liuwa to analyze a Shanghai neighborhood, home-buying case, or renovation/value question."
+policy:
+  allow_implicit_invocation: true

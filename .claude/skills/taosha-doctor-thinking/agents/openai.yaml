@@ -1,0 +1,4 @@
+interface:
+  display_name: "淘沙博士思维"
+  short_description: "用淘沙博士式框架分析宏观市场AI产业政策和资产事件"
+  default_prompt: "Use $taosha-doctor-thinking to analyze this macro or market event with first-principles reasoning."

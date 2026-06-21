@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Yangboshi"
+  short_description: "杨博士说AI式产业、模型、产品与投资研判框架"
+  default_prompt: "Use $ai-yangboshi to analyze an AI model, product, company, benchmark, funding, or business-model question with Yangboshi-style first-principles reasoning."
+policy:
+  allow_implicit_invocation: true

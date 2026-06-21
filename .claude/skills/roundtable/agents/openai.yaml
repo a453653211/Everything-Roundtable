@@ -1,0 +1,6 @@
+interface:
+  display_name: "圆桌"
+  short_description: "通用圆桌主持：动态选角、多方法论碰撞求真、默认沉淀知识库"
+  default_prompt: "Use $roundtable to host a truth-seeking roundtable on any topic: dynamically cast relevant analytical lenses, let them collide and revise in independent sub-agents, and distill durable essence into the personal knowledge library."
+policy:
+  allow_implicit_invocation: true

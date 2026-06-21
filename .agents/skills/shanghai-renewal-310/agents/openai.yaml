@@ -1,0 +1,6 @@
+interface:
+  display_name: "Shanghai Renewal 310"
+  short_description: "上海规划动迁板块研究"
+  default_prompt: "Use $shanghai-renewal-310 to analyze a Shanghai neighborhood's renewal, relocation, infrastructure, or home-buying plate signals from public data."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,146 @@
+ANDREWKATHY就是vibe
+coding之父
+最近的官宣加入了ANTHROPIC的
+预训练团队
+那安卓开party的何许人也呢
+他是OpenAI的联合创始人之一
+特斯拉的前AI的总监是马斯克
+同一片把他给挖走的
+他也是非常有影响力的AI教育者
+比如说STANFORD的231N
+那能是深度学习的特别CONVERTI
+VATION的入门课程
+我也在网上上过
+他呢就是这门课的一个GSI
+跟李飞飞一起推动成为一个
+全球知名的网课
+他的在AI界的网红的地位是很强的
+可以说呢是篮球界的詹姆斯
+那ANDREWKATHY呢在X上分享
+I've joined
+athropic
+I think the next
+few years as the
+frontier
+Lol ms will be
+especially
+informative
+就他认为呢
+大圆模型在未来几年依然有巨大的塑造性
+这个呢是给行业一个振兴计
+有很多人认为大模型到这个阶段
+他的进展已经快到头了
+And get back to
+就是他决定作为研发了
+I will be deeply
+passionate about
+education
+And plan to resume
+my word ein time
+就是他依然热爱教育
+会继续保持自己的活跃度
+captain呢是86年的
+今年也差不多40岁了
+应该算是已经功成名就
+财务自由了
+那现在去兰THOPIC呢是汇报
+给nick joseph
+那JSF是cloud的预训院的负责人
+直接汇报给DARIO
+所以KATHY呢可以
+说是DARIA的minus two
+就是二层级的下属
+但是因为他的位置
+因为capital的身份呢
+他即使是二层级下属
+他在团队影响力也是很大的
+所以ATHY确认了CAPACY会
+组建一个新的团队
+专门用于自身来加速预训练的研究
+这个呢我又可以分享一下也
+很有意思的概念
+就是原来呢我们所谓的模型是
+被训练出来的
+但训练的流程本身呢又可以被模型优化
+就是已经有点自我进化的概念
+那这里面最核心的点呢
+就是因为clouds的methods
+模型太强大了
+现在所有人都想去学习
+但是没有人能达到它的效果
+G b t5.5
+DMI3.5flash都是望尘莫及
+ANTHROPIC在过去的一段
+时间的人才争夺战中
+是有巨大胜利的
+除了CARPLAY以外
+包括网络安全专家chris roll
+前XAI的创始成员
+ROSSNORDEN也是在本
+月加入这个团队
+pony market就是
+关于AI的一个投票的组织呢
+看到了ANTHROID
+在6月份拥有最佳AI模型的投票率
+能达到65%
+google能达到30%
+OpenAI呢只有4%
+这样一看的话
+OpenAI呢
+确实市场的认知和定位呢变得越来越尴尬
+因为ANTHROPIC的模型更加前沿
+而google的模型呢更加普惠
+KAI呢其实有这非常光鲜的背景
+他今年40岁
+生于斯洛伐克
+15岁呢移民到加拿大
+本科呢在洛伦多大学
+当时就选了JEFFINGTON的课程
+所以运气也比较好
+移民去的上了大学认识了深度学习之父
+博士呢是在STANFORD师从李飞飞
+然后我也介绍了他推荐了一个沉重的网课
+叫cs231N是一个计算机
+视觉的全民普及课
+之后呢他也一直在教育领域呢有所建树
+比如说在2022年离开特斯拉之后
+在YOUTUBE上创建了neural
+networks zero to
+one系列课程
+开源了一系列小的概念性的产品
+比如说MICROGRADNANO
+G p t nano chat
+用极少的代码精准的去演示了核心的
+当然最有名的就是2025年2月份
+他推出了很重要的一个词叫vibe
+coding
+就是用AI来写代码
+这个呢也就是去年2月至此之后呢
+一发不可收拾
+整个的从去年的cloud code到
+今年的codex
+所有的AI公司
+把自己的重点都从最开始的问答
+变成了编程
+现在又从编程呢变成了IJA
+哈里斯
+就是类似open CD和HERMES
+其根本呢也是跟编程能力相关
+所以CAPACY呢
+跟anthropic cloud呢
+应该是双向奔赴
+互相成就的一个角色
+要不是copy提出的vibe
+coding
+整个市场呢可能也不会发展这么快
+要不是cloud code成功
+也没法验证capacity的预见性
+那这次呢带着同的预见性呢
+KPI呢希望做一件非常神奇
+且有意义的事情
+就是他用mile来重新的优化
+PRETRAINING预
+训练的这部分的流程
+希望能让模型性能更强
+训练跟推进成本进一步降低
+以及最终实现自我进化

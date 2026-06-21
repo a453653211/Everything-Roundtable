@@ -1,0 +1,6 @@
+interface:
+  display_name: "姜汁汽水·地缘货币"
+  short_description: "地缘—货币—大宗的结构化推演与可证伪情景"
+  default_prompt: "Use $geofinance-jiangzhiqishui to analyze geopolitics, USD/UST/Fed policy, RMB internationalization, gold/silver/BTC, or commodities by reconstructing mechanisms first and managing uncertainty with falsifiable scenarios."
+policy:
+  allow_implicit_invocation: true

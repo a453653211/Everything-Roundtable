@@ -1,0 +1,6 @@
+interface:
+  display_name: "钞能力毛毛·投资机遇"
+  short_description: "投资标的/赛道与宏观机遇的机制化分析"
+  default_prompt: "Use $investing-chaonengmaomao to evaluate an investment target/sector, translate macro policy into investment leads, judge industry inflection windows, or debunk 'returns-only' pseudo-logic."
+policy:
+  allow_implicit_invocation: true
