@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-04",
+  "started_at": "2026-08-04T22:13:07+08:00",
+  "coverage_end": "2026-08-04T22:13:07+08:00",
+  "finished_at": "2026-08-04T22:17:10+08:00",
+  "checked": [
+    "cn-nbs-pmi"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-nbs-pmi",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-nbs-pmi/2026-07--v1.md"
+    }
+  ],
+  "synthesis": {
+    "headline": "7月PMI显示制造业和非制造业的生产经营景气同步回落，但这仍是需要实物数据确认的单月调查信号。",
+    "sections": [
+      {
+        "scope": "全国",
+        "dataset_ids": [
+          "cn-nbs-pmi"
+        ],
+        "significance": "medium",
+        "stage": "统计结果已发布；单月回落的持续性尚待验证",
+        "judgment": "制造业新订单、生产以及非制造业新订单均落入收缩区间，更符合企业当月接单与经营活动同时转弱，而非单一供给扰动；尚不能据此判定趋势性下行。",
+        "watch_next": "国家统计局7月规模以上工业增加值、服务业生产指数和社会消费品零售总额"
+      }
+    ],
+    "deep_dive_candidates": [
+      "制造业与非制造业新订单同步回落，是否会被7月工业、服务业和消费实物/金额指标确认"
+    ],
+    "confidence": "medium"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "登记的海关入口仅返回通用政务服务页面，未暴露可核验的当期贸易统计发布或查询结果；未建立基线，保留下次重试。"
+    }
+  ]
+}

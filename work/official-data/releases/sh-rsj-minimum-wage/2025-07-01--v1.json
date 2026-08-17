@@ -1,0 +1,85 @@
+{
+  "analysis": {
+    "affected_groups": [
+      {
+        "confidence": "high",
+        "group": "工资接近法定最低标准的全日制和非全日制劳动者",
+        "inference": "法定工资底线提高会直接抬升其最低应付工资，但实际到手变化还取决于工时、用工形式和原工资水平。"
+      }
+    ],
+    "alternative_explanations": [
+      "最低工资调整不能代表全市平均工资或中位数工资同步上涨。"
+    ],
+    "behavioral_readout": "最低工资上调直接提高法定工资底线；月标准还明确排除加班工资、特殊津贴、交通住房等补贴以及个人依法缴纳的社保和公积金，这些项目应另行支付。",
+    "caveats": [
+      "本卡记录的是法定最低标准，不是典型劳动者实际工资。",
+      "小时最低工资不包括个人和单位依法缴纳的社会保险费。"
+    ],
+    "changes": [
+      "月最低工资增加50元，约增长1.9%。",
+      "小时最低工资增加1元，约增长4.2%。",
+      "月标准适用于全日制就业，小时标准适用于非全日制就业。"
+    ],
+    "confidence": "high",
+    "headline": "上海自2025年7月1日起将月最低工资由2690元调至2740元、小时最低工资由24元调至25元，本次为首次纳入监测的现行标准基线。",
+    "implications": [
+      "推断：对工资贴近最低标准的岗位，用工成本底线相应上升。"
+    ],
+    "verification_needed": [
+      "上海市人力资源和社会保障局下一次最低工资调整通知",
+      "上海市就业与工资官方统计"
+    ]
+  },
+  "content_fingerprint": "bd10db82e22ac954ab0eea043039d1f3c0ee8a9ecb792d1ed2418b1a152c0bc3",
+  "dataset_id": "sh-rsj-minimum-wage",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "上海市人力资源和社会保障局正式通知",
+      "url": "https://rsj.sh.gov.cn/tgzfl_17732/20250714/t0035_1434097.html"
+    }
+  ],
+  "published_at": "2025-07-14T00:00:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2025-07-01",
+  "release_status": "official",
+  "retrieved_at": "2026-07-26T15:20:32+08:00",
+  "revisions": [],
+  "source_title": "上海市人力资源和社会保障局关于调整本市最低工资标准的通知",
+  "source_url": "https://rsj.sh.gov.cn/tgzfl_17732/20250714/t0035_1434097.html",
+  "values": [
+    {
+      "basis": "自2025年7月1日起执行",
+      "metric": "月最低工资标准",
+      "note": "此前为2690元/月",
+      "seasonal_adjustment": "不适用",
+      "unit": "元人民币/月",
+      "value": 2740
+    },
+    {
+      "basis": "本次调整",
+      "metric": "月最低工资标准调整幅度",
+      "note": "约增长1.9%",
+      "seasonal_adjustment": "不适用",
+      "unit": "元人民币/月",
+      "value": 50
+    },
+    {
+      "basis": "自2025年7月1日起执行",
+      "metric": "小时最低工资标准",
+      "note": "此前为24元/小时",
+      "seasonal_adjustment": "不适用",
+      "unit": "元人民币/小时",
+      "value": 25
+    },
+    {
+      "basis": "本次调整",
+      "metric": "小时最低工资标准调整幅度",
+      "note": "约增长4.2%",
+      "seasonal_adjustment": "不适用",
+      "unit": "元人民币/小时",
+      "value": 1
+    }
+  ]
+}

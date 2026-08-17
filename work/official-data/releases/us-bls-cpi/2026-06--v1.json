@@ -1,0 +1,80 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "能源价格的月度波动可主导总指数。",
+      "季调环比与未季调同比不可混为同一增长概念。"
+    ],
+    "behavioral_readout": "6月总体价格下降更符合能源价格回落抵消其他项目上涨，而不是广泛的生活成本下降：食品仍上涨、核心价格没有同步下跌。",
+    "caveats": [
+      "CPI-U覆盖城市消费者，指数不等同于所有家庭的实际支出变化。",
+      "本地首次建基线，未从本地前期卡片计算变化。"
+    ],
+    "changes": [
+      "本地状态此前没有可比记录，本次建立6月官方基线。",
+      "CPI-U由5月环比上涨0.5%转为6月下降0.4%，同比由4.2%降至3.5%。",
+      "能源环比下降5.7%，核心CPI环比持平；食品环比上涨0.2%。"
+    ],
+    "confidence": "high",
+    "headline": "美国6月CPI环比下降0.4%，主要由能源下跌驱动；核心CPI环比持平、同比仍为2.6%。",
+    "implications": [
+      "推断：若能源波动反转，整体CPI的单月改善不一定延续；核心与服务分项更适合作为广泛价格压力的后续核验。"
+    ],
+    "verification_needed": [
+      "BLS 2026年7月CPI的能源、住房和核心分项",
+      "BEA 2026年6月及7月PCE价格指数"
+    ]
+  },
+  "content_fingerprint": "62750c5d30ca5b7e27853b5658f92790e6c50ac16cb0511ec7125dd1c368d461",
+  "dataset_id": "us-bls-cpi",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "U.S. Bureau of Labor Statistics CPI release",
+      "url": "https://www.bls.gov/news.release/cpi.htm"
+    }
+  ],
+  "published_at": "2026-07-14T08:30:00-04:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-08-02T22:05:00+08:00",
+  "revisions": [],
+  "source_title": "Consumer Price Index News Release - 2026 M06 Results",
+  "source_url": "https://www.bls.gov/news.release/cpi.htm",
+  "values": [
+    {
+      "basis": "2026年6月环比",
+      "metric": "CPI-U",
+      "note": "截至6月的12个月同比上涨3.5%",
+      "seasonal_adjustment": "季调",
+      "unit": "%",
+      "value": -0.4
+    },
+    {
+      "basis": "2026年6月环比",
+      "metric": "核心CPI（不含食品和能源）",
+      "note": "截至6月的12个月同比上涨2.6%",
+      "seasonal_adjustment": "季调",
+      "unit": "%",
+      "value": 0.0
+    },
+    {
+      "basis": "2026年6月环比",
+      "metric": "能源价格指数",
+      "note": "截至6月的12个月同比上涨15.7%",
+      "seasonal_adjustment": "季调",
+      "unit": "%",
+      "value": -5.7
+    },
+    {
+      "basis": "2026年6月环比",
+      "metric": "食品价格指数",
+      "note": "截至6月的12个月同比上涨3.0%",
+      "seasonal_adjustment": "季调",
+      "unit": "%",
+      "value": 0.2
+    }
+  ]
+}

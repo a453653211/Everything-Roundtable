@@ -1,0 +1,28 @@
+{
+  "dataset_id": "sh-district-strategic-plans",
+  "reference_period": "2026-03-17--fengxian-fyp-issued",
+  "published_at": "2026-03-17T00:00:00+08:00",
+  "retrieved_at": "2026-08-10T07:03:53+08:00",
+  "source_title": "上海市奉贤区人民政府关于印发《上海市奉贤区国民经济和社会发展第十五个五年规划纲要》的通知",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/00843930",
+  "release_status": "official",
+  "values": [
+    {"metric": "行政阶段", "value": "区政府正式印发；区人大已审议通过", "unit": "文本状态", "basis": "沪奉府发〔2026〕14号", "seasonal_adjustment": "不适用", "note": "2026年1月23日区第六届人大第九次会议审议通过；3月17日发布"},
+    {"metric": "规划层级", "value": "区级国民经济和社会发展五年规划纲要", "unit": "规划类型", "basis": "2026—2030年", "seasonal_adjustment": "不适用", "note": "奉贤区"},
+    {"metric": "核心变化", "value": "明确奉贤未来五年高质量发展、开放与治理的总体纲要", "unit": "正式纲要", "basis": "官方印发文本", "seasonal_adjustment": "不适用", "note": "不构成具体项目授权"}
+  ],
+  "revisions": [],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "奉贤区十五五纲要已审议通过并正式印发，界定未来五年的区级发展框架，尚不直接确认具体项目的资金或建设状态。",
+    "changes": ["本地首次建立该已发布区级纲要的官方基线。"],
+    "behavioral_readout": "文件给出未来五年的发展和空间取向，但具体建设、产业项目和公共服务安排需要后续专项规划、预算和审批文件核验。",
+    "affected_groups": [],
+    "implications": ["推断：对具体地区或项目的判断，应等待可验证的专项规划、投资计划和实施公告。"],
+    "alternative_explanations": ["正式五年纲要并不自动转化为年度资金或工程进度。"],
+    "verification_needed": ["奉贤区年度计划、专项规划、预算和项目审批文件"],
+    "caveats": ["未将纲要中的愿景或目标视为已立项、已拨款或已开工。"],
+    "confidence": "high"
+  },
+  "official_citations": [{"label": "上海市政府政策库奉贤区十五五纲要", "url": "https://www.shanghai.gov.cn/gwk/search/content/00843930"}]
+}

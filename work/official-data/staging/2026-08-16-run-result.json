@@ -1,0 +1,78 @@
+{
+  "date": "2026-08-16",
+  "started_at": "2026-08-16T14:54:58+08:00",
+  "coverage_end": "2026-08-16T14:59:17+08:00",
+  "finished_at": "2026-08-16T15:04:06+08:00",
+  "checked": [
+    "cn-pbc-financial",
+    "cn-nbs-activity",
+    "eu-eurostat-gdp",
+    "sh-ghzyj-planning-notices",
+    "sh-district-strategic-plans",
+    "sh-jtw-transport-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-pbc-financial",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-pbc-financial/2026-07--v1.md"
+    },
+    {
+      "dataset_id": "cn-nbs-activity",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "eu-eurostat-gdp",
+      "status": "revision",
+      "record_path": "work/official-data/releases/eu-eurostat-gdp/2026-Q2--v2.md"
+    },
+    {
+      "dataset_id": "sh-ghzyj-planning-notices",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "sh-jtw-transport-plans",
+      "status": "unchanged"
+    }
+  ],
+  "synthesis": {
+    "headline": "今日最值得关注的是中国7月金融总量仍扩张、但住户贷款前七个月净减少扩大；这比欧元区GDP二次闪估的细节补充更具实际待验证价值。",
+    "sections": [
+      {
+        "scope": "全国",
+        "dataset_ids": [
+          "cn-pbc-financial"
+        ],
+        "significance": "medium",
+        "stage": "统计结果已发布，且为初步统计；对需求端的因果解释仍待后续数据验证。",
+        "judgment": "社融存量同比增长7.4%、M2同比增长7.7%，但住户贷款前七个月净减少8271亿元、住户存款增加6.95万亿元。总量融资增长尚未转化为居民部门新增净融资回升，不能单据此判断消费或房地产需求已转强。",
+        "watch_next": "人民银行8月金融统计，以及国家统计局7月社会消费品零售、房地产开发投资和销售数据。"
+      },
+      {
+        "scope": "欧元区",
+        "dataset_ids": [
+          "eu-eurostat-gdp"
+        ],
+        "significance": "low",
+        "stage": "第二次GDP和就业闪估已发布；仍是覆盖不完整、可后续修订的统计结果。",
+        "judgment": "二季度GDP环比0.4%、同比1.0%与7月初步闪估一致，本次新增就业环比0.1%和更高覆盖率，支持温和扩张但没有改变原有判断。",
+        "watch_next": "Eurostat 9月7日GDP主要总量和就业正式估计，以及之后的支出和行业分项。"
+      }
+    ],
+    "deep_dive_candidates": [
+      "住户贷款净减少与7月零售、房地产销售是否继续背离",
+      "欧元区产出与就业的小幅同步增长能否在9月完整GDP结构中延续"
+    ],
+    "confidence": "high"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "The registered customs portal was reachable but exposed only a generic statistics-query service, not a directly openable and verifiable current national monthly import-export release or query result. The baseline remains unestablished and will be retried."
+    }
+  ]
+}

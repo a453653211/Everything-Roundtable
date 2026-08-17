@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-26",
+  "started_at": "2026-07-26T15:12:48+08:00",
+  "finished_at": "2026-07-26T15:24:02+08:00",
+  "checked": [
+    "sh-tjj-activity",
+    "sh-rsj-minimum-wage",
+    "sh-rsj-average-wage",
+    "sh-ghzyj-approved-plans",
+    "sh-ghzyj-planning-notices",
+    "sh-jtw-transport-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "sh-tjj-activity",
+      "status": "new",
+      "record_path": "work/official-data/releases/sh-tjj-activity/2026-06-2026-Q2--v1.md"
+    },
+    {
+      "dataset_id": "sh-rsj-minimum-wage",
+      "status": "new",
+      "record_path": "work/official-data/releases/sh-rsj-minimum-wage/2025-07-01--v1.md"
+    },
+    {
+      "dataset_id": "sh-rsj-average-wage",
+      "status": "new",
+      "record_path": "work/official-data/releases/sh-rsj-average-wage/2024--v1.md"
+    },
+    {
+      "dataset_id": "sh-ghzyj-approved-plans",
+      "status": "new",
+      "record_path": "work/official-data/releases/sh-ghzyj-approved-plans/2023-10-25--yangtze-demo-zone-2021-2035--approved--v1.md"
+    },
+    {
+      "dataset_id": "sh-ghzyj-planning-notices",
+      "status": "new",
+      "record_path": "work/official-data/releases/sh-ghzyj-planning-notices/2026-07-02--xiaolujiazui-ljz01--draft-publicity--v1.md"
+    },
+    {
+      "dataset_id": "sh-jtw-transport-plans",
+      "status": "new",
+      "record_path": "work/official-data/releases/sh-jtw-transport-plans/2025-06-20--jiamin-north-extension--reviewed-pending-approval--v1.md"
+    }
+  ],
+  "errors": []
+}

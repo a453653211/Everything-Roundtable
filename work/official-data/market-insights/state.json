@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "source_id": "citadel-securities-market-insights",
+  "category_url": "https://www.citadelsecurities.com/news-and-insights/category/market-insights/",
+  "last_successful_check": "2026-08-17T07:04:52+08:00",
+  "last_attempted_at": "2026-08-17T07:04:52+08:00",
+  "last_error": null,
+  "category_lastmod": "2026-08-12T04:05:03+00:00",
+  "items": {
+    "https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/august-checklist/": {
+      "title": "August Checklist",
+      "series": "Global Market Intelligence",
+      "published_at": "2026-08-11",
+      "first_seen_at": "2026-08-16T17:00:00+08:00",
+      "baseline": true
+    },
+    "https://www.citadelsecurities.com/news-and-insights/retail-detail/traders-on-defense/": {
+      "title": "Traders on Defense",
+      "series": "Retail Detail",
+      "published_at": "",
+      "first_seen_at": "2026-08-16T17:00:00+08:00",
+      "baseline": true
+    },
+    "https://www.citadelsecurities.com/news-and-insights/macro-thoughts/from-forward-guidance-to-market-guidance/": {
+      "title": "From Forward Guidance to Market Guidance",
+      "series": "Some Macro Thoughts",
+      "published_at": "",
+      "first_seen_at": "2026-08-16T17:00:00+08:00",
+      "baseline": true
+    },
+    "https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/august-after-the-reset/": {
+      "title": "August – After The Reset",
+      "series": "Global Market Intelligence",
+      "published_at": "",
+      "first_seen_at": "2026-08-16T17:00:00+08:00",
+      "baseline": true
+    },
+    "https://www.citadelsecurities.com/news-and-insights/global-macro-strategy/fed-views-the-case-for-july/": {
+      "title": "Fed Views: The Case for July",
+      "series": "Global Macro Strategy",
+      "published_at": "",
+      "first_seen_at": "2026-08-16T17:00:00+08:00",
+      "baseline": true
+    },
+    "https://www.citadelsecurities.com/news-and-insights/macro-thoughts/a-more-fragile-world/": {
+      "title": "A More Fragile World",
+      "series": "Some Macro Thoughts",
+      "published_at": "",
+      "first_seen_at": "2026-08-16T17:00:00+08:00",
+      "baseline": true
+    }
+  }
+}

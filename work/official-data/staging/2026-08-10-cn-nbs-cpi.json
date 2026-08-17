@@ -1,0 +1,47 @@
+{
+  "dataset_id": "cn-nbs-cpi",
+  "reference_period": "2026-07",
+  "published_at": "2026-08-09T09:30:00+08:00",
+  "retrieved_at": "2026-08-10T07:03:53+08:00",
+  "source_title": "2026年7月份居民消费价格同比上涨0.5%",
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965008.html",
+  "release_status": "official",
+  "values": [
+    {"metric": "居民消费价格", "value": 0.5, "unit": "%", "basis": "2026年7月同比", "seasonal_adjustment": "未季调", "note": "环比下降0.1%；1—7月平均同比上涨0.9%"},
+    {"metric": "食品价格", "value": -1.5, "unit": "%", "basis": "2026年7月同比", "seasonal_adjustment": "未季调", "note": "环比持平"},
+    {"metric": "非食品价格", "value": 0.9, "unit": "%", "basis": "2026年7月同比", "seasonal_adjustment": "未季调", "note": "环比下降0.1%"},
+    {"metric": "服务价格", "value": 0.7, "unit": "%", "basis": "2026年7月同比", "seasonal_adjustment": "未季调", "note": "环比上涨0.4%"},
+    {"metric": "不包括食品和能源的CPI", "value": 0.9, "unit": "%", "basis": "2026年7月同比", "seasonal_adjustment": "未季调", "note": "环比上涨0.3%"}
+  ],
+  "revisions": [],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "7月全国CPI同比上涨0.5%、环比下降0.1%，同比涨幅较6月回落0.5个百分点，食品价格仍为同比拖累。",
+    "changes": [
+      "CPI同比从6月的1.0%回落至0.5%，环比从下降0.3%收窄至下降0.1%。",
+      "非食品同比从1.5%回落至0.9%，服务同比从0.8%回落至0.7%。",
+      "食品同比下降1.5%，与6月下降1.6%大致持平。"
+    ],
+    "behavioral_readout": "食品同比仍下降、非食品和服务涨幅均回落的组合，更接近不同消费篮子价格变化同步降温；仅凭价格指数，不能判断居民消费量或消费意愿已经转弱。",
+    "affected_groups": [],
+    "implications": [
+      "推断：本月价格读数未提供广泛需求升温的证据，是否存在需求变化仍需数量和收入指标交叉验证。"
+    ],
+    "alternative_explanations": [
+      "食品供给和季节性变化可单独影响食品价格。",
+      "部分服务和非食品分项的基数变化可影响同比涨幅。"
+    ],
+    "verification_needed": [
+      "国家统计局7月社会消费品零售总额及分类数据",
+      "国家统计局7月居民收入、支出和服务消费相关数据"
+    ],
+    "caveats": [
+      "CPI是价格指数，不等同于消费金额或实物量。",
+      "2026年1月起CPI以2025年为基期编制，历史可比性应结合官方说明判断。"
+    ],
+    "confidence": "high"
+  },
+  "official_citations": [
+    {"label": "国家统计局2026年7月CPI原文", "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965008.html"}
+  ]
+}

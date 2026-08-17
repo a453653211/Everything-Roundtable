@@ -1,0 +1,65 @@
+{
+  "dataset_id": "cn-cfets-lpr",
+  "reference_period": "2026-06",
+  "published_at": "2026-06-22T09:00:00+08:00",
+  "retrieved_at": "2026-07-21T22:50:46+08:00",
+  "source_title": "2026年6月22日全国银行间同业拆借中心受权公布贷款市场报价利率（LPR）公告",
+  "source_url": "https://www.chinamoney.com.cn/chinese/rdgz/20260622/3361525.html",
+  "release_status": "official",
+  "values": [
+    {
+      "metric": "1年期贷款市场报价利率（LPR）",
+      "value": 3.0,
+      "unit": "%",
+      "basis": "2026年6月22日报价",
+      "seasonal_adjustment": "不适用",
+      "note": "较2026年5月20日持平"
+    },
+    {
+      "metric": "5年期以上贷款市场报价利率（LPR）",
+      "value": 3.5,
+      "unit": "%",
+      "basis": "2026年6月22日报价",
+      "seasonal_adjustment": "不适用",
+      "note": "较2026年5月20日持平"
+    }
+  ],
+  "revisions": [],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "6月1年期和5年期以上LPR分别维持3.0%和3.5%，贷款定价基准未通过LPR渠道进一步下调。",
+    "changes": [
+      "1年期LPR为3.0%，与2026年5月20日官方报价持平。",
+      "5年期以上LPR为3.5%，与2026年5月20日官方报价持平。"
+    ],
+    "behavioral_readout": "这组报价更符合“贷款基准定价保持稳定”，而不是通过LPR再次下调来推动新增贷款降价；但银行实际贷款利率还取决于加点、客户风险、期限和其他政策工具，不能由LPR不变推断所有借款人的实际融资成本都不变。",
+    "affected_groups": [],
+    "implications": [
+      "推断：6月LPR本身没有给新增企业贷款和与5年期以上LPR挂钩的贷款提供额外的基准利率下调。"
+    ],
+    "alternative_explanations": [
+      "实际融资条件可能通过银行加点、存款利率、结构性货币政策工具或其他政策利率变化而调整。",
+      "存量贷款是否重定价取决于合同约定的重定价周期。"
+    ],
+    "verification_needed": [
+      "全国银行间同业拆借中心下一期LPR公告",
+      "中国人民银行金融机构人民币贷款加权平均利率",
+      "中国人民银行社会融资规模和人民币贷款数据"
+    ],
+    "caveats": [
+      "LPR是贷款定价参考，不是所有借款人的实际成交利率。",
+      "本地此前无该数据集记录，本卡为首次纳入的2026年6月官方基线。"
+    ],
+    "confidence": "high"
+  },
+  "official_citations": [
+    {
+      "label": "中国货币网LPR公告原文",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20260622/3361525.html"
+    },
+    {
+      "label": "中国货币网LPR说明",
+      "url": "https://www.chinamoney.com.cn/chinese/bklpr/"
+    }
+  ]
+}

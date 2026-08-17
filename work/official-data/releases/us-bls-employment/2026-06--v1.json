@@ -1,0 +1,88 @@
+{
+  "analysis": {
+    "affected_groups": [
+      {
+        "confidence": "medium",
+        "group": "休闲和酒店业求职者",
+        "inference": "该行业6月减少6.1万个岗位，官方称反映弱于通常水平的季节性招聘；是否为持续收缩仍待验证。"
+      }
+    ],
+    "alternative_explanations": [
+      "劳动参与率下降可使失业率下行而不代表就业需求更强。",
+      "月度就业估计会因后续企业与政府报告而修订。"
+    ],
+    "behavioral_readout": "就业总量仍小幅增加、失业率回落，但参与率下降和前期下修使就业市场的表面稳定不足以单独证明劳动力需求正在增强。",
+    "caveats": [
+      "家庭调查与企业调查口径不同，不能将失业率与非农就业人数直接相减。",
+      "本地首次建基线，未使用本地前期卡片比较。"
+    ],
+    "changes": [
+      "本地状态此前没有可比记录，本次建立6月官方基线。",
+      "6月非农就业增加5.7万人，约高于过去12个月的平均月增3.6万人。",
+      "4—5月合计下修7.4万人；劳动参与率下降0.3个百分点至61.5%。"
+    ],
+    "confidence": "high",
+    "headline": "美国6月非农就业增加5.7万人、失业率4.2%，但4—5月就业合计下修7.4万人，新增就业仍偏弱。",
+    "implications": [
+      "推断：就业市场仍在扩张边缘，后续需同时观察就业修订、劳动参与率与行业新增岗位。"
+    ],
+    "verification_needed": [
+      "BLS 2026年7月就业形势",
+      "BLS职位空缺与劳动力流动调查"
+    ]
+  },
+  "content_fingerprint": "5454d4c403357ca780886fce283789caae85c7e6f30bf821332da6f70b85184f",
+  "dataset_id": "us-bls-employment",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "U.S. Bureau of Labor Statistics Employment Situation",
+      "url": "https://www.bls.gov/news.release/empsit.htm"
+    }
+  ],
+  "published_at": "2026-07-02T08:30:00-04:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-08-02T22:05:00+08:00",
+  "revisions": [
+    "4月非农就业变动由+179千人下修至+148千人，5月由+172千人下修至+129千人；两月合计较此前少74千人。"
+  ],
+  "source_title": "Employment Situation News Release - 2026 M06 Results",
+  "source_url": "https://www.bls.gov/news.release/empsit.htm",
+  "values": [
+    {
+      "basis": "2026年6月环比",
+      "metric": "非农就业人数变动",
+      "note": "前12个月平均每月增加36千人",
+      "seasonal_adjustment": "季调",
+      "unit": "千人",
+      "value": 57
+    },
+    {
+      "basis": "2026年6月",
+      "metric": "失业率",
+      "note": "5月为4.3%",
+      "seasonal_adjustment": "季调",
+      "unit": "%",
+      "value": 4.2
+    },
+    {
+      "basis": "2026年6月",
+      "metric": "劳动参与率",
+      "note": "较5月下降0.3个百分点",
+      "seasonal_adjustment": "季调",
+      "unit": "%",
+      "value": 61.5
+    },
+    {
+      "basis": "截至2026年6月的12个月",
+      "metric": "私营非农全部员工平均时薪",
+      "note": "6月环比上涨0.3%，至37.64美元",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 3.5
+    }
+  ]
+}

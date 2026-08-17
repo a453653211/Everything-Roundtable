@@ -1,0 +1,82 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "食品供给和季节性可主导食品分项。",
+      "基期轮换会对同比可比性产生小幅影响。"
+    ],
+    "behavioral_readout": "食品价格走弱、非食品和部分服务价格上行的组合，更像不同消费篮子和成本项的价格变化，而不能仅凭CPI推断居民消费量或消费意愿。",
+    "caveats": [
+      "CPI是价格指数，不能替代消费金额或消费量。",
+      "本地首次建基线，未从本地记录计算环比变化。"
+    ],
+    "changes": [
+      "本地状态此前没有可比记录，本次建立6月官方基线。",
+      "CPI同比上涨1.0%，食品同比下降1.6%，非食品同比上涨1.5%。",
+      "不包括食品和能源的CPI同比上涨1.0%，服务价格同比上涨0.8%。"
+    ],
+    "confidence": "high",
+    "headline": "6月全国CPI同比上涨1.0%、环比下降0.3%，食品下跌而非食品上涨，价格读数并非单一需求信号。",
+    "implications": [
+      "推断：若食品拖累延续而核心、服务仍稳定，居民实际生活成本的变化会明显分化。"
+    ],
+    "verification_needed": [
+      "国家统计局2026年7月CPI分项",
+      "国家统计局7月社会消费品零售总额及分类数据"
+    ]
+  },
+  "content_fingerprint": "cf57630a6c4c73e55169bd52b4476741a123019f9fc04b36eaa6aca1b69ff0bd",
+  "dataset_id": "cn-nbs-cpi",
+  "methodology_changes": [
+    "2026年1月起CPI以2025年为基期编制；国家统计局估计基期轮换对各月同比指数平均影响约0.06个百分点。"
+  ],
+  "official_citations": [
+    {
+      "label": "国家统计局6月CPI原文",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260709_1964084.html"
+    }
+  ],
+  "published_at": "2026-07-09T09:30:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-08-02T22:05:00+08:00",
+  "revisions": [],
+  "source_title": "2026年6月份居民消费价格同比上涨1.0%",
+  "source_url": "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260709_1964084.html",
+  "values": [
+    {
+      "basis": "2026年6月同比",
+      "metric": "居民消费价格",
+      "note": "环比下降0.3%；1—6月平均上涨1.0%",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 1.0
+    },
+    {
+      "basis": "2026年6月同比",
+      "metric": "不包括食品和能源的CPI",
+      "note": "环比下降0.1%",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 1.0
+    },
+    {
+      "basis": "2026年6月同比",
+      "metric": "食品价格",
+      "note": "猪肉价格同比下降15.9%",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": -1.6
+    },
+    {
+      "basis": "2026年6月同比",
+      "metric": "非食品价格",
+      "note": "服务价格同比上涨0.8%",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 1.5
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-01",
+  "started_at": "2026-08-01T10:20:00+08:00",
+  "finished_at": "2026-08-01T10:40:00+08:00",
+  "checked": ["eu-eurostat-hicp"],
+  "results": [
+    {
+      "dataset_id": "eu-eurostat-hicp",
+      "status": "new",
+      "record_path": "work/official-data/releases/eu-eurostat-hicp/2026-07--v1.md"
+    }
+  ],
+  "synthesis": {
+    "headline": "今日最值得注意的是欧元区7月通胀初值小幅回升至2.9%，但上行主要由能源带动，尚非广泛价格压力重新加速的证据。",
+    "sections": [
+      {
+        "scope": "欧元区",
+        "dataset_ids": ["eu-eurostat-hicp"],
+        "significance": "medium",
+        "stage": "统计结果已发布（7月闪估），完整HICP数据待8月19日发布。",
+        "judgment": "同比由2.8%升至2.9%，能源由8.5%升至10.0%是最突出的变化；服务仅由3.2%升至3.3%，食品通胀回落，因此目前更像能源冲击而非需求端普遍再加速。",
+        "watch_next": "8月19日Eurostat完整7月HICP，以及能源与服务分项是否维持或扩大上行。"
+      }
+    ],
+    "deep_dive_candidates": [
+      "能源分项上行是一次性价格冲击还是连续传导",
+      "服务通胀能否在完整HICP数据中继续走高",
+      "EA21口径变更对跨年比较的影响"
+    ],
+    "confidence": "high"
+  },
+  "errors": []
+}

@@ -1,0 +1,88 @@
+{
+  "dataset_id": "us-bls-ppi",
+  "reference_period": "2026-07",
+  "published_at": "2026-08-13T08:30:00-04:00",
+  "retrieved_at": "2026-08-14T07:04:12+08:00",
+  "source_title": "Producer Price Index News Release - 2026 M07 Results",
+  "source_url": "https://www.bls.gov/news.release/ppi.htm",
+  "release_status": "official",
+  "values": [
+    {
+      "metric": "PPI final demand",
+      "value": 0.0,
+      "unit": "%",
+      "basis": "2026-07 month-over-month",
+      "seasonal_adjustment": "seasonally adjusted",
+      "note": "June -0.1%; May +0.5%"
+    },
+    {
+      "metric": "PPI final demand",
+      "value": 4.7,
+      "unit": "%",
+      "basis": "12 months ended 2026-07",
+      "seasonal_adjustment": "unadjusted",
+      "note": "June +5.5%"
+    },
+    {
+      "metric": "Final demand less foods, energy, and trade services",
+      "value": 0.4,
+      "unit": "%",
+      "basis": "2026-07 month-over-month",
+      "seasonal_adjustment": "seasonally adjusted",
+      "note": "12-month unadjusted increase +4.7%; June +0.1%"
+    },
+    {
+      "metric": "Final demand goods",
+      "value": -0.7,
+      "unit": "%",
+      "basis": "2026-07 month-over-month",
+      "seasonal_adjustment": "seasonally adjusted",
+      "note": "Energy -3.1%; gasoline -5.7%"
+    },
+    {
+      "metric": "Final demand services",
+      "value": 0.2,
+      "unit": "%",
+      "basis": "2026-07 month-over-month",
+      "seasonal_adjustment": "seasonally adjusted",
+      "note": "June +0.5%"
+    }
+  ],
+  "revisions": [
+    "BLS states that March through June figures may differ from previously reported values because late reports and respondent corrections became available. The locally archived June final-demand month-over-month result was revised from -0.3% to -0.1%; no unverified detailed revision deltas are supplied."
+  ],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "美国7月最终需求PPI环比持平、同比增幅降至4.7%，但核心指标环比加快至0.4%，价格压力主要是在能源商品回落与服务、核心价格上涨之间分化。",
+    "changes": [
+      "最终需求PPI经季调环比由6月的-0.1%升至0.0%，同比由5.5%降至4.7%。",
+      "最终需求商品价格环比-0.7%，其中能源-3.1%、汽油-5.7%；服务价格环比+0.2%。",
+      "剔除食品、能源和贸易服务后的指标环比+0.4%，高于6月的+0.1%；BLS同时修订了3—6月部分数据。"
+    ],
+    "behavioral_readout": "这组数据更符合能源和商品成本回落抵消部分服务及核心定价上行，而不是生产端价格普遍降温：企业面对的投入和销售价格环境仍按行业分化，尚不能由单月总体持平推断需求或通胀趋势已反转。",
+    "affected_groups": [],
+    "implications": [
+      "推论：能源价格若不继续下行，核心指标环比加快会限制把7月总体PPI解读为广泛通胀缓和的力度。"
+    ],
+    "alternative_explanations": [
+      "能源与汽油价格的月度波动可快速改变总体读数。",
+      "BLS对3—6月的迟报与更正修订会影响短期环比比较。"
+    ],
+    "verification_needed": [
+      "BLS 8月PPI的商品、服务和核心分项",
+      "BLS 8月CPI的能源、住房和核心服务分项",
+      "BEA 7月PCE价格指数及实际个人消费支出"
+    ],
+    "caveats": [
+      "月环比为季调值，12个月同比为未季调值，不应直接混同比较。",
+      "此次BLS仅概述3—6月存在修订，除已核对的6月总最终需求环比外，未逐项重建旧新差额。"
+    ],
+    "confidence": "high"
+  },
+  "official_citations": [
+    {
+      "label": "U.S. Bureau of Labor Statistics release",
+      "url": "https://www.bls.gov/news.release/ppi.htm"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "A stable rate alongside a higher number of unemployed can reflect changes in labour-force participation or population, not only job losses."
+    ],
+    "behavioral_readout": "The combination is more consistent with a broadly stable aggregate labour-market rate than with a clear labour-market turn, although the increase in unemployed persons warrants a further check.",
+    "caveats": [
+      "The unemployment rate follows the ILO definition and should not be treated as a job-loss count.",
+      "Aggregate rates conceal material country differences."
+    ],
+    "changes": [
+      "The euro-area and EU unemployment rates were unchanged at 6.3% and 6.0% respectively.",
+      "Euro-area unemployment rose by 71,000 people month-on-month to 11.130 million.",
+      "Euro-area youth unemployment edged down to 14.8% from 14.9%."
+    ],
+    "confidence": "high",
+    "headline": "Euro area unemployment remained 6.3% in June, while the number of unemployed rose by 71,000 from May.",
+    "implications": [
+      "Inference: the current reading does not corroborate an immediate broad deterioration in euro-area employment conditions."
+    ],
+    "verification_needed": [
+      "Eurostat July unemployment release on 1 September 2026.",
+      "EU Labour Force Survey Q2 2026 data on 11 September 2026."
+    ]
+  },
+  "content_fingerprint": "3b5fa065ad673d45e48420b3c5a07165debc68248d58527f15563c101e002d48",
+  "dataset_id": "eu-eurostat-unemployment",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "Eurostat unemployment release, June 2026",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-30072026-bp"
+    }
+  ],
+  "published_at": "2026-07-30T11:00:00Z",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-08-01T10:55:00+08:00",
+  "revisions": [],
+  "source_title": "Euro area unemployment at 6.3%",
+  "source_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-30072026-bp",
+  "values": [
+    {
+      "basis": "June 2026",
+      "metric": "Euro area unemployment rate",
+      "note": "unchanged from May 2026 and June 2025",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 6.3
+    },
+    {
+      "basis": "June 2026",
+      "metric": "EU unemployment rate",
+      "note": "unchanged from May 2026 and June 2025",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 6.0
+    },
+    {
+      "basis": "June 2026 level",
+      "metric": "Euro area unemployed persons",
+      "note": "up 71 thousand from May",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "million persons",
+      "value": 11.13
+    },
+    {
+      "basis": "June 2026",
+      "metric": "Euro area youth unemployment rate",
+      "note": "May: 14.9%",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 14.8
+    }
+  ]
+}

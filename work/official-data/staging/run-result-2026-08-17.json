@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-17",
+  "started_at": "2026-08-17T07:02:00+08:00",
+  "coverage_end": "2026-08-17T07:02:00+08:00",
+  "finished_at": "2026-08-17T07:03:38+08:00",
+  "checked": [
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "status": "unchanged"
+    }
+  ],
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "The registered official query page exposes only a generic login-gated service; its embedded statistics route redirects to single-window login. Official-domain fallback did not provide a directly verifiable current national monthly trade release for this registered dataset, so no baseline was established."
+    }
+  ],
+  "summary": "本次检查了2个到期官方来源：上海各区战略规划无新增或官方修订；海关贸易入口未能建立可核验基线，已记录错误并留待下次重试。"
+}

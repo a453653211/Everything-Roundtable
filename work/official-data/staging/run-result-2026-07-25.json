@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-25",
+  "started_at": "2026-07-25T20:35:00+08:00",
+  "finished_at": "2026-07-25T20:37:00+08:00",
+  "checked": [
+    "cn-mof-fiscal"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-mof-fiscal",
+      "status": "unchanged"
+    }
+  ],
+  "errors": []
+}

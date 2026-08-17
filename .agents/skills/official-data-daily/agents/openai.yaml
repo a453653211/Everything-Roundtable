@@ -1,0 +1,4 @@
+interface:
+  display_name: "官方数据与上海增量监控"
+  short_description: "Monitor official data plus a separate market-insight alert"
+  default_prompt: "Use $official-data-daily to inspect due registered official sources, process only new or revised official releases, then run the configured market-insight watch as a separate non-official lane and report only new commentary."

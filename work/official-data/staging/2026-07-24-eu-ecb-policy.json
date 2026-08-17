@@ -1,0 +1,72 @@
+{
+  "dataset_id": "eu-ecb-policy",
+  "reference_period": "2026-07-23",
+  "published_at": "2026-07-23T00:00:00+02:00",
+  "retrieved_at": "2026-07-24T20:23:02+08:00",
+  "source_title": "Monetary policy decisions",
+  "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+  "release_status": "official",
+  "values": [
+    {
+      "metric": "Deposit facility rate",
+      "value": 2.25,
+      "unit": "%",
+      "basis": "ECB Governing Council decision on 2026-07-23",
+      "seasonal_adjustment": "not applicable",
+      "note": "unchanged"
+    },
+    {
+      "metric": "Main refinancing operations rate",
+      "value": 2.4,
+      "unit": "%",
+      "basis": "ECB Governing Council decision on 2026-07-23",
+      "seasonal_adjustment": "not applicable",
+      "note": "unchanged"
+    },
+    {
+      "metric": "Marginal lending facility rate",
+      "value": 2.65,
+      "unit": "%",
+      "basis": "ECB Governing Council decision on 2026-07-23",
+      "seasonal_adjustment": "not applicable",
+      "note": "unchanged"
+    }
+  ],
+  "revisions": [],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "欧洲央行7月23日维持三项关键利率不变，并在能源冲击的通胀影响尚未完全显现时继续采取逐次会议、依赖数据的决策方式。",
+    "changes": [
+      "存款机制利率、主要再融资操作利率和边际贷款便利利率分别维持在2.25%、2.40%和2.65%。",
+      "ECB称能源价格前景仍高度波动，当前接近6月欧元体系工作人员预测基线，但明显高于中东冲突前水平。",
+      "APP和PEPP资产组合继续缩减，欧元体系不再将到期证券本金进行再投资。"
+    ],
+    "behavioral_readout": "这项决策更符合“先观察能源冲击持续时间及其二轮通胀效应”，而不是立即进一步宽松或收紧：三项政策利率均未改变，同时ECB明确表示不预先承诺特定利率路径。",
+    "affected_groups": [],
+    "implications": [
+      "推断：短期政策利率锚保持不变，但未来方向仍取决于能源价格、基础通胀和政策传导数据。",
+      "推断：资产组合停止再投资意味着数量工具仍在温和收缩，不能把维持利率不变等同于整体政策完全静止。"
+    ],
+    "alternative_explanations": [
+      "若能源冲击快速消退，其通胀影响可能弱于当前风险提示。",
+      "若经济活动明显走弱，增长与信贷条件可能比能源通胀更快影响后续政策选择。"
+    ],
+    "verification_needed": [
+      "Eurostat欧元区HICP及核心HICP",
+      "ECB协商工资追踪指标",
+      "ECB银行贷款调查与货币政策传导指标"
+    ],
+    "caveats": [
+      "这是政策决议而非经济预测更新，不能据此量化未来利率路径。",
+      "本地尚无该数据集的上一期卡片，本次按首个基线记录；“unchanged”是本次政策动作，不是本地记录的官方修订。",
+      "官方页面仅显示发布日期，未在正文标注精确发布时间；published_at以当地当日00:00记录。"
+    ],
+    "confidence": "high"
+  },
+  "official_citations": [
+    {
+      "label": "ECB monetary policy decisions",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html"
+    }
+  ]
+}

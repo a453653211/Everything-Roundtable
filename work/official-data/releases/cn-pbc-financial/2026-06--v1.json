@@ -1,0 +1,94 @@
+{
+  "analysis": {
+    "affected_groups": [
+      {
+        "confidence": "medium",
+        "group": "有按揭或消费信贷需求的住户",
+        "inference": "住户贷款净减少且短期贷款为负，可能反映这类住户的新增借款意愿或净还款行为偏谨慎；官方总量不提供收入或用途分布。"
+      }
+    ],
+    "alternative_explanations": [
+      "贷款净变动同时包含新发放、偿还和提前还款，不能等同于贷款发放量。",
+      "半年累计受季节性与春节前后现金、存款配置影响。"
+    ],
+    "behavioral_readout": "住户贷款净减少而存款增加，更符合居民部门减少净借款、保留流动性的组合；它不能单独说明没有新增贷款，也不能归因于单一消费或房产行为。",
+    "caveats": [
+      "本卡混合6月末存量与上半年累计流量，二者不可相减或直接比较。",
+      "本地首次建基线，未从本地卡片计算环比。"
+    ],
+    "changes": [
+      "本地状态此前没有可比记录，本次建立2026年上半年官方基线。",
+      "上半年社融增量20.84万亿元，同比少2.02万亿元；其中人民币贷款少增1.98万亿元。",
+      "住户贷款减少3668亿元、住户存款增加7.58万亿元。"
+    ],
+    "confidence": "high",
+    "headline": "2026年上半年社会融资与人民币贷款仍为正增，但住户贷款净减少、住户存款增加，居民部门融资与储蓄的方向继续背离。",
+    "implications": [
+      "推断：居民部门的融资端尚未给出需求明显增强的确认信号。"
+    ],
+    "verification_needed": [
+      "人民银行2026年7月金融统计数据报告",
+      "国家统计局7月社会消费品零售与房地产销售数据"
+    ]
+  },
+  "content_fingerprint": "bf4bfd159185295f323601a6e90c2d7ef5a9808c4641625f4f22a7a8cf7065d9",
+  "dataset_id": "cn-pbc-financial",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "中国人民银行金融统计数据报告",
+      "url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026071515025183948/index.html"
+    }
+  ],
+  "published_at": "2026-07-15T15:00:09+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-08-02T22:05:00+08:00",
+  "revisions": [],
+  "source_title": "2026年上半年金融统计数据报告",
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026071515025183948/index.html",
+  "values": [
+    {
+      "basis": "2026年6月末",
+      "metric": "社会融资规模存量",
+      "note": "同比增长7.4%",
+      "seasonal_adjustment": "未季调",
+      "unit": "万亿元",
+      "value": 462.06
+    },
+    {
+      "basis": "2026年上半年累计",
+      "metric": "社会融资规模增量",
+      "note": "同比少2.02万亿元",
+      "seasonal_adjustment": "未季调",
+      "unit": "万亿元",
+      "value": 20.84
+    },
+    {
+      "basis": "2026年6月末同比",
+      "metric": "M2余额同比增速",
+      "note": "余额356.71万亿元",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 8.0
+    },
+    {
+      "basis": "2026年上半年累计",
+      "metric": "人民币贷款增加",
+      "note": "住户贷款减少3668亿元，其中短期减少5881亿元、中长期增加2212亿元",
+      "seasonal_adjustment": "未季调",
+      "unit": "万亿元",
+      "value": 10.72
+    },
+    {
+      "basis": "2026年上半年累计",
+      "metric": "住户存款增加",
+      "note": "人民币存款合计增加17.76万亿元",
+      "seasonal_adjustment": "未季调",
+      "unit": "万亿元",
+      "value": 7.58
+    }
+  ]
+}

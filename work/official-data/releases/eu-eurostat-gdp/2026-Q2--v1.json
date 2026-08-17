@@ -1,0 +1,72 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "Country coverage and preliminary source data may change the aggregate in the next flash estimate.",
+      "Cross-country composition can move the aggregate without uniform domestic conditions."
+    ],
+    "behavioral_readout": "The aggregate indicates a quarterly pickup in output, but the release lacks a completed expenditure or income breakdown, so it cannot yet be translated into a household or firm choice.",
+    "caveats": [
+      "Preliminary data are incomplete and explicitly subject to revision.",
+      "Growth is volume-based and seasonally/calendar adjusted."
+    ],
+    "changes": [
+      "Euro area quarterly growth rose from 0.0% in Q1 to 0.4% in Q2; EU growth rose from 0.1% to 0.5%.",
+      "Euro area year-on-year growth rose to 1.0% from 0.5%.",
+      "The estimate covers data from 19 Member States, representing 96% of euro-area GDP."
+    ],
+    "confidence": "high",
+    "headline": "Euro area GDP rose 0.4% quarter-on-quarter in Q2 after no growth in Q1, but the first flash estimate is incomplete and subject to revision.",
+    "implications": [
+      "Inference: this is evidence of a short-term activity pickup, not yet of a durable broad-based growth trend."
+    ],
+    "verification_needed": [
+      "Eurostat's Q2 GDP t+45 flash estimate on 14 August 2026.",
+      "Eurostat's GDP and employment main aggregates release on 7 September 2026."
+    ]
+  },
+  "content_fingerprint": "69cd545ab09eae5c50c6a94fbb77998407d0f723a65e9fb470897e61c5c59e4e",
+  "dataset_id": "eu-eurostat-gdp",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "Eurostat preliminary Q2 2026 GDP flash estimate",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-30072026-ap"
+    }
+  ],
+  "published_at": "2026-07-30T11:00:00Z",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-Q2",
+  "release_status": "preliminary flash estimate",
+  "retrieved_at": "2026-08-01T10:55:00+08:00",
+  "revisions": [],
+  "source_title": "GDP up by 0.4% in the euro area and by 0.5% in the EU",
+  "source_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-30072026-ap",
+  "values": [
+    {
+      "basis": "quarter-on-quarter",
+      "metric": "Euro area real GDP",
+      "note": "2026 Q1: 0.0%; preliminary flash",
+      "seasonal_adjustment": "seasonally and calendar adjusted",
+      "unit": "%",
+      "value": 0.4
+    },
+    {
+      "basis": "quarter-on-quarter",
+      "metric": "EU real GDP",
+      "note": "2026 Q1: 0.1%; preliminary flash",
+      "seasonal_adjustment": "seasonally and calendar adjusted",
+      "unit": "%",
+      "value": 0.5
+    },
+    {
+      "basis": "year-on-year",
+      "metric": "Euro area real GDP",
+      "note": "2026 Q1: 0.5%",
+      "seasonal_adjustment": "seasonally and calendar adjusted",
+      "unit": "%",
+      "value": 1.0
+    }
+  ]
+}

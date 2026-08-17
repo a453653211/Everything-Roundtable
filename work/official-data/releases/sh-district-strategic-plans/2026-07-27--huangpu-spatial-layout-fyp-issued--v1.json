@@ -1,0 +1,67 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "空间框架的列名不表示每个区域已获得项目资金或建设许可。"
+    ],
+    "behavioral_readout": "文件为重点区域的功能和空间关系提供了区级框架；个别片区的更新顺序、容积率、用地和建设活动仍须由更具体的法定规划与项目程序确认。",
+    "caveats": [
+      "当前记录只确认五年空间布局规划已印发，未将其等同于地块层面的执行。"
+    ],
+    "changes": [
+      "本地首次建立该正式空间布局规划的官方基线。"
+    ],
+    "confidence": "high",
+    "headline": "黄浦区空间布局十五五规划已正式印发，明确区级功能和空间框架，但不构成具体地块更新、用地调整或建设工程的直接授权。",
+    "implications": [
+      "推断：外滩、世博浦西、南京路和老城厢等被点名区域，后续法定规划或项目公告的边际信息量更高。"
+    ],
+    "verification_needed": [
+      "相关单元规划、控详规划、项目计划、用地和建设审批公告"
+    ]
+  },
+  "content_fingerprint": "bdd00b2a4355b7aaf553389b5366df738f1a0ebb6acc7c141b13b3d8bd3ef967",
+  "dataset_id": "sh-district-strategic-plans",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "上海市政府政策库黄浦区空间布局十五五规划",
+      "url": "https://www.shanghai.gov.cn/gwk/search/content/bd8ed5c6-4e7b-4197-91bf-10971f53b902"
+    }
+  ],
+  "published_at": "2026-07-27T00:00:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-07-27--huangpu-spatial-layout-fyp-issued",
+  "release_status": "official",
+  "retrieved_at": "2026-08-10T07:03:53+08:00",
+  "revisions": [],
+  "source_title": "黄浦区人民政府办公室关于印发《黄浦区空间布局“十五五”规划》的通知",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/bd8ed5c6-4e7b-4197-91bf-10971f53b902",
+  "values": [
+    {
+      "basis": "黄府办发〔2026〕13号",
+      "metric": "行政阶段",
+      "note": "2026年7月15日印发，7月27日发布",
+      "seasonal_adjustment": "不适用",
+      "unit": "文本状态",
+      "value": "区政府同意后由区政府办公室正式印发"
+    },
+    {
+      "basis": "2026—2030年",
+      "metric": "规划层级",
+      "note": "黄浦区",
+      "seasonal_adjustment": "不适用",
+      "unit": "规划类型",
+      "value": "区级空间布局五年规划"
+    },
+    {
+      "basis": "官方印发文本",
+      "metric": "核心变化",
+      "note": "列出高价值易实施城市更新重点空间",
+      "seasonal_adjustment": "不适用",
+      "unit": "空间框架",
+      "value": "明确“一带一区三高地”功能布局及“三带两轴四组团”空间结构的延续、加强和优化"
+    }
+  ]
+}

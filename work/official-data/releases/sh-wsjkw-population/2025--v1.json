@@ -1,0 +1,108 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "常住、户籍和流动人口的覆盖对象不同，孩次构成差异不能直接归因于居住选择或政策效果。",
+      "本页未给出可比上年值，不能据此判断趋势。"
+    ],
+    "behavioral_readout": "资料只显示2025年不同覆盖人群的出生孩次结构，较适合描述出生构成，不能单凭单期数据判断生育意愿、婚育成本或迁移行为是否发生变化。",
+    "caveats": [
+      "参考期为2025年，页面发布于2026年3月4日，未披露具体发布时间。",
+      "本次为首次基线，未与历史值作趋势比较。",
+      "来源页未提供本数据集所需的完整出生人口总量和常住人口总量。"
+    ],
+    "changes": [
+      "首次建立2025年上海市人口监测官方基线，尚无该监测序列的本地可比前值。",
+      "常住人口出生孩次构成为一孩71.7%、二孩23.7%、三孩4.1%、多孩0.5%；户籍人口相应为78.2%、19.8%、1.8%、0.2%。"
+    ],
+    "confidence": "medium",
+    "headline": "2025年上海市人口监测资料显示，户籍人口总和生育率为0.66、一般生育率为19.10‰，户籍人口出生中一孩占78.2%。",
+    "implications": [
+      "推断：后续若要判断生育结构是否变化，需将同口径出生人数、育龄妇女人数和婚姻登记等官方指标联读；一孩占比本身不等同于总出生量变化。"
+    ],
+    "verification_needed": [
+      "下一期上海市人口监测统计资料主要数据汇编中的同口径总和生育率、出生孩次和育龄妇女人数。",
+      "下一期上海市统计部门发布的常住人口、户籍人口及年龄结构官方数据。"
+    ]
+  },
+  "content_fingerprint": "89f7e791fb3ab407970320b4411152176645e58553fa492b3b8d6023c4c8ed3b",
+  "dataset_id": "sh-wsjkw-population",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "上海市卫生健康委员会：2025年上海市人口监测统计资料主要数据汇编",
+      "url": "https://wsjkw.sh.gov.cn/tjsj2/20260304/d2dbc3cecabd49a2bae05780e73b8cb9.html"
+    },
+    {
+      "label": "上海市卫生健康委员会统计数据目录",
+      "url": "https://wsjkw.sh.gov.cn/tjsj2/index.html"
+    }
+  ],
+  "published_at": "2026-03-04T00:00:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2025",
+  "release_status": "official",
+  "retrieved_at": "2026-08-03T21:27:48+08:00",
+  "revisions": [],
+  "source_title": "2025年上海市人口监测统计资料主要数据汇编",
+  "source_url": "https://wsjkw.sh.gov.cn/tjsj2/20260304/d2dbc3cecabd49a2bae05780e73b8cb9.html",
+  "values": [
+    {
+      "basis": "2025年，全市",
+      "metric": "户籍人口总和生育率",
+      "note": "官方表中为总和生育率。",
+      "seasonal_adjustment": "不适用",
+      "unit": "每名育龄妇女",
+      "value": 0.66
+    },
+    {
+      "basis": "2025年，全市",
+      "metric": "户籍人口一般生育率",
+      "note": "官方表中为一般生育率。",
+      "seasonal_adjustment": "不适用",
+      "unit": "‰",
+      "value": 19.1
+    },
+    {
+      "basis": "2025年，全市",
+      "metric": "户籍人口平均初育年龄",
+      "note": "官方表中为平均初育年龄。",
+      "seasonal_adjustment": "不适用",
+      "unit": "岁",
+      "value": 32.22
+    },
+    {
+      "basis": "2025年，全市",
+      "metric": "户籍人口平均生育年龄",
+      "note": "官方表中为平均生育年龄。",
+      "seasonal_adjustment": "不适用",
+      "unit": "岁",
+      "value": 32.98
+    },
+    {
+      "basis": "2025年，出生孩次构成",
+      "metric": "常住人口一孩率",
+      "note": "同表二孩率23.7%、三孩率4.1%、多孩率0.5%。",
+      "seasonal_adjustment": "不适用",
+      "unit": "%",
+      "value": 71.7
+    },
+    {
+      "basis": "2025年，出生孩次构成",
+      "metric": "户籍人口一孩率",
+      "note": "同表二孩率19.8%、三孩率1.8%、多孩率0.2%。",
+      "seasonal_adjustment": "不适用",
+      "unit": "%",
+      "value": 78.2
+    },
+    {
+      "basis": "2025年",
+      "metric": "常住人口育龄妇女人数",
+      "note": "其中已婚育龄妇女394.45万人；不可与户籍或流动人口简单相加。",
+      "seasonal_adjustment": "不适用",
+      "unit": "万人",
+      "value": 629.1
+    }
+  ]
+}

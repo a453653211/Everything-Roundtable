@@ -1,0 +1,67 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "纲要的方向性表述不能替代单个项目的可研、立项、预算或施工许可。"
+    ],
+    "behavioral_readout": "文件把制造业、科创、新城和乡村振兴放入五年目标框架；对应的空间和工程含义须由后续专项规划、项目审批和实施信息确认。",
+    "caveats": [
+      "当前记录仅确认纲要的正式发布与层级。"
+    ],
+    "changes": [
+      "本地首次建立该已发布区级纲要的官方基线。"
+    ],
+    "confidence": "high",
+    "headline": "松江区十五五纲要已审议通过并正式印发，明确区级五年发展框架，但未由此确认具体交通、更新或产业项目进入资金和建设阶段。",
+    "implications": [
+      "推断：与松江新城、G60或城市更新相关的后续官方实施文件将比纲要本身提供更强的落地信号。"
+    ],
+    "verification_needed": [
+      "松江区年度计划、专项规划、重大项目审批及预算文件"
+    ]
+  },
+  "content_fingerprint": "bfe292bd25c51a964eba80a89bf0857897f5afa1f6aa111f974f35e59bae0238",
+  "dataset_id": "sh-district-strategic-plans",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "上海市政府政策库松江区十五五纲要",
+      "url": "https://www.shanghai.gov.cn/gwk/search/content/ef16aa6e66c24f099929b40d6d417afe"
+    }
+  ],
+  "published_at": "2026-01-30T00:00:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-01-30--songjiang-fyp-issued",
+  "release_status": "official",
+  "retrieved_at": "2026-08-10T07:03:53+08:00",
+  "revisions": [],
+  "source_title": "上海市松江区人民政府关于印发《上海市松江区国民经济和社会发展第十五个五年规划纲要》的通知",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/ef16aa6e66c24f099929b40d6d417afe",
+  "values": [
+    {
+      "basis": "沪松府〔2026〕18号",
+      "metric": "行政阶段",
+      "note": "2026年1月21日区第六届人大第八次会议审议通过；1月30日发布",
+      "seasonal_adjustment": "不适用",
+      "unit": "文本状态",
+      "value": "区政府正式印发；区人大已审议通过"
+    },
+    {
+      "basis": "2026—2030年",
+      "metric": "规划层级",
+      "note": "松江区",
+      "seasonal_adjustment": "不适用",
+      "unit": "规划类型",
+      "value": "区级国民经济和社会发展五年规划纲要"
+    },
+    {
+      "basis": "官方印发文本",
+      "metric": "核心变化",
+      "note": "不构成具体项目授权",
+      "seasonal_adjustment": "不适用",
+      "unit": "正式纲要",
+      "value": "提出建设先进制造业发展集聚区、新质生产力发展先行区、现代化新城建设样板区和乡村全面振兴示范区"
+    }
+  ]
+}
