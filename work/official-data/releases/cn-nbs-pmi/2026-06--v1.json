@@ -1,0 +1,86 @@
+{
+  "analysis": {
+    "affected_groups": [
+      {
+        "confidence": "medium",
+        "group": "小型制造业企业",
+        "inference": "小型企业PMI为48.2%，低于临界点，而大中型企业均高于临界点；可能显示景气改善并不均衡。"
+      }
+    ],
+    "alternative_explanations": [
+      "扩散指数衡量报告扩散程度，不衡量产出或销售金额。",
+      "单月重返50上方不足以证明趋势。"
+    ],
+    "behavioral_readout": "6月调查更接近企业报告生产和新订单同步恢复到扩张，而不是所有企业景气同步改善：小型企业PMI仍低于临界点。",
+    "caveats": [
+      "PMI为经季节调整的调查扩散指数，50为扩张与收缩临界点。",
+      "本地首次建基线，未从本地卡片计算连续变化。"
+    ],
+    "changes": [
+      "本地状态此前没有可比记录，本次建立6月官方基线。",
+      "制造业PMI较5月上升0.3个百分点，新订单较5月上升1.3个百分点。",
+      "非制造业商务活动指数为50.2%，综合PMI产出指数为50.6%。"
+    ],
+    "confidence": "high",
+    "headline": "6月制造业PMI回到50.3%，新订单升至51.2%，非制造业和综合产出指数也处扩张区间。",
+    "implications": [
+      "推断：6月制造业景气回升需要后续工业生产、订单和利润数据共同确认。"
+    ],
+    "verification_needed": [
+      "国家统计局2026年7月PMI",
+      "国家统计局7月工业增加值和社会消费品零售数据"
+    ]
+  },
+  "content_fingerprint": "c3a6049617cf79370ff3ad7e288b37aa84606a2d9c09eadf08e069a2f8e0120c",
+  "dataset_id": "cn-nbs-pmi",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "国家统计局6月PMI原文",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202606/t20260630_1964032.html"
+    }
+  ],
+  "published_at": "2026-06-30T09:30:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-08-02T22:05:00+08:00",
+  "revisions": [],
+  "source_title": "2026年6月中国采购经理指数运行情况",
+  "source_url": "https://www.stats.gov.cn/sj/zxfbhjd/202606/t20260630_1964032.html",
+  "values": [
+    {
+      "basis": "2026年6月",
+      "metric": "制造业PMI",
+      "note": "较5月上升0.3个百分点",
+      "seasonal_adjustment": "经季节调整",
+      "unit": "%",
+      "value": 50.3
+    },
+    {
+      "basis": "2026年6月",
+      "metric": "制造业PMI新订单指数",
+      "note": "较5月上升1.3个百分点",
+      "seasonal_adjustment": "经季节调整",
+      "unit": "%",
+      "value": 51.2
+    },
+    {
+      "basis": "2026年6月",
+      "metric": "非制造业商务活动指数",
+      "note": "较5月上升0.1个百分点",
+      "seasonal_adjustment": "经季节调整",
+      "unit": "%",
+      "value": 50.2
+    },
+    {
+      "basis": "2026年6月",
+      "metric": "综合PMI产出指数",
+      "note": "较5月上升0.1个百分点",
+      "seasonal_adjustment": "经季节调整",
+      "unit": "%",
+      "value": 50.6
+    }
+  ]
+}

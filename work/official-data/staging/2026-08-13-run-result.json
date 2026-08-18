@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-13",
+  "started_at": "2026-08-13T07:01:20+08:00",
+  "coverage_end": "2026-08-13T07:01:20+08:00",
+  "finished_at": "2026-08-13T07:05:00+08:00",
+  "checked": [
+    "cn-pbc-financial",
+    "us-bls-cpi",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-pbc-financial",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "us-bls-cpi",
+      "status": "new",
+      "record_path": "work/official-data/releases/us-bls-cpi/2026-07--v1.md"
+    },
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "status": "unchanged"
+    }
+  ],
+  "synthesis": {
+    "headline": "今日最值得注意的是美国7月总体CPI继续受能源回落压低，但核心价格环比回升，尚无广泛价格压力同步消退的证据。",
+    "sections": [
+      {
+        "scope": "美国",
+        "dataset_ids": [
+          "us-bls-cpi"
+        ],
+        "significance": "medium",
+        "stage": "统计结果已发布；价格变化的需求含义仍待后续数据验证",
+        "judgment": "总体CPI环比仅上涨0.1%、同比降至3.4%，但核心CPI环比由0.0%升至0.2%，能源下降仍是压低总体读数的主要对冲项；不能据此判断消费量或需求已转弱。",
+        "watch_next": "8月BLS CPI的能源、住房和核心服务分项，以及BEA 7月PCE价格和个人消费支出。"
+      }
+    ],
+    "deep_dive_candidates": [
+      "能源回落与住房、核心服务价格之间的持续分化",
+      "价格变化是否会在BEA个人消费支出中对应为实际消费量变化"
+    ],
+    "confidence": "high"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "registered customs portal was reachable, but its statistics-query entry did not provide a directly openable, verifiable national monthly import-export release or query result; baseline remains unestablished and will be retried."
+    }
+  ]
+}

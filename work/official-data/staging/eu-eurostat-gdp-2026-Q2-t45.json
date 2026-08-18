@@ -1,0 +1,87 @@
+{
+  "dataset_id": "eu-eurostat-gdp",
+  "reference_period": "2026-Q2",
+  "published_at": "2026-08-14T11:00:00Z",
+  "retrieved_at": "2026-08-16T15:10:00+08:00",
+  "source_title": "GDP up by 0.4% and employment up by 0.1% in the euro area",
+  "source_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-14082026-ap",
+  "release_status": "official flash estimate",
+  "values": [
+    {
+      "metric": "欧元区实际GDP",
+      "value": 0.4,
+      "unit": "%",
+      "basis": "2026年第二季度环比",
+      "seasonal_adjustment": "季调和日历调整",
+      "note": "一季度为0.0%"
+    },
+    {
+      "metric": "欧盟实际GDP",
+      "value": 0.5,
+      "unit": "%",
+      "basis": "2026年第二季度环比",
+      "seasonal_adjustment": "季调和日历调整",
+      "note": "一季度为0.1%"
+    },
+    {
+      "metric": "欧元区实际GDP",
+      "value": 1.0,
+      "unit": "%",
+      "basis": "2026年第二季度同比",
+      "seasonal_adjustment": "季调和日历调整",
+      "note": "一季度为0.5%"
+    },
+    {
+      "metric": "欧元区就业人数",
+      "value": 0.1,
+      "unit": "%",
+      "basis": "2026年第二季度环比",
+      "seasonal_adjustment": "季调",
+      "note": "同比增长0.5%"
+    },
+    {
+      "metric": "欧盟就业人数",
+      "value": 0.1,
+      "unit": "%",
+      "basis": "2026年第二季度环比",
+      "seasonal_adjustment": "季调",
+      "note": "同比增长0.5%"
+    }
+  ],
+  "revisions": [
+    "与2026年7月30日的初步GDP闪估相比，欧元区和欧盟GDP环比增速分别维持0.4%和0.5%；本次为t+45 GDP和就业闪估，新增就业结果并将GDP覆盖范围由96%提高至99%。"
+  ],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "Eurostat第二次闪估确认欧元区二季度GDP环比增长0.4%、同比增长1.0%，并新增就业环比增长0.1%，但这仍是覆盖不完整的闪估而非完整支出结构数据。",
+    "changes": [
+      "欧元区和欧盟GDP环比分别维持0.4%和0.5%，没有对前一季度欧元区和欧盟估计作修订。",
+      "本次新增欧元区和欧盟就业均环比增长0.1%、同比增长0.5%。",
+      "GDP闪估覆盖欧元区和欧盟GDP的99%，就业闪估覆盖分别为95%和92%。"
+    ],
+    "behavioral_readout": "产出与就业同步小幅增加，较符合经济活动温和扩张而非仅由单一部门拉动的情形；但没有消费、投资和行业分项，不能据此判断家庭或企业的具体选择。",
+    "affected_groups": [],
+    "implications": [
+      "推断：二季度环比回升获得就业同步增长的有限佐证，但尚不足以确认广泛、持续的需求转强。"
+    ],
+    "alternative_explanations": [
+      "成员国覆盖与构成变化可影响区域汇总结果。",
+      "GDP和就业的完整行业、支出与收入分解尚未公布。"
+    ],
+    "verification_needed": [
+      "Eurostat 2026年9月7日GDP主要总量和就业正式估计。",
+      "Eurostat随后公布的二季度支出和行业分项。"
+    ],
+    "caveats": [
+      "这是第二次闪估，官方明确说明所有数值仍可能在后续常规估计中修订。",
+      "GDP为链式量、经季调和日历调整；就业覆盖雇员及自雇人员。"
+    ],
+    "confidence": "high"
+  },
+  "official_citations": [
+    {
+      "label": "Eurostat：2026年二季度GDP和就业第二次闪估",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-14082026-ap"
+    }
+  ]
+}

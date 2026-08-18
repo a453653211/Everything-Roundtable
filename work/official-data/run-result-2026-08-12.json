@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-12",
+  "started_at": "2026-08-12T07:01:51+08:00",
+  "coverage_end": "2026-08-12T07:01:51+08:00",
+  "finished_at": "2026-08-12T07:06:59+08:00",
+  "checked": [
+    "cn-pbc-financial",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-pbc-financial",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "status": "unchanged"
+    }
+  ],
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "官方查询门户可访问，但其指向的统计查询入口 HTTP 返回 412，HTTPS 入口 TLS 信任校验失败；未取得可核验的全国月度进出口原始发布或查询结果，未推进水位。"
+    }
+  ],
+  "summary": "本轮完整检查2个到期官方来源，未发现新增或官方修订；海关统计查询仍无法建立可核验基线，留待下次重试。"
+}

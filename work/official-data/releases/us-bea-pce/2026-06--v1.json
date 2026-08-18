@@ -1,0 +1,98 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "Monthly price movements and revised source data can reverse in subsequent releases.",
+      "The aggregate cannot identify which household income groups changed spending."
+    ],
+    "behavioral_readout": "The combination is more consistent with real spending holding up despite slower nominal income growth because the monthly PCE price index fell; it does not establish a durable consumption acceleration from one month.",
+    "caveats": [
+      "PCE price and CPI are distinct measures.",
+      "April and May were revised in this release."
+    ],
+    "changes": [
+      "Nominal PCE grew 0.3%, down from 0.9% in May, while real PCE held at 0.4%.",
+      "Headline PCE prices fell 0.1% month-on-month after a 0.5% May increase; core PCE prices rose 0.1% after 0.3%.",
+      "BEA revised April and May estimates."
+    ],
+    "confidence": "high",
+    "headline": "US real PCE rose 0.4% in June while the PCE price index fell 0.1% month-on-month; nominal income growth slowed to 0.2%.",
+    "implications": [
+      "Inference: June reduced short-run price pressure in this measure while real consumption remained positive."
+    ],
+    "verification_needed": [
+      "BEA July personal income and outlays release on 26 August 2026.",
+      "Subsequent revisions to April-June personal income and outlays."
+    ]
+  },
+  "content_fingerprint": "29288172e7afea86bd9e770369144e5cbf82dd09018af641953ae15eb47fcdc3",
+  "dataset_id": "us-bea-pce",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "BEA personal income and outlays, June 2026",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026"
+    }
+  ],
+  "published_at": "2026-07-30T08:30:00-04:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-08-01T10:55:00+08:00",
+  "revisions": [
+    "BEA updated April and May estimates using revised BLS CES data and revised government social benefits data."
+  ],
+  "source_title": "Personal Income and Outlays, June 2026",
+  "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+  "values": [
+    {
+      "basis": "month-on-month",
+      "metric": "Current-dollar personal income",
+      "note": "May: 0.7%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 0.2
+    },
+    {
+      "basis": "month-on-month",
+      "metric": "Current-dollar PCE",
+      "note": "May: 0.9%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 0.3
+    },
+    {
+      "basis": "month-on-month",
+      "metric": "Real PCE",
+      "note": "May: 0.4%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 0.4
+    },
+    {
+      "basis": "month-on-month",
+      "metric": "PCE price index",
+      "note": "year-on-year: 3.7%; May month-on-month: 0.5%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": -0.1
+    },
+    {
+      "basis": "month-on-month",
+      "metric": "PCE price index excluding food and energy",
+      "note": "year-on-year: 3.3%; May month-on-month: 0.3%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 0.1
+    },
+    {
+      "basis": "June 2026 level",
+      "metric": "Personal saving rate",
+      "note": "",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 2.7
+    }
+  ]
+}

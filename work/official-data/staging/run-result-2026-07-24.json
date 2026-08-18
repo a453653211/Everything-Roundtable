@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-24",
+  "started_at": "2026-07-24T20:19:00+08:00",
+  "finished_at": "2026-07-24T20:24:17+08:00",
+  "checked": [
+    "cn-mof-fiscal",
+    "eu-ecb-policy"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-mof-fiscal",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-mof-fiscal/2026-06--v1.md"
+    },
+    {
+      "dataset_id": "eu-ecb-policy",
+      "status": "new",
+      "record_path": "work/official-data/releases/eu-ecb-policy/2026-07-23--v1.md"
+    }
+  ],
+  "errors": []
+}

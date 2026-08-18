@@ -1,0 +1,80 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "The advance estimate will be revised as source data are completed.",
+      "Imports subtract from the GDP accounting identity and do not on their own signify weaker domestic demand."
+    ],
+    "behavioral_readout": "The combination is more consistent with private domestic spending remaining firmer than the GDP headline than with a broad domestic-demand collapse, because final sales to private domestic purchasers accelerated even as government spending, investment and exports reduced headline momentum.",
+    "caveats": [
+      "Quarterly growth is annualised and not directly comparable to month-on-month or year-on-year rates.",
+      "This is an advance estimate."
+    ],
+    "changes": [
+      "Headline real GDP slowed from 2.1% SAAR in Q1 to 1.5% in Q2.",
+      "Consumer spending, investment and exports increased, while government spending decreased; imports also increased.",
+      "The domestic-purchases price index accelerated to 5.7% from 3.6%."
+    ],
+    "confidence": "high",
+    "headline": "US real GDP grew at a 1.5% annualised rate in Q2, slower than Q1, while private domestic final sales accelerated to 3.9%.",
+    "implications": [
+      "Inference: the softer headline does not by itself show a comparable weakening of private domestic demand."
+    ],
+    "verification_needed": [
+      "BEA GDP second estimate for Q2 on 26 August 2026.",
+      "BEA component revisions for consumption, investment and government spending."
+    ]
+  },
+  "content_fingerprint": "b20a01c8f9bd54d282a01cf0a72e367186a2a60afb77cf05b683d6a8e4e21e1a",
+  "dataset_id": "us-bea-gdp",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "BEA GDP advance estimate, Q2 2026",
+      "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+    }
+  ],
+  "published_at": "2026-07-30T08:30:00-04:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-Q2",
+  "release_status": "advance estimate",
+  "retrieved_at": "2026-08-01T10:55:00+08:00",
+  "revisions": [],
+  "source_title": "GDP (Advance Estimate), 2nd Quarter 2026",
+  "source_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+  "values": [
+    {
+      "basis": "SAAR quarter-on-quarter",
+      "metric": "Real GDP",
+      "note": "2026 Q1: 2.1%",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "unit": "%",
+      "value": 1.5
+    },
+    {
+      "basis": "SAAR quarter-on-quarter",
+      "metric": "Real final sales to private domestic purchasers",
+      "note": "2026 Q1: 1.7%",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "unit": "%",
+      "value": 3.9
+    },
+    {
+      "basis": "SAAR quarter-on-quarter",
+      "metric": "Gross domestic purchases price index",
+      "note": "2026 Q1: 3.6%",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "unit": "%",
+      "value": 5.7
+    },
+    {
+      "basis": "SAAR quarter-on-quarter",
+      "metric": "PCE price index",
+      "note": "2026 Q1: 4.6%",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "unit": "%",
+      "value": 5.1
+    }
+  ]
+}

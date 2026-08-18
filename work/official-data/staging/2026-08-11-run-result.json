@@ -1,0 +1,63 @@
+{
+  "date": "2026-08-11",
+  "started_at": "2026-08-11T07:01:07+08:00",
+  "coverage_end": "2026-08-11T07:01:07+08:00",
+  "finished_at": "2026-08-11T07:10:28+08:00",
+  "checked": [
+    "cn-pbc-financial",
+    "sh-tjj-prices",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-pbc-financial",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "sh-tjj-prices",
+      "status": "new",
+      "record_path": "work/official-data/releases/sh-tjj-prices/2026-07--v1.md"
+    },
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "status": "new",
+      "record_path": "work/official-data/releases/sh-district-strategic-plans/2026-08-05--minhang-urban-renewal-fyp-issued--v1.md"
+    }
+  ],
+  "synthesis": {
+    "headline": "上海7月价格端呈现服务项上行与工业购进成本走弱并存，闵行城市更新规划新增正式文本与目标，但两者均未构成消费全面加速或项目全面落地的证据。",
+    "sections": [
+      {
+        "scope": "上海数据",
+        "dataset_ids": [
+          "sh-tjj-prices"
+        ],
+        "significance": "medium",
+        "stage": "统计结果已发布，价格结构机制待数量数据验证",
+        "judgment": "CPI同比小幅升至1.1%、服务环比上涨，而PPI同比涨幅和购进价格涨幅均回落，尤其购进价格环比下降2.6%；更像服务项阶段性抬升与上游成本下行不同步，不能单独判断消费或工业需求转强。",
+        "watch_next": "上海7月社会消费品零售、规上工业生产，以及8月CPI/PPI分项"
+      },
+      {
+        "scope": "上海规划与项目",
+        "dataset_ids": [
+          "sh-district-strategic-plans"
+        ],
+        "significance": "medium",
+        "stage": "区级城市更新五年规划已正式印发，尚未逐项目证明资金或建设执行",
+        "judgment": "闵行明确8个城中村整体改造及2026—2030年节点，提升了后续项目筛选的确定性；文件本身不是土地征收、安置房出让、预算落实或开工凭证。",
+        "watch_next": "8个城中村的法定规划、动迁或土地征收公告、安置房地块出让和施工许可"
+      }
+    ],
+    "deep_dive_candidates": [
+      "服务价格上行能否在上海社零和居民服务消费数据中得到数量端确认",
+      "闵行8个城中村项目是否出现动迁腾地、安置房供地和项目许可的连续官方信号"
+    ],
+    "confidence": "high"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "登记的海关总署查询入口仅返回通用政务服务界面，未提供可核验的月度进出口发布清单或结果页，无法建立官方基线；保留至下次重试。"
+    }
+  ]
+}

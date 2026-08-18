@@ -1,0 +1,86 @@
+{
+  "dataset_id": "sh-ghzyj-approved-plans",
+  "reference_period": "2023-10-25--yangtze-demo-zone-2021-2035--approved",
+  "published_at": "2023-10-25T00:00:00+08:00",
+  "retrieved_at": "2026-07-26T15:20:32+08:00",
+  "source_title": "长三角一体化示范区先行启动区国土空间总体规划（2021-2035年）",
+  "source_url": "https://ghzyj.sh.gov.cn/kxzqgh/20231103/6da436f3ede5409b9a8d43dd670a3636.html",
+  "release_status": "official",
+  "values": [
+    {
+      "metric": "行政阶段",
+      "value": "已批准规划归档并公开公众版",
+      "unit": "",
+      "basis": "上海市规划和自然资源局已批准规划栏目",
+      "seasonal_adjustment": "不适用",
+      "note": "页面发布日期为2023-10-25"
+    },
+    {
+      "metric": "规划层级",
+      "value": "跨行政区国土空间总体规划",
+      "unit": "",
+      "basis": "2021-2035年",
+      "seasonal_adjustment": "不适用",
+      "note": ""
+    },
+    {
+      "metric": "空间范围",
+      "value": "长三角生态绿色一体化发展示范区先行启动区，涉及上海青浦、江苏吴江、浙江嘉善",
+      "unit": "",
+      "basis": "公众版封面及规划名称",
+      "seasonal_adjustment": "不适用",
+      "note": ""
+    },
+    {
+      "metric": "发布主体",
+      "value": "示范区执行委员会及青浦区、吴江区、嘉善县人民政府",
+      "unit": "",
+      "basis": "公众版封面",
+      "seasonal_adjustment": "不适用",
+      "note": "公众版标注2023年10月"
+    },
+    {
+      "metric": "法律或执行状态",
+      "value": "上位总体规划依据，不等同于具体项目立项、资金落实或施工许可",
+      "unit": "",
+      "basis": "规划阶段判断",
+      "seasonal_adjustment": "不适用",
+      "note": ""
+    }
+  ],
+  "revisions": [],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "该规划是长三角先行启动区2021-2035年的跨行政区上位总体规划，已在上海规划资源局的已批准规划栏目公开；本次为首次纳入监测的官方基线。",
+    "changes": [
+      "行政阶段：已批准规划归档并公开公众版。",
+      "空间范围：跨上海青浦、江苏吴江和浙江嘉善的先行启动区。",
+      "规划效力：提供国土空间总体方向，但不直接授权具体项目开工、征收或资金安排。"
+    ],
+    "behavioral_readout": "这是一份跨行政区的上位空间规划，作用是统一长期空间安排和后续规划依据；它本身不是某一地块或工程已进入实施阶段的证据。",
+    "affected_groups": [],
+    "implications": [
+      "推断：后续具体项目仍需在详细规划、立项、可研、设计方案和施工许可等环节形成独立官方文件。"
+    ],
+    "alternative_explanations": [],
+    "verification_needed": [
+      "相关详细规划或专项规划的正式批复",
+      "具体项目立项、可研或建设工程规划许可"
+    ],
+    "caveats": [
+      "官方页面给出公开发布日期，但未在页面正文列示批准文号或批准日期。",
+      "本卡不把总体规划方向解读为具体项目已获资金或已开工。"
+    ],
+    "confidence": "medium"
+  },
+  "official_citations": [
+    {
+      "label": "上海市规划和自然资源局规划页面",
+      "url": "https://ghzyj.sh.gov.cn/kxzqgh/20231103/6da436f3ede5409b9a8d43dd670a3636.html"
+    },
+    {
+      "label": "官方公众版规划附件",
+      "url": "https://ghzyj.sh.gov.cn/cmsres/ff/ff881c6074894f8eb2af9c44508fd7b7/a6e1233428f24be752dbde265630343c.pdf"
+    }
+  ]
+}

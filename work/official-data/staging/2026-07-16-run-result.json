@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-16",
+  "started_at": "2026-07-16T22:55:25+08:00",
+  "finished_at": "2026-07-16T22:57:12+08:00",
+  "checked": [
+    "cn-nbs-activity",
+    "cn-nbs-housing70",
+    "us-bls-ppi"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-nbs-activity",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-nbs-activity/2026-06-2026-Q2--v1.md"
+    },
+    {
+      "dataset_id": "cn-nbs-housing70",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-nbs-housing70/2026-06--v1.md"
+    },
+    {
+      "dataset_id": "us-bls-ppi",
+      "status": "new",
+      "record_path": "work/official-data/releases/us-bls-ppi/2026-06--v1.md"
+    }
+  ],
+  "errors": []
+}

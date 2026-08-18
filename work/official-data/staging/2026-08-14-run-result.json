@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-14",
+  "started_at": "2026-08-14T07:01:45+08:00",
+  "coverage_end": "2026-08-14T07:02:04+08:00",
+  "finished_at": "2026-08-14T07:05:04+08:00",
+  "checked": [
+    "cn-pbc-financial",
+    "us-bls-ppi",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-pbc-financial",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "us-bls-ppi",
+      "status": "new",
+      "record_path": "work/official-data/releases/us-bls-ppi/2026-07--v1.md"
+    },
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "status": "unchanged"
+    }
+  ],
+  "synthesis": {
+    "headline": "今日最值得注意的是美国7月PPI显示价格压力并未同步降温：总体受能源商品回落压平，但核心指标环比加快，仍需后续官方数据确认其持续性。",
+    "sections": [
+      {
+        "scope": "美国",
+        "dataset_ids": [
+          "us-bls-ppi"
+        ],
+        "significance": "medium",
+        "stage": "统计结果已发布；3—6月数据已按迟报和更正修订，机制解释仍待验证",
+        "judgment": "最终需求PPI环比0.0%、同比4.7%，但核心指标环比+0.4%，商品能源下跌与服务、核心价格上涨并存；这不足以确认广泛通胀缓和或需求转弱。",
+        "watch_next": "BLS 8月PPI与CPI的能源、服务和核心分项，以及BEA 7月PCE价格和实际个人消费支出。"
+      }
+    ],
+    "deep_dive_candidates": [
+      "能源回落与核心服务价格上行能否在8月继续分化",
+      "PPI核心价格变化是否会在PCE价格和实际消费中得到印证"
+    ],
+    "confidence": "high"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "The registered customs portal was reachable but exposed only a generic statistics-query service, not a directly openable and verifiable current national monthly import-export release or query result. Official-domain fallback located only non-current/stale indexed pages, so the baseline remains unestablished and will be retried."
+    }
+  ]
+}

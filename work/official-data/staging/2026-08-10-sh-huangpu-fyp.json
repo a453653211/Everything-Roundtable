@@ -1,0 +1,28 @@
+{
+  "dataset_id": "sh-district-strategic-plans",
+  "reference_period": "2026-02-28--huangpu-fyp-issued",
+  "published_at": "2026-02-28T00:00:00+08:00",
+  "retrieved_at": "2026-08-10T07:03:53+08:00",
+  "source_title": "黄浦区人民政府关于印发《上海市黄浦区国民经济和社会发展第十五个五年规划纲要》的通知",
+  "source_url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+  "release_status": "official",
+  "values": [
+    {"metric": "行政阶段", "value": "区政府正式印发；区人大已批准", "unit": "文本状态", "basis": "黄府发〔2026〕2号", "seasonal_adjustment": "不适用", "note": "2026年1月28日区第三届人大第七次会议批准；2月12日印发，2月28日发布"},
+    {"metric": "规划层级", "value": "区级国民经济和社会发展五年规划纲要", "unit": "规划类型", "basis": "2026—2030年", "seasonal_adjustment": "不适用", "note": "黄浦区"},
+    {"metric": "核心变化", "value": "明确黄浦十五五发展目标、重点任务及实施保障", "unit": "正式纲要", "basis": "官方印发文本", "seasonal_adjustment": "不适用", "note": "含空间功能布局与城市有机更新章节"}
+  ],
+  "revisions": [],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "黄浦区十五五纲要已由区人大批准并由区政府正式印发，属于区级战略与任务框架，尚不等同于单个项目立项、资金安排或开工。",
+    "changes": ["本地首次建立该已发布区级纲要的官方基线。"],
+    "behavioral_readout": "文件把城市功能、产业与城市更新纳入同一五年框架，提供方向和任务边界；具体项目能否落地仍取决于后续专项规划、用地、预算和实施文件。",
+    "affected_groups": [],
+    "implications": ["推断：黄浦后续专项规划和年度行动文件较有信息增量，能够把方向性纲要与具体空间或项目安排区分开。"],
+    "alternative_explanations": ["纲要中的目标和任务不构成单个地块、项目或资金的即时授权。"],
+    "verification_needed": ["黄浦区后续专项规划、年度实施计划、预算及项目审批公示"],
+    "caveats": ["当前记录仅确认正式发布和纲要层级，不把其中提及的方向等同于项目落地。"],
+    "confidence": "high"
+  },
+  "official_citations": [{"label": "上海市政府政策库黄浦区十五五纲要", "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html"}]
+}

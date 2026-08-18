@@ -1,0 +1,21 @@
+{
+  "date": "2026-07-22",
+  "started_at": "2026-07-22T07:04:06+08:00",
+  "finished_at": "2026-07-22T07:06:02+08:00",
+  "checked": [
+    "cn-mof-fiscal",
+    "cn-cfets-lpr"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-mof-fiscal",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "cn-cfets-lpr",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-cfets-lpr/2026-07--v1.md"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,82 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "能源和原材料价格的月度波动可同时影响出厂价和购进价。",
+      "同比读数仍会受基数与基期轮换影响。"
+    ],
+    "behavioral_readout": "生产资料同比仍高于生活资料、而两类总指数环比下降，较符合上游成本与终端消费品价格未同步走强；不能由此直接推出企业利润或最终需求的变化。",
+    "caveats": [
+      "PPI反映工业品出厂和购进价格，不等同于企业利润、产量或居民消费价格。",
+      "2026年基期轮换影响官方估算平均约0.08个百分点。"
+    ],
+    "changes": [
+      "PPI同比从6月的4.1%回落至3.5%，环比降幅由0.3%扩大至0.7%。",
+      "购进价格同比从6.4%回落至5.5%，环比降幅由0.2%扩大至1.0%。",
+      "生产资料同比上涨4.8%，生活资料同比下降0.8%。"
+    ],
+    "confidence": "high",
+    "headline": "7月PPI同比上涨3.5%、环比下降0.7%，同比和环比均较6月走弱，生产资料仍主导同比上涨。",
+    "implications": [
+      "推断：若生产资料与生活资料的分化持续，下游行业的成本传导和终端定价空间仍需按行业利润和销量数据验证。"
+    ],
+    "verification_needed": [
+      "国家统计局下一期PPI及生产资料、生活资料分项",
+      "国家统计局工业企业利润和行业利润数据"
+    ]
+  },
+  "content_fingerprint": "6fa1d80f060229b77442694677f9fc59a8d91e8c490293d8a690dd7ee1a67cd2",
+  "dataset_id": "cn-nbs-ppi",
+  "methodology_changes": [
+    "2026年1月起PPI以2025年为基期编制；国家统计局说明基期轮换对各月同比指数影响平均约0.08个百分点。"
+  ],
+  "official_citations": [
+    {
+      "label": "国家统计局2026年7月PPI原文",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965007.html"
+    }
+  ],
+  "published_at": "2026-08-09T09:30:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-07",
+  "release_status": "official",
+  "retrieved_at": "2026-08-10T07:03:53+08:00",
+  "revisions": [],
+  "source_title": "2026年7月份工业生产者出厂价格同比上涨3.5%",
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965007.html",
+  "values": [
+    {
+      "basis": "2026年7月同比",
+      "metric": "工业生产者出厂价格",
+      "note": "环比下降0.7%；1—7月平均同比上涨1.8%",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 3.5
+    },
+    {
+      "basis": "2026年7月同比",
+      "metric": "工业生产者购进价格",
+      "note": "环比下降1.0%；1—7月平均同比上涨2.8%",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 5.5
+    },
+    {
+      "basis": "2026年7月同比",
+      "metric": "生产资料出厂价格",
+      "note": "环比下降0.9%；影响PPI上涨约3.72个百分点",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 4.8
+    },
+    {
+      "basis": "2026年7月同比",
+      "metric": "生活资料出厂价格",
+      "note": "环比下降0.1%",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": -0.8
+    }
+  ]
+}

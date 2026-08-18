@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-02",
+  "started_at": "2026-08-02T22:01:30+08:00",
+  "coverage_end": "2026-08-02T22:02:30+08:00",
+  "finished_at": "2026-08-02T22:08:18+08:00",
+  "checked": [
+    "cn-pbc-financial",
+    "cn-nbs-cpi",
+    "cn-nbs-ppi",
+    "cn-nbs-industrial-profits",
+    "cn-nbs-pmi",
+    "us-bls-employment",
+    "us-bls-cpi",
+    "sh-tjj-prices",
+    "sh-ghzyj-planning-notices",
+    "sh-jtw-transport-plans"
+  ],
+  "results": [
+    {"dataset_id":"cn-pbc-financial","status":"new","record_path":"work/official-data/releases/cn-pbc-financial/2026-06--v1.md"},
+    {"dataset_id":"cn-nbs-cpi","status":"new","record_path":"work/official-data/releases/cn-nbs-cpi/2026-06--v1.md"},
+    {"dataset_id":"cn-nbs-ppi","status":"new","record_path":"work/official-data/releases/cn-nbs-ppi/2026-06--v1.md"},
+    {"dataset_id":"cn-nbs-industrial-profits","status":"new","record_path":"work/official-data/releases/cn-nbs-industrial-profits/2026-06--v1.md"},
+    {"dataset_id":"cn-nbs-pmi","status":"new","record_path":"work/official-data/releases/cn-nbs-pmi/2026-06--v1.md"},
+    {"dataset_id":"us-bls-employment","status":"new","record_path":"work/official-data/releases/us-bls-employment/2026-06--v1.md"},
+    {"dataset_id":"us-bls-cpi","status":"new","record_path":"work/official-data/releases/us-bls-cpi/2026-06--v1.md"},
+    {"dataset_id":"sh-tjj-prices","status":"new","record_path":"work/official-data/releases/sh-tjj-prices/2026-06--v1.md"},
+    {"dataset_id":"sh-ghzyj-planning-notices","status":"unchanged"},
+    {"dataset_id":"sh-jtw-transport-plans","status":"unchanged"}
+  ],
+  "synthesis": {
+    "headline": "本轮新增主要是补齐本地缺失的官方基线，并非8月2日集中发布；其中最有信息增量的是上半年工业利润改善与住户贷款净减少仍并存，尚不能称为需求全面转强。",
+    "sections": [
+      {
+        "scope": "全国",
+        "dataset_ids": ["cn-pbc-financial", "cn-nbs-cpi", "cn-nbs-ppi", "cn-nbs-industrial-profits", "cn-nbs-pmi"],
+        "significance": "medium",
+        "stage": "统计结果已发布；本轮为本地首次建立基线，机制仍待后续月度数据验证。",
+        "judgment": "6月PMI回到扩张区间、上半年规上工业利润快于收入增长，但住户贷款净减少且价格、利润、订单口径各异；现有证据支持工业利润改善与居民融资谨慎并存，不支持单一的全面需求回升结论。",
+        "watch_next": "国家统计局7月PMI、工业增加值、社零及人民银行7月金融统计数据。"
+      },
+      {
+        "scope": "上海",
+        "dataset_ids": ["sh-tjj-prices"],
+        "significance": "low",
+        "stage": "6月统计结果已发布；上海规划与项目清单本次仅完成筛选检查，未见落入登记条件的新事项。",
+        "judgment": "上海CPI同比1.0%、PPI同比1.9%但后者环比转跌，价格端尚无消费或工业活动全面加速的证据。",
+        "watch_next": "上海7月CPI、PPI以及社会消费品零售和规上工业生产数据。"
+      },
+      {
+        "scope": "美国",
+        "dataset_ids": ["us-bls-employment", "us-bls-cpi"],
+        "significance": "medium",
+        "stage": "6月统计结果已发布；就业前期数据已完成常规修订。",
+        "judgment": "CPI环比下跌主要由能源驱动，核心价格未同步下跌；就业新增偏弱且4—5月被下修，二者共同提示通胀回落和劳动力市场走弱都需后续数据确认。",
+        "watch_next": "BLS 7月就业报告及7月CPI的能源、住房和核心分项。"
+      }
+    ],
+    "deep_dive_candidates": [
+      "工业利润率改善能否由7月PMI新订单、库存和工业增加值持续验证",
+      "住户贷款净减少与社零、房地产销售及居民存款的同口径交叉验证",
+      "美国能源驱动的CPI回落能否在核心服务价格和就业修订中延续"
+    ],
+    "confidence": "medium"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "登记的海关官方查询页未提供可用于覆盖窗口的全国贸易发布列表；在 customs.gov.cn 官方域内检索亦未取得可核验的当前全国发布，未建立基线，留待下次重试。"
+    },
+    {
+      "dataset_id": "sh-wsjkw-population",
+      "message": "上海卫健委登记统计页访问失败；在 wsjkw.sh.gov.cn 官方域内检索未取得符合登记筛选条件的当前发布，未建立基线，留待下次重试。"
+    }
+  ]
+}

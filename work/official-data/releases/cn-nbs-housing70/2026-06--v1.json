@@ -1,0 +1,117 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "地方政策调整、项目结构变化和集中网签可能造成单月城市层级均值变化。",
+      "同比降幅收窄可能受基数影响，不能单独证明需求持续回升。"
+    ],
+    "behavioral_readout": "这组组合更符合“购房需求先在一线和部分新房市场恢复、存量房与低线城市仍需价格让步”而不是“全国楼市普遍回升”：新房上涨城市增加，但二手房上涨城市减少，且二三线环比仍弱。",
+    "caveats": [
+      "城市层级数据是分组指数，不能代表每个城市或每套住宅。",
+      "这是该数据集的本地首个基线记录，暂无本地上一期卡片可做指纹级修订比较。"
+    ],
+    "changes": [
+      "一线城市新房和二手房环比分别上涨0.1%和0.3%；二线新房持平、二手房下降0.3%；三线分别下降0.3%和0.4%。",
+      "新房环比上涨城市增至20个，二手房环比上涨城市降至9个。",
+      "各线城市新房和二手房同比仍均为下降，一线至三线二手房同比降幅分别为4.9%、5.4%和6.0%。"
+    ],
+    "confidence": "high",
+    "headline": "6月住宅价格呈选择性企稳：一线城市环比上涨、新房上涨城市增多，但二三线城市和二手房仍普遍偏弱。",
+    "implications": [
+      "推论：价格稳定仍集中于少数高能级市场，广泛复苏需要二手房和二三线城市同步改善。"
+    ],
+    "verification_needed": [
+      "国家统计局7月70城新房与二手房价格指数及上涨城市数",
+      "国家统计局商品房销售面积、销售额与待售面积",
+      "中国人民银行住户中长期贷款"
+    ]
+  },
+  "content_fingerprint": "11f1fa89ba3f08363e9325446cf0987d5eb17e1f7477c3a8ce325518213aa334",
+  "dataset_id": "cn-nbs-housing70",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "国家统计局70城价格表",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964115.html"
+    },
+    {
+      "label": "国家统计局官方解读",
+      "url": "https://www.stats.gov.cn/sj/sjjd/202607/t20260715_1964114.html"
+    }
+  ],
+  "published_at": "2026-07-15T09:30:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-07-16T22:55:25+08:00",
+  "revisions": [],
+  "source_title": "2026年6月份70个大中城市商品住宅销售价格变动情况",
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964115.html",
+  "values": [
+    {
+      "basis": "2026年6月环比",
+      "metric": "一线城市新建商品住宅销售价格",
+      "note": "同比下降1.3%；环比涨幅比上月回落0.1个百分点",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "%",
+      "value": 0.1
+    },
+    {
+      "basis": "2026年6月环比",
+      "metric": "二线城市新建商品住宅销售价格",
+      "note": "由上月下降0.1%转为持平；同比下降3.1%",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "%",
+      "value": 0.0
+    },
+    {
+      "basis": "2026年6月环比",
+      "metric": "三线城市新建商品住宅销售价格",
+      "note": "降幅比上月收窄0.1个百分点；同比下降4.2%",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "%",
+      "value": -0.3
+    },
+    {
+      "basis": "2026年6月环比",
+      "metric": "一线城市二手住宅销售价格",
+      "note": "同比下降4.9%；环比涨幅比上月回落0.1个百分点",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "%",
+      "value": 0.3
+    },
+    {
+      "basis": "2026年6月环比",
+      "metric": "二线城市二手住宅销售价格",
+      "note": "环比降幅扩大0.1个百分点；同比下降5.4%",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "%",
+      "value": -0.3
+    },
+    {
+      "basis": "2026年6月环比",
+      "metric": "三线城市二手住宅销售价格",
+      "note": "环比降幅与上月相同；同比下降6.0%",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "%",
+      "value": -0.4
+    },
+    {
+      "basis": "2026年6月，70个大中城市",
+      "metric": "新建商品住宅环比上涨城市数",
+      "note": "比上月增加4个，为2025年5月以来最多",
+      "seasonal_adjustment": "不适用",
+      "unit": "个",
+      "value": 20
+    },
+    {
+      "basis": "2026年6月，70个大中城市",
+      "metric": "二手住宅环比上涨城市数",
+      "note": "比上月减少1个",
+      "seasonal_adjustment": "不适用",
+      "unit": "个",
+      "value": 9
+    }
+  ]
+}

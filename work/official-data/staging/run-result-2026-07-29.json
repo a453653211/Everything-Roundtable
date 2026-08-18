@@ -1,0 +1,21 @@
+{
+  "date": "2026-07-29",
+  "started_at": "2026-07-29T20:06:00+08:00",
+  "finished_at": "2026-07-29T20:10:00+08:00",
+  "checked": [
+    "us-fed-fomc",
+    "sh-tjj-activity"
+  ],
+  "results": [
+    {
+      "dataset_id": "us-fed-fomc",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "sh-tjj-activity",
+      "status": "unchanged",
+      "record_path": "work/official-data/releases/sh-tjj-activity/2026-06-2026-Q2--v1.md"
+    }
+  ],
+  "errors": []
+}

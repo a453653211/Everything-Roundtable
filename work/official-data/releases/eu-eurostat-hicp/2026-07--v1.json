@@ -1,0 +1,90 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "Energy-price movements and base effects can generate the same headline change without a demand acceleration.",
+      "The flash estimate is preliminary; the complete July HICP release may alter component detail."
+    ],
+    "behavioral_readout": "The combination is more consistent with a renewed energy-price impulse than with a broad-based reacceleration in household demand: energy moved much more than services, while food inflation slowed. The flash estimate alone cannot identify the underlying spending choice.",
+    "caveats": [
+      "July values are marked estimated by Eurostat.",
+      "EA aggregates before January 2026 cover EA20, while January 2026 onward covers EA21; long-run comparisons require this composition change."
+    ],
+    "changes": [
+      "All-items HICP was 2.9% year-on-year and 0.2% month-on-month in July; both are flash estimates.",
+      "Energy inflation rose to 10.0% from 8.5%, while services edged up to 3.3% from 3.2% and food, alcohol and tobacco slowed to 1.2% from 1.5%.",
+      "The core-like measure excluding energy, food, alcohol and tobacco increased to 2.5% from 2.4%."
+    ],
+    "confidence": "high",
+    "headline": "Euro area July flash HICP rose to 2.9% year-on-year from 2.8% in June, with the acceleration led chiefly by energy.",
+    "implications": [
+      "Inference: if confirmed, the headline rise modestly raises near-term inflation pressure, but its durability depends on whether the increase spreads beyond energy."
+    ],
+    "verification_needed": [
+      "Eurostat's complete July 2026 HICP release scheduled for 19 August 2026.",
+      "Subsequent Eurostat component releases, especially energy and services, to test whether the headline rise broadens."
+    ]
+  },
+  "content_fingerprint": "4ba04e93d71ee4ba44485ba78ac7f0093b18a6849a94a892e91c73ceabe9505c",
+  "dataset_id": "eu-eurostat-hicp",
+  "methodology_changes": [
+    "From January 2026 the euro area aggregate is EA21 following Bulgaria's entry; Eurostat applies a chain index formula to reflect the evolving composition."
+  ],
+  "official_citations": [
+    {
+      "label": "Eurostat July 2026 HICP flash estimate",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-31072026-ap"
+    }
+  ],
+  "published_at": "2026-07-31T11:00:00Z",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-07",
+  "release_status": "flash estimate",
+  "retrieved_at": "2026-08-01T10:36:58+08:00",
+  "revisions": [],
+  "source_title": "Euro area annual inflation up to 2.9%",
+  "source_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-31072026-ap",
+  "values": [
+    {
+      "basis": "July 2026 year-on-year, flash estimate",
+      "metric": "Euro area all-items HICP annual rate",
+      "note": "June 2026: 2.8%; EA21 aggregate",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 2.9
+    },
+    {
+      "basis": "July 2026 month-on-month, flash estimate",
+      "metric": "Euro area all-items HICP monthly rate",
+      "note": "",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 0.2
+    },
+    {
+      "basis": "July 2026 year-on-year, flash estimate",
+      "metric": "Energy HICP annual rate",
+      "note": "June 2026: 8.5%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 10.0
+    },
+    {
+      "basis": "July 2026 year-on-year, flash estimate",
+      "metric": "Services HICP annual rate",
+      "note": "June 2026: 3.2%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 3.3
+    },
+    {
+      "basis": "July 2026 year-on-year, flash estimate",
+      "metric": "HICP excluding energy, food, alcohol and tobacco annual rate",
+      "note": "June 2026: 2.4%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 2.5
+    }
+  ]
+}

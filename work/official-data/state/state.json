@@ -1,0 +1,888 @@
+{
+  "datasets": {
+    "cn-cfets-lpr": {
+      "last_attempted_at": "2026-07-22T07:06:02+08:00",
+      "last_checked_at": "2026-07-22T07:06:02+08:00",
+      "latest": {
+        "fingerprint": "e63d5bb3a0050fdca372977476b725f3a4e3fc4864730608b4c0c739f9e1bc66",
+        "json_path": "work/official-data/releases/cn-cfets-lpr/2026-07--v1.json",
+        "published_at": "2026-07-20T09:00:00+08:00",
+        "record_path": "work/official-data/releases/cn-cfets-lpr/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "cn-cfets-lpr::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "6cfcba21c4141f412d5136cc564b626c3b8105eed551d11dd73e629c1a824fb8",
+        "json_path": "work/official-data/releases/cn-cfets-lpr/2026-06--v1.json",
+        "published_at": "2026-06-22T09:00:00+08:00",
+        "record_path": "work/official-data/releases/cn-cfets-lpr/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "cn-cfets-lpr::2026-06"
+      }
+    },
+    "cn-customs-trade": {
+      "last_attempted_at": "2026-08-18T07:07:28+08:00",
+      "last_error": "已检查注册的海关查询入口；页面仅暴露通用查询与单一窗口登录服务，未发现可直接核验的当前月度全国贸易发布或结果，无法建立首次基线。"
+    },
+    "cn-mof-fiscal": {
+      "last_attempted_at": "2026-08-18T07:07:28+08:00",
+      "last_checked_at": "2026-08-18T07:01:01+08:00",
+      "latest": {
+        "fingerprint": "2ae170ada8932492af36705bed57d7574f231e61ab4e193068c0d8aba57513a7",
+        "json_path": "work/official-data/releases/cn-mof-fiscal/2026-06--v1.json",
+        "published_at": "2026-07-22T00:00:00+08:00",
+        "record_path": "work/official-data/releases/cn-mof-fiscal/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "cn-mof-fiscal::2026-06"
+      },
+      "previous_latest": {
+        "fingerprint": "614531dd2b642e1ee237c79d9616e3b7cbdcb95f3a0eaa6c123996859d109930",
+        "json_path": "work/official-data/releases/cn-mof-fiscal/2026-05--v1.json",
+        "published_at": "2026-06-22T00:00:00+08:00",
+        "record_path": "work/official-data/releases/cn-mof-fiscal/2026-05--v1.md",
+        "reference_period": "2026-05",
+        "release_key": "cn-mof-fiscal::2026-05"
+      }
+    },
+    "cn-nbs-activity": {
+      "last_attempted_at": "2026-08-16T15:04:06+08:00",
+      "last_checked_at": "2026-08-16T14:59:17+08:00",
+      "latest": {
+        "fingerprint": "45f0f7f4fbc9553b8475e32869cdcd7644a975f3a4e9dd551fb4a8f10331e3ee",
+        "json_path": "work/official-data/releases/cn-nbs-activity/2026-06-2026-Q2--v1.json",
+        "published_at": "2026-07-15T10:00:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-activity/2026-06-2026-Q2--v1.md",
+        "reference_period": "2026-06 / 2026-Q2",
+        "release_key": "cn-nbs-activity::2026-06 / 2026-Q2"
+      },
+      "previous_latest": null
+    },
+    "cn-nbs-cpi": {
+      "last_attempted_at": "2026-08-10T07:06:18+08:00",
+      "last_checked_at": "2026-08-10T07:00:52+08:00",
+      "latest": {
+        "fingerprint": "e9d6b501c452e4d38fed059e78ef81b64d745b3534068c278bbad20f0701ff48",
+        "json_path": "work/official-data/releases/cn-nbs-cpi/2026-07--v1.json",
+        "published_at": "2026-08-09T09:30:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-cpi/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "cn-nbs-cpi::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "cf57630a6c4c73e55169bd52b4476741a123019f9fc04b36eaa6aca1b69ff0bd",
+        "json_path": "work/official-data/releases/cn-nbs-cpi/2026-06--v1.json",
+        "published_at": "2026-07-09T09:30:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-cpi/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "cn-nbs-cpi::2026-06"
+      }
+    },
+    "cn-nbs-housing70": {
+      "last_attempted_at": "2026-08-18T07:07:28+08:00",
+      "last_checked_at": "2026-08-18T07:01:01+08:00",
+      "latest": {
+        "fingerprint": "dd178386e6f566d5ddef9a3f17bca1af3b8ed1a716dd3f548ddee5deb7f60138",
+        "json_path": "work/official-data/releases/cn-nbs-housing70/2026-07--v1.json",
+        "published_at": "2026-08-17T15:00:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-housing70/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "cn-nbs-housing70::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "11f1fa89ba3f08363e9325446cf0987d5eb17e1f7477c3a8ce325518213aa334",
+        "json_path": "work/official-data/releases/cn-nbs-housing70/2026-06--v1.json",
+        "published_at": "2026-07-15T09:30:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-housing70/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "cn-nbs-housing70::2026-06"
+      }
+    },
+    "cn-nbs-industrial-profits": {
+      "last_attempted_at": "2026-08-02T22:08:18+08:00",
+      "last_checked_at": "2026-08-02T22:02:30+08:00",
+      "latest": {
+        "fingerprint": "0aeb2144d9c215ae0000dba0f7c0df120d8fbe8aad25928cab2118dbfa40d30f",
+        "json_path": "work/official-data/releases/cn-nbs-industrial-profits/2026-06--v1.json",
+        "published_at": "2026-07-27T09:30:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-industrial-profits/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "cn-nbs-industrial-profits::2026-06"
+      },
+      "previous_latest": null
+    },
+    "cn-nbs-pmi": {
+      "last_attempted_at": "2026-08-08T14:07:30+08:00",
+      "last_checked_at": "2026-08-08T14:05:45+08:00",
+      "latest": {
+        "fingerprint": "6a51b8a3952c09ee3e0acde97488c753511e0dd5bb06d96fc2d01ae0153e9a14",
+        "json_path": "work/official-data/releases/cn-nbs-pmi/2026-07--v2.json",
+        "published_at": "2026-07-31T09:30:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-pmi/2026-07--v2.md",
+        "reference_period": "2026-07",
+        "release_key": "cn-nbs-pmi::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "39ac3dbf00a2f50c02ab5dc8035ed50cfb72aafa2e1f7367e4f35a48cf257895",
+        "json_path": "work/official-data/releases/cn-nbs-pmi/2026-07--v1.json",
+        "published_at": "2026-07-31T09:30:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-pmi/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "cn-nbs-pmi::2026-07"
+      }
+    },
+    "cn-nbs-ppi": {
+      "last_attempted_at": "2026-08-10T07:06:18+08:00",
+      "last_checked_at": "2026-08-10T07:00:52+08:00",
+      "latest": {
+        "fingerprint": "6fa1d80f060229b77442694677f9fc59a8d91e8c490293d8a690dd7ee1a67cd2",
+        "json_path": "work/official-data/releases/cn-nbs-ppi/2026-07--v1.json",
+        "published_at": "2026-08-09T09:30:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-ppi/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "cn-nbs-ppi::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "2620dbcb5af6e12aaed3b6247246353f0718cbe0fc98274556a0f750476e507b",
+        "json_path": "work/official-data/releases/cn-nbs-ppi/2026-06--v1.json",
+        "published_at": "2026-07-09T09:30:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-ppi/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "cn-nbs-ppi::2026-06"
+      }
+    },
+    "cn-pbc-financial": {
+      "last_attempted_at": "2026-08-16T15:04:06+08:00",
+      "last_checked_at": "2026-08-16T14:59:17+08:00",
+      "latest": {
+        "fingerprint": "24720ca9cbff0cef7735f89c4ee1dd0d33e07252e7856428c4d4e8d596948abb",
+        "json_path": "work/official-data/releases/cn-pbc-financial/2026-07--v1.json",
+        "published_at": "2026-08-14T16:30:05+08:00",
+        "record_path": "work/official-data/releases/cn-pbc-financial/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "cn-pbc-financial::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "bf4bfd159185295f323601a6e90c2d7ef5a9808c4641625f4f22a7a8cf7065d9",
+        "json_path": "work/official-data/releases/cn-pbc-financial/2026-06--v1.json",
+        "published_at": "2026-07-15T15:00:09+08:00",
+        "record_path": "work/official-data/releases/cn-pbc-financial/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "cn-pbc-financial::2026-06"
+      }
+    },
+    "eu-ecb-policy": {
+      "last_attempted_at": "2026-07-24T20:24:17+08:00",
+      "last_checked_at": "2026-07-24T20:24:17+08:00",
+      "latest": {
+        "fingerprint": "6631006ff1493e92106d8bcfdadd84b62366c73c2741a58a9d4ffa0a6384acfd",
+        "json_path": "work/official-data/releases/eu-ecb-policy/2026-07-23--v1.json",
+        "published_at": "2026-07-23T00:00:00+02:00",
+        "record_path": "work/official-data/releases/eu-ecb-policy/2026-07-23--v1.md",
+        "reference_period": "2026-07-23",
+        "release_key": "eu-ecb-policy::2026-07-23"
+      },
+      "previous_latest": null
+    },
+    "eu-eurostat-gdp": {
+      "last_attempted_at": "2026-08-16T15:04:06+08:00",
+      "last_checked_at": "2026-08-16T14:59:17+08:00",
+      "latest": {
+        "fingerprint": "3c488747358937a26055e460e3661f5bc5595c455e69c377da6f8f769b5e0b3e",
+        "json_path": "work/official-data/releases/eu-eurostat-gdp/2026-Q2--v2.json",
+        "published_at": "2026-08-14T11:00:00Z",
+        "record_path": "work/official-data/releases/eu-eurostat-gdp/2026-Q2--v2.md",
+        "reference_period": "2026-Q2",
+        "release_key": "eu-eurostat-gdp::2026-Q2"
+      },
+      "previous_latest": {
+        "fingerprint": "69cd545ab09eae5c50c6a94fbb77998407d0f723a65e9fb470897e61c5c59e4e",
+        "json_path": "work/official-data/releases/eu-eurostat-gdp/2026-Q2--v1.json",
+        "published_at": "2026-07-30T11:00:00Z",
+        "record_path": "work/official-data/releases/eu-eurostat-gdp/2026-Q2--v1.md",
+        "reference_period": "2026-Q2",
+        "release_key": "eu-eurostat-gdp::2026-Q2"
+      }
+    },
+    "eu-eurostat-hicp": {
+      "last_attempted_at": "2026-08-01T11:10:00+08:00",
+      "last_checked_at": "2026-08-01T11:10:00+08:00",
+      "latest": {
+        "fingerprint": "4ba04e93d71ee4ba44485ba78ac7f0093b18a6849a94a892e91c73ceabe9505c",
+        "json_path": "work/official-data/releases/eu-eurostat-hicp/2026-07--v1.json",
+        "published_at": "2026-07-31T11:00:00Z",
+        "record_path": "work/official-data/releases/eu-eurostat-hicp/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "eu-eurostat-hicp::2026-07"
+      },
+      "previous_latest": null
+    },
+    "eu-eurostat-unemployment": {
+      "last_attempted_at": "2026-08-01T11:10:00+08:00",
+      "last_checked_at": "2026-08-01T11:10:00+08:00",
+      "latest": {
+        "fingerprint": "3b5fa065ad673d45e48420b3c5a07165debc68248d58527f15563c101e002d48",
+        "json_path": "work/official-data/releases/eu-eurostat-unemployment/2026-06--v1.json",
+        "published_at": "2026-07-30T11:00:00Z",
+        "record_path": "work/official-data/releases/eu-eurostat-unemployment/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "eu-eurostat-unemployment::2026-06"
+      },
+      "previous_latest": null
+    },
+    "sh-district-strategic-plans": {
+      "last_attempted_at": "2026-08-18T07:07:28+08:00",
+      "last_checked_at": "2026-08-18T07:01:01+08:00",
+      "latest": {
+        "fingerprint": "44822a7ad21a59462e5c587be59144dce4c75bbea98ad838a5aacd80d0d7c65b",
+        "json_path": "work/official-data/releases/sh-district-strategic-plans/2026-08-05--minhang-urban-renewal-fyp-issued--v1.json",
+        "published_at": "2026-08-05T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-district-strategic-plans/2026-08-05--minhang-urban-renewal-fyp-issued--v1.md",
+        "reference_period": "2026-08-05--minhang-urban-renewal-fyp-issued",
+        "release_key": "sh-district-strategic-plans::2026-08-05--minhang-urban-renewal-fyp-issued"
+      },
+      "previous_latest": {
+        "fingerprint": "bdd00b2a4355b7aaf553389b5366df738f1a0ebb6acc7c141b13b3d8bd3ef967",
+        "json_path": "work/official-data/releases/sh-district-strategic-plans/2026-07-27--huangpu-spatial-layout-fyp-issued--v1.json",
+        "published_at": "2026-07-27T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-district-strategic-plans/2026-07-27--huangpu-spatial-layout-fyp-issued--v1.md",
+        "reference_period": "2026-07-27--huangpu-spatial-layout-fyp-issued",
+        "release_key": "sh-district-strategic-plans::2026-07-27--huangpu-spatial-layout-fyp-issued"
+      }
+    },
+    "sh-ghzyj-approved-plans": {
+      "last_attempted_at": "2026-07-26T15:24:02+08:00",
+      "last_checked_at": "2026-07-26T15:24:02+08:00",
+      "latest": {
+        "fingerprint": "bbb81b619cd3bc0a27f8cdb4a1358409c7b8ff2914826758d02a1d56a33fd610",
+        "json_path": "work/official-data/releases/sh-ghzyj-approved-plans/2023-10-25--yangtze-demo-zone-2021-2035--approved--v1.json",
+        "published_at": "2023-10-25T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-ghzyj-approved-plans/2023-10-25--yangtze-demo-zone-2021-2035--approved--v1.md",
+        "reference_period": "2023-10-25--yangtze-demo-zone-2021-2035--approved",
+        "release_key": "sh-ghzyj-approved-plans::2023-10-25--yangtze-demo-zone-2021-2035--approved"
+      },
+      "previous_latest": null
+    },
+    "sh-ghzyj-planning-notices": {
+      "last_attempted_at": "2026-08-16T15:04:06+08:00",
+      "last_checked_at": "2026-08-16T14:59:17+08:00",
+      "latest": {
+        "fingerprint": "8fd718bb73560841b8a66b78f5cf7d1dec73354e040c2b8de95d26a110f9eed2",
+        "json_path": "work/official-data/releases/sh-ghzyj-planning-notices/2026-07-02--xiaolujiazui-ljz01--draft-publicity--v1.json",
+        "published_at": "2026-07-02T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-ghzyj-planning-notices/2026-07-02--xiaolujiazui-ljz01--draft-publicity--v1.md",
+        "reference_period": "2026-07-02--xiaolujiazui-ljz01--draft-publicity",
+        "release_key": "sh-ghzyj-planning-notices::2026-07-02--xiaolujiazui-ljz01--draft-publicity"
+      },
+      "previous_latest": null
+    },
+    "sh-jtw-transport-plans": {
+      "last_attempted_at": "2026-08-16T15:04:06+08:00",
+      "last_checked_at": "2026-08-16T14:59:17+08:00",
+      "latest": {
+        "fingerprint": "6167dc655c3674337df88498f1c0ee6c4dfb2801a1bf456595829bcbfc44570e",
+        "json_path": "work/official-data/releases/sh-jtw-transport-plans/2025-06-20--jiamin-north-extension--reviewed-pending-approval--v1.json",
+        "published_at": "2026-01-04T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-jtw-transport-plans/2025-06-20--jiamin-north-extension--reviewed-pending-approval--v1.md",
+        "reference_period": "2025-06-20--jiamin-north-extension--reviewed-pending-approval",
+        "release_key": "sh-jtw-transport-plans::2025-06-20--jiamin-north-extension--reviewed-pending-approval"
+      },
+      "previous_latest": null
+    },
+    "sh-rsj-average-wage": {
+      "last_attempted_at": "2026-07-26T15:24:02+08:00",
+      "last_checked_at": "2026-07-26T15:24:02+08:00",
+      "latest": {
+        "fingerprint": "86b96d7aa48216cef777fb9bc053a4a6fb9217906f542a0238f249a61ad1bad1",
+        "json_path": "work/official-data/releases/sh-rsj-average-wage/2024--v1.json",
+        "published_at": "2025-10-24T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-rsj-average-wage/2024--v1.md",
+        "reference_period": "2024",
+        "release_key": "sh-rsj-average-wage::2024"
+      },
+      "previous_latest": null
+    },
+    "sh-rsj-minimum-wage": {
+      "last_attempted_at": "2026-07-26T15:24:02+08:00",
+      "last_checked_at": "2026-07-26T15:24:02+08:00",
+      "latest": {
+        "fingerprint": "bd10db82e22ac954ab0eea043039d1f3c0ee8a9ecb792d1ed2418b1a152c0bc3",
+        "json_path": "work/official-data/releases/sh-rsj-minimum-wage/2025-07-01--v1.json",
+        "published_at": "2025-07-14T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-rsj-minimum-wage/2025-07-01--v1.md",
+        "reference_period": "2025-07-01",
+        "release_key": "sh-rsj-minimum-wage::2025-07-01"
+      },
+      "previous_latest": null
+    },
+    "sh-tjj-activity": {
+      "last_attempted_at": "2026-07-29T20:10:00+08:00",
+      "last_checked_at": "2026-07-29T20:10:00+08:00",
+      "latest": {
+        "fingerprint": "76f03c47a0e986d936637b21e04f5bbec703474da25c5e0c8d5a14ae288603ff",
+        "json_path": "work/official-data/releases/sh-tjj-activity/2026-06-2026-Q2--v1.json",
+        "published_at": "2026-07-20T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-tjj-activity/2026-06-2026-Q2--v1.md",
+        "reference_period": "2026-06-2026-Q2",
+        "release_key": "sh-tjj-activity::2026-06-2026-Q2"
+      },
+      "previous_latest": null
+    },
+    "sh-tjj-prices": {
+      "last_attempted_at": "2026-08-11T07:10:28+08:00",
+      "last_checked_at": "2026-08-11T07:01:07+08:00",
+      "latest": {
+        "fingerprint": "8bc95c8adde58b0e8c2b8d3f01b2d1ee0072e90bf469456d0f6da6fa0ec38b1d",
+        "json_path": "work/official-data/releases/sh-tjj-prices/2026-07--v1.json",
+        "published_at": "2026-08-10T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-tjj-prices/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "sh-tjj-prices::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "1187fe702b74e9204dd93b95eac0cf95594ad880ae34060b38d11ad5b64eb3ff",
+        "json_path": "work/official-data/releases/sh-tjj-prices/2026-06--v1.json",
+        "published_at": "2026-07-10T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-tjj-prices/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "sh-tjj-prices::2026-06"
+      }
+    },
+    "sh-wsjkw-population": {
+      "last_attempted_at": "2026-08-03T21:29:15+08:00",
+      "last_checked_at": "2026-08-03T21:24:26+08:00",
+      "latest": {
+        "fingerprint": "89f7e791fb3ab407970320b4411152176645e58553fa492b3b8d6023c4c8ed3b",
+        "json_path": "work/official-data/releases/sh-wsjkw-population/2025--v1.json",
+        "published_at": "2026-03-04T00:00:00+08:00",
+        "record_path": "work/official-data/releases/sh-wsjkw-population/2025--v1.md",
+        "reference_period": "2025",
+        "release_key": "sh-wsjkw-population::2025"
+      },
+      "previous_latest": null
+    },
+    "us-bea-gdp": {
+      "last_attempted_at": "2026-08-01T11:10:00+08:00",
+      "last_checked_at": "2026-08-01T11:10:00+08:00",
+      "latest": {
+        "fingerprint": "b20a01c8f9bd54d282a01cf0a72e367186a2a60afb77cf05b683d6a8e4e21e1a",
+        "json_path": "work/official-data/releases/us-bea-gdp/2026-Q2--v1.json",
+        "published_at": "2026-07-30T08:30:00-04:00",
+        "record_path": "work/official-data/releases/us-bea-gdp/2026-Q2--v1.md",
+        "reference_period": "2026-Q2",
+        "release_key": "us-bea-gdp::2026-Q2"
+      },
+      "previous_latest": null
+    },
+    "us-bea-pce": {
+      "last_attempted_at": "2026-08-01T11:10:00+08:00",
+      "last_checked_at": "2026-08-01T11:10:00+08:00",
+      "latest": {
+        "fingerprint": "29288172e7afea86bd9e770369144e5cbf82dd09018af641953ae15eb47fcdc3",
+        "json_path": "work/official-data/releases/us-bea-pce/2026-06--v1.json",
+        "published_at": "2026-07-30T08:30:00-04:00",
+        "record_path": "work/official-data/releases/us-bea-pce/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "us-bea-pce::2026-06"
+      },
+      "previous_latest": null
+    },
+    "us-bls-cpi": {
+      "last_attempted_at": "2026-08-13T07:05:00+08:00",
+      "last_checked_at": "2026-08-13T07:01:20+08:00",
+      "latest": {
+        "fingerprint": "030fcaec73eec9e92f36d22893e2d2219c271add29d3dd0ce218b5b410a3f294",
+        "json_path": "work/official-data/releases/us-bls-cpi/2026-07--v1.json",
+        "published_at": "2026-08-12T08:30:00-04:00",
+        "record_path": "work/official-data/releases/us-bls-cpi/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "us-bls-cpi::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "62750c5d30ca5b7e27853b5658f92790e6c50ac16cb0511ec7125dd1c368d461",
+        "json_path": "work/official-data/releases/us-bls-cpi/2026-06--v1.json",
+        "published_at": "2026-07-14T08:30:00-04:00",
+        "record_path": "work/official-data/releases/us-bls-cpi/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "us-bls-cpi::2026-06"
+      }
+    },
+    "us-bls-employment": {
+      "last_attempted_at": "2026-08-08T14:07:30+08:00",
+      "last_checked_at": "2026-08-08T14:05:45+08:00",
+      "latest": {
+        "fingerprint": "e215cf9c1c2f48981cba93907cdfe3c8c22a81ca4ec8ef0309cbc5932078475e",
+        "json_path": "work/official-data/releases/us-bls-employment/2026-07--v1.json",
+        "published_at": "2026-08-07T08:30:00-04:00",
+        "record_path": "work/official-data/releases/us-bls-employment/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "us-bls-employment::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "5454d4c403357ca780886fce283789caae85c7e6f30bf821332da6f70b85184f",
+        "json_path": "work/official-data/releases/us-bls-employment/2026-06--v1.json",
+        "published_at": "2026-07-02T08:30:00-04:00",
+        "record_path": "work/official-data/releases/us-bls-employment/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "us-bls-employment::2026-06"
+      }
+    },
+    "us-bls-ppi": {
+      "last_attempted_at": "2026-08-14T07:05:04+08:00",
+      "last_checked_at": "2026-08-14T07:02:04+08:00",
+      "latest": {
+        "fingerprint": "df58c95454154bdbef12e56a8663559f51a58a17670c4c3ac79908844b3567ee",
+        "json_path": "work/official-data/releases/us-bls-ppi/2026-07--v1.json",
+        "published_at": "2026-08-13T08:30:00-04:00",
+        "record_path": "work/official-data/releases/us-bls-ppi/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "us-bls-ppi::2026-07"
+      },
+      "previous_latest": {
+        "fingerprint": "65d4f6c8ffb49bf27893a9c249c9a6048f89a250aefd88747220014324e6dc6a",
+        "json_path": "work/official-data/releases/us-bls-ppi/2026-06--v1.json",
+        "published_at": "2026-07-15T08:30:00-04:00",
+        "record_path": "work/official-data/releases/us-bls-ppi/2026-06--v1.md",
+        "reference_period": "2026-06",
+        "release_key": "us-bls-ppi::2026-06"
+      }
+    },
+    "us-fed-fomc": {
+      "last_attempted_at": "2026-07-29T20:10:00+08:00",
+      "last_checked_at": "2026-07-29T20:10:00+08:00"
+    }
+  },
+  "releases": {
+    "cn-cfets-lpr::2026-06": {
+      "dataset_id": "cn-cfets-lpr",
+      "latest_fingerprint": "6cfcba21c4141f412d5136cc564b626c3b8105eed551d11dd73e629c1a824fb8",
+      "latest_json_path": "work/official-data/releases/cn-cfets-lpr/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-cfets-lpr/2026-06--v1.md",
+      "published_at": "2026-06-22T09:00:00+08:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.chinamoney.com.cn/chinese/rdgz/20260622/3361525.html",
+      "version_count": 1
+    },
+    "cn-cfets-lpr::2026-07": {
+      "dataset_id": "cn-cfets-lpr",
+      "latest_fingerprint": "e63d5bb3a0050fdca372977476b725f3a4e3fc4864730608b4c0c739f9e1bc66",
+      "latest_json_path": "work/official-data/releases/cn-cfets-lpr/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-cfets-lpr/2026-07--v1.md",
+      "published_at": "2026-07-20T09:00:00+08:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.chinamoney.com.cn/chinese/rdgz/20260720/3379021.html",
+      "version_count": 1
+    },
+    "cn-mof-fiscal::2026-05": {
+      "dataset_id": "cn-mof-fiscal",
+      "latest_fingerprint": "614531dd2b642e1ee237c79d9616e3b7cbdcb95f3a0eaa6c123996859d109930",
+      "latest_json_path": "work/official-data/releases/cn-mof-fiscal/2026-05--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-mof-fiscal/2026-05--v1.md",
+      "published_at": "2026-06-22T00:00:00+08:00",
+      "reference_period": "2026-05",
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm",
+      "version_count": 1
+    },
+    "cn-mof-fiscal::2026-06": {
+      "dataset_id": "cn-mof-fiscal",
+      "latest_fingerprint": "2ae170ada8932492af36705bed57d7574f231e61ab4e193068c0d8aba57513a7",
+      "latest_json_path": "work/official-data/releases/cn-mof-fiscal/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-mof-fiscal/2026-06--v1.md",
+      "published_at": "2026-07-22T00:00:00+08:00",
+      "reference_period": "2026-06",
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202607/t20260722_3993943.htm",
+      "version_count": 1
+    },
+    "cn-nbs-activity::2026-06 / 2026-Q2": {
+      "dataset_id": "cn-nbs-activity",
+      "latest_fingerprint": "45f0f7f4fbc9553b8475e32869cdcd7644a975f3a4e9dd551fb4a8f10331e3ee",
+      "latest_json_path": "work/official-data/releases/cn-nbs-activity/2026-06-2026-Q2--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-activity/2026-06-2026-Q2--v1.md",
+      "published_at": "2026-07-15T10:00:00+08:00",
+      "reference_period": "2026-06 / 2026-Q2",
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964121.html",
+      "version_count": 1
+    },
+    "cn-nbs-cpi::2026-06": {
+      "dataset_id": "cn-nbs-cpi",
+      "latest_fingerprint": "cf57630a6c4c73e55169bd52b4476741a123019f9fc04b36eaa6aca1b69ff0bd",
+      "latest_json_path": "work/official-data/releases/cn-nbs-cpi/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-cpi/2026-06--v1.md",
+      "published_at": "2026-07-09T09:30:00+08:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260709_1964084.html",
+      "version_count": 1
+    },
+    "cn-nbs-cpi::2026-07": {
+      "dataset_id": "cn-nbs-cpi",
+      "latest_fingerprint": "e9d6b501c452e4d38fed059e78ef81b64d745b3534068c278bbad20f0701ff48",
+      "latest_json_path": "work/official-data/releases/cn-nbs-cpi/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-cpi/2026-07--v1.md",
+      "published_at": "2026-08-09T09:30:00+08:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965008.html",
+      "version_count": 1
+    },
+    "cn-nbs-housing70::2026-06": {
+      "dataset_id": "cn-nbs-housing70",
+      "latest_fingerprint": "11f1fa89ba3f08363e9325446cf0987d5eb17e1f7477c3a8ce325518213aa334",
+      "latest_json_path": "work/official-data/releases/cn-nbs-housing70/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-housing70/2026-06--v1.md",
+      "published_at": "2026-07-15T09:30:00+08:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964115.html",
+      "version_count": 1
+    },
+    "cn-nbs-housing70::2026-07": {
+      "dataset_id": "cn-nbs-housing70",
+      "latest_fingerprint": "dd178386e6f566d5ddef9a3f17bca1af3b8ed1a716dd3f548ddee5deb7f60138",
+      "latest_json_path": "work/official-data/releases/cn-nbs-housing70/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-housing70/2026-07--v1.md",
+      "published_at": "2026-08-17T15:00:00+08:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html",
+      "version_count": 1
+    },
+    "cn-nbs-industrial-profits::2026-06": {
+      "dataset_id": "cn-nbs-industrial-profits",
+      "latest_fingerprint": "0aeb2144d9c215ae0000dba0f7c0df120d8fbe8aad25928cab2118dbfa40d30f",
+      "latest_json_path": "work/official-data/releases/cn-nbs-industrial-profits/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-industrial-profits/2026-06--v1.md",
+      "published_at": "2026-07-27T09:30:00+08:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260727_1964194.html",
+      "version_count": 1
+    },
+    "cn-nbs-pmi::2026-06": {
+      "dataset_id": "cn-nbs-pmi",
+      "latest_fingerprint": "c3a6049617cf79370ff3ad7e288b37aa84606a2d9c09eadf08e069a2f8e0120c",
+      "latest_json_path": "work/official-data/releases/cn-nbs-pmi/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-pmi/2026-06--v1.md",
+      "published_at": "2026-06-30T09:30:00+08:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.stats.gov.cn/sj/zxfbhjd/202606/t20260630_1964032.html",
+      "version_count": 1
+    },
+    "cn-nbs-pmi::2026-07": {
+      "dataset_id": "cn-nbs-pmi",
+      "latest_fingerprint": "6a51b8a3952c09ee3e0acde97488c753511e0dd5bb06d96fc2d01ae0153e9a14",
+      "latest_json_path": "work/official-data/releases/cn-nbs-pmi/2026-07--v2.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-pmi/2026-07--v2.md",
+      "published_at": "2026-07-31T09:30:00+08:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html",
+      "version_count": 2
+    },
+    "cn-nbs-ppi::2026-06": {
+      "dataset_id": "cn-nbs-ppi",
+      "latest_fingerprint": "2620dbcb5af6e12aaed3b6247246353f0718cbe0fc98274556a0f750476e507b",
+      "latest_json_path": "work/official-data/releases/cn-nbs-ppi/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-ppi/2026-06--v1.md",
+      "published_at": "2026-07-09T09:30:00+08:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964083.html",
+      "version_count": 1
+    },
+    "cn-nbs-ppi::2026-07": {
+      "dataset_id": "cn-nbs-ppi",
+      "latest_fingerprint": "6fa1d80f060229b77442694677f9fc59a8d91e8c490293d8a690dd7ee1a67cd2",
+      "latest_json_path": "work/official-data/releases/cn-nbs-ppi/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-ppi/2026-07--v1.md",
+      "published_at": "2026-08-09T09:30:00+08:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965007.html",
+      "version_count": 1
+    },
+    "cn-pbc-financial::2026-06": {
+      "dataset_id": "cn-pbc-financial",
+      "latest_fingerprint": "bf4bfd159185295f323601a6e90c2d7ef5a9808c4641625f4f22a7a8cf7065d9",
+      "latest_json_path": "work/official-data/releases/cn-pbc-financial/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-pbc-financial/2026-06--v1.md",
+      "published_at": "2026-07-15T15:00:09+08:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026071515025183948/index.html",
+      "version_count": 1
+    },
+    "cn-pbc-financial::2026-07": {
+      "dataset_id": "cn-pbc-financial",
+      "latest_fingerprint": "24720ca9cbff0cef7735f89c4ee1dd0d33e07252e7856428c4d4e8d596948abb",
+      "latest_json_path": "work/official-data/releases/cn-pbc-financial/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-pbc-financial/2026-07--v1.md",
+      "published_at": "2026-08-14T16:30:05+08:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026081416320925645/index.html",
+      "version_count": 1
+    },
+    "eu-ecb-policy::2026-07-23": {
+      "dataset_id": "eu-ecb-policy",
+      "latest_fingerprint": "6631006ff1493e92106d8bcfdadd84b62366c73c2741a58a9d4ffa0a6384acfd",
+      "latest_json_path": "work/official-data/releases/eu-ecb-policy/2026-07-23--v1.json",
+      "latest_record_path": "work/official-data/releases/eu-ecb-policy/2026-07-23--v1.md",
+      "published_at": "2026-07-23T00:00:00+02:00",
+      "reference_period": "2026-07-23",
+      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+      "version_count": 1
+    },
+    "eu-eurostat-gdp::2026-Q2": {
+      "dataset_id": "eu-eurostat-gdp",
+      "latest_fingerprint": "3c488747358937a26055e460e3661f5bc5595c455e69c377da6f8f769b5e0b3e",
+      "latest_json_path": "work/official-data/releases/eu-eurostat-gdp/2026-Q2--v2.json",
+      "latest_record_path": "work/official-data/releases/eu-eurostat-gdp/2026-Q2--v2.md",
+      "published_at": "2026-08-14T11:00:00Z",
+      "reference_period": "2026-Q2",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-14082026-ap",
+      "version_count": 2
+    },
+    "eu-eurostat-hicp::2026-07": {
+      "dataset_id": "eu-eurostat-hicp",
+      "latest_fingerprint": "4ba04e93d71ee4ba44485ba78ac7f0093b18a6849a94a892e91c73ceabe9505c",
+      "latest_json_path": "work/official-data/releases/eu-eurostat-hicp/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/eu-eurostat-hicp/2026-07--v1.md",
+      "published_at": "2026-07-31T11:00:00Z",
+      "reference_period": "2026-07",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-31072026-ap",
+      "version_count": 1
+    },
+    "eu-eurostat-unemployment::2026-06": {
+      "dataset_id": "eu-eurostat-unemployment",
+      "latest_fingerprint": "3b5fa065ad673d45e48420b3c5a07165debc68248d58527f15563c101e002d48",
+      "latest_json_path": "work/official-data/releases/eu-eurostat-unemployment/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/eu-eurostat-unemployment/2026-06--v1.md",
+      "published_at": "2026-07-30T11:00:00Z",
+      "reference_period": "2026-06",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-30072026-bp",
+      "version_count": 1
+    },
+    "sh-district-strategic-plans::2026-01-30--songjiang-fyp-issued": {
+      "dataset_id": "sh-district-strategic-plans",
+      "latest_fingerprint": "bfe292bd25c51a964eba80a89bf0857897f5afa1f6aa111f974f35e59bae0238",
+      "latest_json_path": "work/official-data/releases/sh-district-strategic-plans/2026-01-30--songjiang-fyp-issued--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-district-strategic-plans/2026-01-30--songjiang-fyp-issued--v1.md",
+      "published_at": "2026-01-30T00:00:00+08:00",
+      "reference_period": "2026-01-30--songjiang-fyp-issued",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/ef16aa6e66c24f099929b40d6d417afe",
+      "version_count": 1
+    },
+    "sh-district-strategic-plans::2026-02-28--huangpu-fyp-issued": {
+      "dataset_id": "sh-district-strategic-plans",
+      "latest_fingerprint": "c0966c34f198ed25b3507aec734eb2085274ffa9647e179a1648cf7a151b8188",
+      "latest_json_path": "work/official-data/releases/sh-district-strategic-plans/2026-02-28--huangpu-fyp-issued--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-district-strategic-plans/2026-02-28--huangpu-fyp-issued--v1.md",
+      "published_at": "2026-02-28T00:00:00+08:00",
+      "reference_period": "2026-02-28--huangpu-fyp-issued",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+      "version_count": 1
+    },
+    "sh-district-strategic-plans::2026-03-17--fengxian-fyp-issued": {
+      "dataset_id": "sh-district-strategic-plans",
+      "latest_fingerprint": "ad12a8f736a4ed564222928d874ada81ce5e14152d2cd3d62a4cb489896836a2",
+      "latest_json_path": "work/official-data/releases/sh-district-strategic-plans/2026-03-17--fengxian-fyp-issued--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-district-strategic-plans/2026-03-17--fengxian-fyp-issued--v1.md",
+      "published_at": "2026-03-17T00:00:00+08:00",
+      "reference_period": "2026-03-17--fengxian-fyp-issued",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/00843930",
+      "version_count": 1
+    },
+    "sh-district-strategic-plans::2026-07-23--huangpu-urban-renewal-fyp-issued": {
+      "dataset_id": "sh-district-strategic-plans",
+      "latest_fingerprint": "de44d6ee511ae2311d2b912d84c0e7860fe814b22ccdea1ab6345c486fd27517",
+      "latest_json_path": "work/official-data/releases/sh-district-strategic-plans/2026-07-23--huangpu-urban-renewal-fyp-issued--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-district-strategic-plans/2026-07-23--huangpu-urban-renewal-fyp-issued--v1.md",
+      "published_at": "2026-07-23T00:00:00+08:00",
+      "reference_period": "2026-07-23--huangpu-urban-renewal-fyp-issued",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/1183fecf-8084-4ada-9aef-3115e4f9deb6",
+      "version_count": 1
+    },
+    "sh-district-strategic-plans::2026-07-27--huangpu-spatial-layout-fyp-issued": {
+      "dataset_id": "sh-district-strategic-plans",
+      "latest_fingerprint": "bdd00b2a4355b7aaf553389b5366df738f1a0ebb6acc7c141b13b3d8bd3ef967",
+      "latest_json_path": "work/official-data/releases/sh-district-strategic-plans/2026-07-27--huangpu-spatial-layout-fyp-issued--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-district-strategic-plans/2026-07-27--huangpu-spatial-layout-fyp-issued--v1.md",
+      "published_at": "2026-07-27T00:00:00+08:00",
+      "reference_period": "2026-07-27--huangpu-spatial-layout-fyp-issued",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/bd8ed5c6-4e7b-4197-91bf-10971f53b902",
+      "version_count": 1
+    },
+    "sh-district-strategic-plans::2026-08-05--minhang-urban-renewal-fyp-issued": {
+      "dataset_id": "sh-district-strategic-plans",
+      "latest_fingerprint": "44822a7ad21a59462e5c587be59144dce4c75bbea98ad838a5aacd80d0d7c65b",
+      "latest_json_path": "work/official-data/releases/sh-district-strategic-plans/2026-08-05--minhang-urban-renewal-fyp-issued--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-district-strategic-plans/2026-08-05--minhang-urban-renewal-fyp-issued--v1.md",
+      "published_at": "2026-08-05T00:00:00+08:00",
+      "reference_period": "2026-08-05--minhang-urban-renewal-fyp-issued",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/9ce0e2a0-ff5a-41c8-9e91-341424340c4c",
+      "version_count": 1
+    },
+    "sh-ghzyj-approved-plans::2023-10-25--yangtze-demo-zone-2021-2035--approved": {
+      "dataset_id": "sh-ghzyj-approved-plans",
+      "latest_fingerprint": "bbb81b619cd3bc0a27f8cdb4a1358409c7b8ff2914826758d02a1d56a33fd610",
+      "latest_json_path": "work/official-data/releases/sh-ghzyj-approved-plans/2023-10-25--yangtze-demo-zone-2021-2035--approved--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-ghzyj-approved-plans/2023-10-25--yangtze-demo-zone-2021-2035--approved--v1.md",
+      "published_at": "2023-10-25T00:00:00+08:00",
+      "reference_period": "2023-10-25--yangtze-demo-zone-2021-2035--approved",
+      "source_url": "https://ghzyj.sh.gov.cn/kxzqgh/20231103/6da436f3ede5409b9a8d43dd670a3636.html",
+      "version_count": 1
+    },
+    "sh-ghzyj-planning-notices::2026-07-02--xiaolujiazui-ljz01--draft-publicity": {
+      "dataset_id": "sh-ghzyj-planning-notices",
+      "latest_fingerprint": "8fd718bb73560841b8a66b78f5cf7d1dec73354e040c2b8de95d26a110f9eed2",
+      "latest_json_path": "work/official-data/releases/sh-ghzyj-planning-notices/2026-07-02--xiaolujiazui-ljz01--draft-publicity--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-ghzyj-planning-notices/2026-07-02--xiaolujiazui-ljz01--draft-publicity--v1.md",
+      "published_at": "2026-07-02T00:00:00+08:00",
+      "reference_period": "2026-07-02--xiaolujiazui-ljz01--draft-publicity",
+      "source_url": "https://ghzyj.sh.gov.cn/ghgs/20260702/09b6c4b37af24fa0ba6b2fd2b6b4fe0f.html",
+      "version_count": 1
+    },
+    "sh-jtw-transport-plans::2025-06-20--jiamin-north-extension--reviewed-pending-approval": {
+      "dataset_id": "sh-jtw-transport-plans",
+      "latest_fingerprint": "6167dc655c3674337df88498f1c0ee6c4dfb2801a1bf456595829bcbfc44570e",
+      "latest_json_path": "work/official-data/releases/sh-jtw-transport-plans/2025-06-20--jiamin-north-extension--reviewed-pending-approval--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-jtw-transport-plans/2025-06-20--jiamin-north-extension--reviewed-pending-approval--v1.md",
+      "published_at": "2026-01-04T00:00:00+08:00",
+      "reference_period": "2025-06-20--jiamin-north-extension--reviewed-pending-approval",
+      "source_url": "https://jtw.sh.gov.cn/zdgc/20260104/6a44693fd0d54dfe90c78eb35b052472.html",
+      "version_count": 1
+    },
+    "sh-rsj-average-wage::2024": {
+      "dataset_id": "sh-rsj-average-wage",
+      "latest_fingerprint": "86b96d7aa48216cef777fb9bc053a4a6fb9217906f542a0238f249a61ad1bad1",
+      "latest_json_path": "work/official-data/releases/sh-rsj-average-wage/2024--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-rsj-average-wage/2024--v1.md",
+      "published_at": "2025-10-24T00:00:00+08:00",
+      "reference_period": "2024",
+      "source_url": "https://rsj.sh.gov.cn/tdjjf_17554/20251024/t0035_1436357.html",
+      "version_count": 1
+    },
+    "sh-rsj-minimum-wage::2025-07-01": {
+      "dataset_id": "sh-rsj-minimum-wage",
+      "latest_fingerprint": "bd10db82e22ac954ab0eea043039d1f3c0ee8a9ecb792d1ed2418b1a152c0bc3",
+      "latest_json_path": "work/official-data/releases/sh-rsj-minimum-wage/2025-07-01--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-rsj-minimum-wage/2025-07-01--v1.md",
+      "published_at": "2025-07-14T00:00:00+08:00",
+      "reference_period": "2025-07-01",
+      "source_url": "https://rsj.sh.gov.cn/tgzfl_17732/20250714/t0035_1434097.html",
+      "version_count": 1
+    },
+    "sh-tjj-activity::2026-06-2026-Q2": {
+      "dataset_id": "sh-tjj-activity",
+      "latest_fingerprint": "76f03c47a0e986d936637b21e04f5bbec703474da25c5e0c8d5a14ae288603ff",
+      "latest_json_path": "work/official-data/releases/sh-tjj-activity/2026-06-2026-Q2--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-tjj-activity/2026-06-2026-Q2--v1.md",
+      "published_at": "2026-07-20T00:00:00+08:00",
+      "reference_period": "2026-06-2026-Q2",
+      "source_url": "https://tjj.sh.gov.cn/tjxw/20260717/12477a5b235c4453aa5f6ba8d3bc32bd.html",
+      "version_count": 1
+    },
+    "sh-tjj-prices::2026-06": {
+      "dataset_id": "sh-tjj-prices",
+      "latest_fingerprint": "1187fe702b74e9204dd93b95eac0cf95594ad880ae34060b38d11ad5b64eb3ff",
+      "latest_json_path": "work/official-data/releases/sh-tjj-prices/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-tjj-prices/2026-06--v1.md",
+      "published_at": "2026-07-10T00:00:00+08:00",
+      "reference_period": "2026-06",
+      "source_url": "https://tjj.sh.gov.cn/sjxx/20260710/44c96140acff4d889c7dc1cb5f13d4f0.html",
+      "version_count": 1
+    },
+    "sh-tjj-prices::2026-07": {
+      "dataset_id": "sh-tjj-prices",
+      "latest_fingerprint": "8bc95c8adde58b0e8c2b8d3f01b2d1ee0072e90bf469456d0f6da6fa0ec38b1d",
+      "latest_json_path": "work/official-data/releases/sh-tjj-prices/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-tjj-prices/2026-07--v1.md",
+      "published_at": "2026-08-10T00:00:00+08:00",
+      "reference_period": "2026-07",
+      "source_url": "https://tjj.sh.gov.cn/sjxx/20260810/ac75aba6518940509f3e29bdc4b6bb81.html",
+      "version_count": 1
+    },
+    "sh-wsjkw-population::2025": {
+      "dataset_id": "sh-wsjkw-population",
+      "latest_fingerprint": "89f7e791fb3ab407970320b4411152176645e58553fa492b3b8d6023c4c8ed3b",
+      "latest_json_path": "work/official-data/releases/sh-wsjkw-population/2025--v1.json",
+      "latest_record_path": "work/official-data/releases/sh-wsjkw-population/2025--v1.md",
+      "published_at": "2026-03-04T00:00:00+08:00",
+      "reference_period": "2025",
+      "source_url": "https://wsjkw.sh.gov.cn/tjsj2/20260304/d2dbc3cecabd49a2bae05780e73b8cb9.html",
+      "version_count": 1
+    },
+    "us-bea-gdp::2026-Q2": {
+      "dataset_id": "us-bea-gdp",
+      "latest_fingerprint": "b20a01c8f9bd54d282a01cf0a72e367186a2a60afb77cf05b683d6a8e4e21e1a",
+      "latest_json_path": "work/official-data/releases/us-bea-gdp/2026-Q2--v1.json",
+      "latest_record_path": "work/official-data/releases/us-bea-gdp/2026-Q2--v1.md",
+      "published_at": "2026-07-30T08:30:00-04:00",
+      "reference_period": "2026-Q2",
+      "source_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+      "version_count": 1
+    },
+    "us-bea-pce::2026-06": {
+      "dataset_id": "us-bea-pce",
+      "latest_fingerprint": "29288172e7afea86bd9e770369144e5cbf82dd09018af641953ae15eb47fcdc3",
+      "latest_json_path": "work/official-data/releases/us-bea-pce/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/us-bea-pce/2026-06--v1.md",
+      "published_at": "2026-07-30T08:30:00-04:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+      "version_count": 1
+    },
+    "us-bls-cpi::2026-06": {
+      "dataset_id": "us-bls-cpi",
+      "latest_fingerprint": "62750c5d30ca5b7e27853b5658f92790e6c50ac16cb0511ec7125dd1c368d461",
+      "latest_json_path": "work/official-data/releases/us-bls-cpi/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/us-bls-cpi/2026-06--v1.md",
+      "published_at": "2026-07-14T08:30:00-04:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.bls.gov/news.release/cpi.htm",
+      "version_count": 1
+    },
+    "us-bls-cpi::2026-07": {
+      "dataset_id": "us-bls-cpi",
+      "latest_fingerprint": "030fcaec73eec9e92f36d22893e2d2219c271add29d3dd0ce218b5b410a3f294",
+      "latest_json_path": "work/official-data/releases/us-bls-cpi/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/us-bls-cpi/2026-07--v1.md",
+      "published_at": "2026-08-12T08:30:00-04:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.bls.gov/news.release/cpi.htm",
+      "version_count": 1
+    },
+    "us-bls-employment::2026-06": {
+      "dataset_id": "us-bls-employment",
+      "latest_fingerprint": "5454d4c403357ca780886fce283789caae85c7e6f30bf821332da6f70b85184f",
+      "latest_json_path": "work/official-data/releases/us-bls-employment/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/us-bls-employment/2026-06--v1.md",
+      "published_at": "2026-07-02T08:30:00-04:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.bls.gov/news.release/empsit.htm",
+      "version_count": 1
+    },
+    "us-bls-employment::2026-07": {
+      "dataset_id": "us-bls-employment",
+      "latest_fingerprint": "e215cf9c1c2f48981cba93907cdfe3c8c22a81ca4ec8ef0309cbc5932078475e",
+      "latest_json_path": "work/official-data/releases/us-bls-employment/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/us-bls-employment/2026-07--v1.md",
+      "published_at": "2026-08-07T08:30:00-04:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.bls.gov/news.release/empsit.htm",
+      "version_count": 1
+    },
+    "us-bls-ppi::2026-06": {
+      "dataset_id": "us-bls-ppi",
+      "latest_fingerprint": "65d4f6c8ffb49bf27893a9c249c9a6048f89a250aefd88747220014324e6dc6a",
+      "latest_json_path": "work/official-data/releases/us-bls-ppi/2026-06--v1.json",
+      "latest_record_path": "work/official-data/releases/us-bls-ppi/2026-06--v1.md",
+      "published_at": "2026-07-15T08:30:00-04:00",
+      "reference_period": "2026-06",
+      "source_url": "https://www.bls.gov/news.release/ppi.htm",
+      "version_count": 1
+    },
+    "us-bls-ppi::2026-07": {
+      "dataset_id": "us-bls-ppi",
+      "latest_fingerprint": "df58c95454154bdbef12e56a8663559f51a58a17670c4c3ac79908844b3567ee",
+      "latest_json_path": "work/official-data/releases/us-bls-ppi/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/us-bls-ppi/2026-07--v1.md",
+      "published_at": "2026-08-13T08:30:00-04:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.bls.gov/news.release/ppi.htm",
+      "version_count": 1
+    }
+  },
+  "updated_at": "2026-08-18T07:07:53+08:00",
+  "version": 1
+}

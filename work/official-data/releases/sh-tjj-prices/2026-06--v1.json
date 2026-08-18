@@ -1,0 +1,84 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "食品季节性和原材料价格波动可造成同月分项背离。",
+      "价格指数不能识别销售量、居民收入或企业利润变化。"
+    ],
+    "behavioral_readout": "食品走弱、非食品温和上涨与工业品价格环比转跌同时出现，更符合不同价格篮子和上游成本变化不同步；不能由此直接判断上海消费量或企业产量。",
+    "caveats": [
+      "CPI与PPI分别反映消费端和工业端价格，不能彼此相减或替代。",
+      "本地首次建基线，未从本地前期卡片计算连续变化。"
+    ],
+    "changes": [
+      "本地状态此前没有可比记录，本次建立6月官方基线。",
+      "CPI食品同比下降1.5%、非食品同比上涨1.4%。",
+      "PPI环比由5月上涨0.1%转为下降0.7%，同比涨幅收窄0.4个百分点。"
+    ],
+    "confidence": "high",
+    "headline": "上海6月CPI同比上涨1.0%、环比下降0.1%，PPI同比上涨1.9%但环比转跌，终端与工业品价格均未显示同步加速。",
+    "implications": [
+      "推断：价格端尚未提供上海需求或工业成本全面加速的证据。"
+    ],
+    "verification_needed": [
+      "上海2026年7月CPI、PPI",
+      "上海社会消费品零售和规上工业生产数据"
+    ]
+  },
+  "content_fingerprint": "1187fe702b74e9204dd93b95eac0cf95594ad880ae34060b38d11ad5b64eb3ff",
+  "dataset_id": "sh-tjj-prices",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "上海市统计局6月CPI原文",
+      "url": "https://tjj.sh.gov.cn/sjxx/20260710/44c96140acff4d889c7dc1cb5f13d4f0.html"
+    },
+    {
+      "label": "上海市统计局6月PPI原文",
+      "url": "https://tjj.sh.gov.cn/sjxx/20260710/f36522100c35492497fefb0a72d50048.html"
+    }
+  ],
+  "published_at": "2026-07-10T00:00:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-08-02T22:05:00+08:00",
+  "revisions": [],
+  "source_title": "2026年6月份我市居民消费价格同比上涨1.0% 环比下降0.1%",
+  "source_url": "https://tjj.sh.gov.cn/sjxx/20260710/44c96140acff4d889c7dc1cb5f13d4f0.html",
+  "values": [
+    {
+      "basis": "2026年6月同比",
+      "metric": "上海居民消费价格",
+      "note": "环比下降0.1%；1—6月平均同比上涨0.8%",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 1.0
+    },
+    {
+      "basis": "2026年6月同比",
+      "metric": "上海食品价格",
+      "note": "非食品价格同比上涨1.4%",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": -1.5
+    },
+    {
+      "basis": "2026年6月同比",
+      "metric": "上海工业生产者出厂价格",
+      "note": "环比下降0.7%；同比涨幅较5月收窄0.4个百分点",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 1.9
+    },
+    {
+      "basis": "2026年6月同比",
+      "metric": "上海工业生产者购进价格",
+      "note": "环比下降1.1%；同比涨幅较5月收窄0.7个百分点",
+      "seasonal_adjustment": "未季调",
+      "unit": "%",
+      "value": 5.3
+    }
+  ]
+}

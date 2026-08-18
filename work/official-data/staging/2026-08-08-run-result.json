@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-08",
+  "started_at": "2026-08-08T14:02:30+08:00",
+  "coverage_end": "2026-08-08T14:05:45+08:00",
+  "finished_at": "2026-08-08T14:07:30+08:00",
+  "checked": [
+    "cn-nbs-pmi",
+    "us-bls-employment"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-nbs-pmi",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "us-bls-employment",
+      "status": "new",
+      "record_path": "work/official-data/releases/us-bls-employment/2026-07--v1.md"
+    }
+  ],
+  "synthesis": {
+    "headline": "今日最值得注意的是美国7月就业总量转弱且前两月被明显下修；失业率的下降与劳动参与率回落并存，尚待下一期官方数据确认是否为持续性降温。",
+    "sections": [
+      {
+        "scope": "全球",
+        "dataset_ids": [
+          "us-bls-employment"
+        ],
+        "significance": "medium",
+        "stage": "统计结果已发布；7月企业调查就业为初值，机制解释待后续数据验证。",
+        "judgment": "7月非农就业减少2.3万人，5—6月再合计下修10.3万人；失业率降至4.1%同时劳动参与率降至61.4%，更像就业需求走弱与部分人退出劳动力市场并存，而不是广泛招聘回升。",
+        "watch_next": "BLS 9月4日发布的8月就业形势，重点核对非农就业、劳动参与率和零售/地方政府教育岗位。"
+      }
+    ],
+    "deep_dive_candidates": [
+      "家庭调查中失业率下降与非农就业、劳动参与率回落为何背离，以及这一背离能否在8月数据中延续。"
+    ],
+    "confidence": "high"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "已访问登记官方入口；页面只提供通关与查询服务，未暴露可核验的进出口统计发布或可查询结果，无法建立官方基线，将在下次运行重试。"
+    }
+  ]
+}

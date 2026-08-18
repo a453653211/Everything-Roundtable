@@ -1,0 +1,101 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "Energy-price volatility can reverse quickly and may dominate the one-month headline.",
+      "Monthly revisions and the June industry resampling can affect comparisons for detailed components."
+    ],
+    "behavioral_readout": "The combination is more consistent with a sharp easing in volatile goods and energy pricing than with broad producer-price deflation: gasoline and energy pulled the headline down, while service prices and the core measure continued to rise.",
+    "caveats": [
+      "The monthly figure is seasonally adjusted, while the 12-month figure is unadjusted.",
+      "This is the first local baseline for this dataset; exact February-May revision deltas were not reconstructed without prior local records."
+    ],
+    "changes": [
+      "Final-demand PPI shifted from +0.6% in May to -0.3% in June, seasonally adjusted.",
+      "Final-demand goods fell 1.4%, led by a 6.4% energy decline; final-demand services rose 0.2%.",
+      "The measure excluding foods, energy, and trade services slowed from +0.8% in May to +0.1% in June; its 12-month increase was 5.1%."
+    ],
+    "confidence": "high",
+    "headline": "U.S. final-demand PPI fell 0.3% in June, but the decline was concentrated in energy and goods while services and the core measure still rose. ",
+    "implications": [
+      "Inference: headline pipeline price pressure eased in June, but persistent services and core increases limit the evidence for broad disinflation."
+    ],
+    "verification_needed": [
+      "BLS July 2026 PPI final demand, goods, services, and core measures",
+      "BLS CPI services and goods components for July 2026",
+      "BEA PCE price indexes for June and July 2026"
+    ]
+  },
+  "content_fingerprint": "65d4f6c8ffb49bf27893a9c249c9a6048f89a250aefd88747220014324e6dc6a",
+  "dataset_id": "us-bls-ppi",
+  "methodology_changes": [
+    "Effective with June 2026 data, BLS incorporated data for 22 resampled industries classified under the 2022 NAICS."
+  ],
+  "official_citations": [
+    {
+      "label": "U.S. Bureau of Labor Statistics release",
+      "url": "https://www.bls.gov/news.release/ppi.htm"
+    }
+  ],
+  "published_at": "2026-07-15T08:30:00-04:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-06",
+  "release_status": "official",
+  "retrieved_at": "2026-07-16T22:55:25+08:00",
+  "revisions": [
+    "BLS states that some February through May figures were revised because late reports and respondent corrections became available. The release does not summarize every old-versus-new value in prose, so no unverified revision delta is supplied here."
+  ],
+  "source_title": "Producer Price Index News Release - 2026 M06 Results",
+  "source_url": "https://www.bls.gov/news.release/ppi.htm",
+  "values": [
+    {
+      "basis": "2026-06 month-over-month",
+      "metric": "PPI final demand",
+      "note": "May +0.6%; April +1.1%",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": -0.3
+    },
+    {
+      "basis": "12 months ended 2026-06",
+      "metric": "PPI final demand",
+      "note": "",
+      "seasonal_adjustment": "unadjusted",
+      "unit": "%",
+      "value": 5.5
+    },
+    {
+      "basis": "2026-06 month-over-month",
+      "metric": "Final demand less foods, energy, and trade services",
+      "note": "May +0.8%; 12-month unadjusted increase 5.1%",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 0.1
+    },
+    {
+      "basis": "2026-06 month-over-month",
+      "metric": "Final demand goods",
+      "note": "Largest decline since July 2022",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": -1.4
+    },
+    {
+      "basis": "2026-06 month-over-month",
+      "metric": "Final demand services",
+      "note": "Trade services margins +0.4%",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 0.2
+    },
+    {
+      "basis": "2026-06 month-over-month",
+      "metric": "Final demand energy",
+      "note": "Gasoline prices -12.0%; nearly two-thirds of the goods decline traced to gasoline",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": -6.4
+    }
+  ]
+}

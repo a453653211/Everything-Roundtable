@@ -1,0 +1,68 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "规划目标可能按年度、项目条件和资金安排调整，不能直接等同于完成量。"
+    ],
+    "behavioral_readout": "这是从一般方向进入区级专项任务框架的进展，能够约束后续年度行动，但具体地块、居民安置和工程节奏仍要看各项目后续文件。",
+    "caveats": [
+      "未将目标中的更新量分配至具体地块或项目，也未把规划发布当作开工。"
+    ],
+    "changes": [
+      "本地首次建立该正式城市更新专项规划的官方基线。",
+      "规划列出到2030年的片区、商办楼宇、商业设施和老旧住房更新目标。"
+    ],
+    "confidence": "high",
+    "headline": "黄浦区城市更新十五五规划已正式印发，明确区级五年目标和任务体系，但目前证明的是规划与目标，不是每个项目的资金、征收或施工状态。",
+    "implications": [
+      "推断：该规划的信息价值高于筹备或会议记录，但落地成熟度仍低于项目审批、预算、征收决定或施工许可。"
+    ],
+    "verification_needed": [
+      "黄浦区年度城市更新计划、项目清单、预算或采购、征收及施工许可公告"
+    ]
+  },
+  "content_fingerprint": "de44d6ee511ae2311d2b912d84c0e7860fe814b22ccdea1ab6345c486fd27517",
+  "dataset_id": "sh-district-strategic-plans",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "上海市政府政策库黄浦区城市更新十五五规划",
+      "url": "https://www.shanghai.gov.cn/gwk/search/content/1183fecf-8084-4ada-9aef-3115e4f9deb6"
+    }
+  ],
+  "published_at": "2026-07-23T00:00:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-07-23--huangpu-urban-renewal-fyp-issued",
+  "release_status": "official",
+  "retrieved_at": "2026-08-10T07:03:53+08:00",
+  "revisions": [],
+  "source_title": "黄浦区人民政府办公室关于印发《黄浦区城市更新“十五五”规划》的通知",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/1183fecf-8084-4ada-9aef-3115e4f9deb6",
+  "values": [
+    {
+      "basis": "黄府办发〔2026〕12号",
+      "metric": "行政阶段",
+      "note": "2026年7月2日印发，7月23日发布",
+      "seasonal_adjustment": "不适用",
+      "unit": "文本状态",
+      "value": "区政府同意后由区政府办公室正式印发"
+    },
+    {
+      "basis": "2026—2030年",
+      "metric": "规划层级",
+      "note": "黄浦区",
+      "seasonal_adjustment": "不适用",
+      "unit": "规划类型",
+      "value": "区级城市更新专项五年规划"
+    },
+    {
+      "basis": "十五五预期或约束性指标",
+      "metric": "已发布目标",
+      "note": "目标不等同于单个项目已立项或已开工",
+      "seasonal_adjustment": "不适用",
+      "unit": "规划目标",
+      "value": "2个片区更新、25个商办楼宇更新、50万平方米商业设施更新、90万平方米老旧住房综合修缮"
+    }
+  ]
+}
