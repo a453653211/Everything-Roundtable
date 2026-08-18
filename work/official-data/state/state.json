@@ -21,12 +21,12 @@
       }
     },
     "cn-customs-trade": {
-      "last_attempted_at": "2026-08-17T07:03:38+08:00",
-      "last_error": "The registered official query page exposes only a generic login-gated service; its embedded statistics route redirects to single-window login. Official-domain fallback did not provide a directly verifiable current national monthly trade release for this registered dataset, so no baseline was established."
+      "last_attempted_at": "2026-08-18T07:07:28+08:00",
+      "last_error": "已检查注册的海关查询入口；页面仅暴露通用查询与单一窗口登录服务，未发现可直接核验的当前月度全国贸易发布或结果，无法建立首次基线。"
     },
     "cn-mof-fiscal": {
-      "last_attempted_at": "2026-07-25T20:37:00+08:00",
-      "last_checked_at": "2026-07-25T20:37:00+08:00",
+      "last_attempted_at": "2026-08-18T07:07:28+08:00",
+      "last_checked_at": "2026-08-18T07:01:01+08:00",
       "latest": {
         "fingerprint": "2ae170ada8932492af36705bed57d7574f231e61ab4e193068c0d8aba57513a7",
         "json_path": "work/official-data/releases/cn-mof-fiscal/2026-06--v1.json",
@@ -78,17 +78,24 @@
       }
     },
     "cn-nbs-housing70": {
-      "last_attempted_at": "2026-07-16T22:57:12+08:00",
-      "last_checked_at": "2026-07-16T22:57:12+08:00",
+      "last_attempted_at": "2026-08-18T07:07:28+08:00",
+      "last_checked_at": "2026-08-18T07:01:01+08:00",
       "latest": {
+        "fingerprint": "dd178386e6f566d5ddef9a3f17bca1af3b8ed1a716dd3f548ddee5deb7f60138",
+        "json_path": "work/official-data/releases/cn-nbs-housing70/2026-07--v1.json",
+        "published_at": "2026-08-17T15:00:00+08:00",
+        "record_path": "work/official-data/releases/cn-nbs-housing70/2026-07--v1.md",
+        "reference_period": "2026-07",
+        "release_key": "cn-nbs-housing70::2026-07"
+      },
+      "previous_latest": {
         "fingerprint": "11f1fa89ba3f08363e9325446cf0987d5eb17e1f7477c3a8ce325518213aa334",
         "json_path": "work/official-data/releases/cn-nbs-housing70/2026-06--v1.json",
         "published_at": "2026-07-15T09:30:00+08:00",
         "record_path": "work/official-data/releases/cn-nbs-housing70/2026-06--v1.md",
         "reference_period": "2026-06",
         "release_key": "cn-nbs-housing70::2026-06"
-      },
-      "previous_latest": null
+      }
     },
     "cn-nbs-industrial-profits": {
       "last_attempted_at": "2026-08-02T22:08:18+08:00",
@@ -223,8 +230,8 @@
       "previous_latest": null
     },
     "sh-district-strategic-plans": {
-      "last_attempted_at": "2026-08-17T07:03:38+08:00",
-      "last_checked_at": "2026-08-17T07:02:00+08:00",
+      "last_attempted_at": "2026-08-18T07:07:28+08:00",
+      "last_checked_at": "2026-08-18T07:01:01+08:00",
       "latest": {
         "fingerprint": "44822a7ad21a59462e5c587be59144dce4c75bbea98ad838a5aacd80d0d7c65b",
         "json_path": "work/official-data/releases/sh-district-strategic-plans/2026-08-05--minhang-urban-renewal-fyp-issued--v1.json",
@@ -523,6 +530,16 @@
       "published_at": "2026-07-15T09:30:00+08:00",
       "reference_period": "2026-06",
       "source_url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964115.html",
+      "version_count": 1
+    },
+    "cn-nbs-housing70::2026-07": {
+      "dataset_id": "cn-nbs-housing70",
+      "latest_fingerprint": "dd178386e6f566d5ddef9a3f17bca1af3b8ed1a716dd3f548ddee5deb7f60138",
+      "latest_json_path": "work/official-data/releases/cn-nbs-housing70/2026-07--v1.json",
+      "latest_record_path": "work/official-data/releases/cn-nbs-housing70/2026-07--v1.md",
+      "published_at": "2026-08-17T15:00:00+08:00",
+      "reference_period": "2026-07",
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html",
       "version_count": 1
     },
     "cn-nbs-industrial-profits::2026-06": {
@@ -866,6 +883,6 @@
       "version_count": 1
     }
   },
-  "updated_at": "2026-08-17T07:04:02+08:00",
+  "updated_at": "2026-08-18T07:07:53+08:00",
   "version": 1
 }

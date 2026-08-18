@@ -1,0 +1,89 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "单月项目结构、集中网签和地方政策节奏可改变城市价格指数，未必代表持续需求变化。",
+      "价格指数不含成交量和去化速度，价格小幅回升也可能与供给结构变化并存。"
+    ],
+    "behavioral_readout": "这组组合更符合购房价格压力仍在大多数城市和存量房市场持续、少数一线城市出现局部成交与定价支撑，而不是70城需求普遍回升：二手房上涨城市仅5个，少于新房的17个；上海两类价格当月上涨，但不能由价格指数单独判断成交量或购房者范围。",
+    "caveats": [
+      "70城指数按城市和住宅类别编制，不能代表每套住房、成交量或个体购房体验。",
+      "上涨城市数是逐城指数的计数，不是按成交规模加权的全国价格涨幅。"
+    ],
+    "changes": [
+      "70城中，新建商品住宅环比上涨城市17个、持平6个、下降47个，较6月的20个上涨城市减少3个。",
+      "二手住宅环比上涨城市5个、持平3个、下降62个，较6月的9个上涨城市减少4个。",
+      "上海新建商品住宅环比上涨0.2%、同比上涨3.0%；二手住宅环比上涨0.3%、同比下降2.0%。"
+    ],
+    "confidence": "high",
+    "headline": "7月70城房价环比仍以下降为主，且上涨城市数较6月减少；上海新房和二手房环比分别上涨0.2%和0.3%。",
+    "implications": [
+      "推论：一线城市局部价格企稳尚未扩散为全国住房市场的广泛价格修复。"
+    ],
+    "verification_needed": [
+      "国家统计局8月70城新房与二手房价格及上涨城市数。",
+      "国家统计局8月商品房销售面积、销售额和待售面积。",
+      "中国人民银行下一期住户中长期贷款数据。"
+    ]
+  },
+  "content_fingerprint": "dd178386e6f566d5ddef9a3f17bca1af3b8ed1a716dd3f548ddee5deb7f60138",
+  "dataset_id": "cn-nbs-housing70",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "国家统计局70城价格表",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html"
+    }
+  ],
+  "published_at": "2026-08-17T15:00:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-07",
+  "release_status": "official",
+  "retrieved_at": "2026-08-18T07:06:12+08:00",
+  "revisions": [],
+  "source_title": "2026年7月份70个大中城市商品住宅销售价格变动情况",
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html",
+  "values": [
+    {
+      "basis": "2026年7月，70个大中城市",
+      "metric": "新建商品住宅环比上涨城市数",
+      "note": "另有6城持平、47城下降；6月上涨城市数为20个。",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "个",
+      "value": 17
+    },
+    {
+      "basis": "2026年7月，70个大中城市",
+      "metric": "二手住宅环比上涨城市数",
+      "note": "另有3城持平、62城下降；6月上涨城市数为9个。",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "个",
+      "value": 5
+    },
+    {
+      "basis": "2026年7月环比",
+      "metric": "上海新建商品住宅销售价格",
+      "note": "同比上涨3.0%。",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "%",
+      "value": 0.2
+    },
+    {
+      "basis": "2026年7月环比",
+      "metric": "上海二手住宅销售价格",
+      "note": "同比下降2.0%。",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "%",
+      "value": 0.3
+    },
+    {
+      "basis": "2026年7月环比",
+      "metric": "北京新建商品住宅销售价格",
+      "note": "同比下降2.3%。",
+      "seasonal_adjustment": "未标注季调",
+      "unit": "%",
+      "value": -0.3
+    }
+  ]
+}

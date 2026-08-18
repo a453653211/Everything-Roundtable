@@ -2,10 +2,10 @@
   "version": 1,
   "source_id": "citadel-securities-market-insights",
   "category_url": "https://www.citadelsecurities.com/news-and-insights/category/market-insights/",
-  "last_successful_check": "2026-08-17T07:04:52+08:00",
-  "last_attempted_at": "2026-08-17T07:04:52+08:00",
+  "last_successful_check": "2026-08-18T07:14:03+08:00",
+  "last_attempted_at": "2026-08-18T07:14:03+08:00",
   "last_error": null,
-  "category_lastmod": "2026-08-12T04:05:03+00:00",
+  "category_lastmod": "2026-08-17T19:32:44+00:00",
   "items": {
     "https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/august-checklist/": {
       "title": "August Checklist",
@@ -48,6 +48,22 @@
       "published_at": "",
       "first_seen_at": "2026-08-16T17:00:00+08:00",
       "baseline": true
+    },
+    "https://www.citadelsecurities.com/news-and-insights/macro-thoughts/back-to-cloud-nine/": {
+      "title": "Back to Cloud (Nine?)",
+      "series": "Some Macro Thoughts",
+      "published_at": "2026-08-17",
+      "first_seen_at": "2026-08-18T07:13:18+08:00",
+      "baseline": false,
+      "record_path": "work\\official-data\\market-insights\\records\\2026-08-17--back-to-cloud-nine.md"
+    },
+    "https://www.citadelsecurities.com/news-and-insights/jim-esposito/high-touch-rewired/": {
+      "title": "High Touch, Rewired",
+      "series": "未标注（Market Insights 分类页）",
+      "published_at": "2026-08-17",
+      "first_seen_at": "2026-08-18T07:13:18+08:00",
+      "baseline": false,
+      "record_path": "work\\official-data\\market-insights\\records\\2026-08-17--high-touch-rewired.md"
     }
   }
 }

@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-18",
+  "started_at": "2026-08-18T07:01:01+08:00",
+  "coverage_end": "2026-08-18T07:01:01+08:00",
+  "finished_at": "2026-08-18T07:07:28+08:00",
+  "checked": [
+    "cn-nbs-housing70",
+    "cn-mof-fiscal",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-nbs-housing70",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-nbs-housing70/2026-07--v1.md"
+    },
+    {
+      "dataset_id": "cn-mof-fiscal",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "status": "unchanged"
+    }
+  ],
+  "synthesis": {
+    "headline": "今日新增的7月70城数据表明，住房价格的局部企稳尚未扩散：多数城市新房、尤其二手房仍环比下跌，上海单月回升需结合成交与信贷继续核验。",
+    "sections": [
+      {
+        "scope": "全国",
+        "dataset_ids": ["cn-nbs-housing70"],
+        "significance": "medium",
+        "stage": "7月住宅价格统计结果已发布；成交量、库存和融资机制尚待后续官方数据核验。",
+        "judgment": "新房环比上涨城市由6月的20个降至17个，二手房由9个降至5个；70城中二手房仍有62城环比下降，说明局部回升尚未成为广泛价格修复。",
+        "watch_next": "国家统计局8月70城价格、8月商品房销售与待售面积，以及人民银行下一期住户中长期贷款。"
+      },
+      {
+        "scope": "上海数据",
+        "dataset_ids": ["cn-nbs-housing70"],
+        "significance": "medium",
+        "stage": "7月城市价格指数已发布，尚无同口径成交量或项目去化的本次新增证据。",
+        "judgment": "上海新房和二手房环比分别上涨0.2%和0.3%，但二手房同比仍下降2.0%；这是一项局部价格信号，不足以单独判定需求趋势或项目落地。",
+        "watch_next": "上海后续官方住房相关统计、国家统计局8月70城数据及住户信贷数据。"
+      }
+    ],
+    "deep_dive_candidates": [
+      "一线城市二手房价格变化与同口径官方成交、去化指标是否同步",
+      "70城上涨城市数下降与商品房销售、待售面积和住户中长期贷款的对应关系"
+    ],
+    "confidence": "high"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "已检查注册的海关查询入口；页面仅暴露通用查询与单一窗口登录服务，未发现可直接核验的当前月度全国贸易发布或结果，无法建立首次基线。"
+    }
+  ]
+}
