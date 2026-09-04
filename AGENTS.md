@@ -8,6 +8,13 @@ Project-only skills live under `.agents/skills/` and `.claude/skills/` and are s
 - Use `.agents/skills/taosha-doctor-thinking` and `.claude/skills/taosha-doctor-thinking` only for this project when analyzing China macro policy, global liquidity, A/H/US market moves, AI industry competition, commodities, technology supply chains, or geopolitical-market events through the distilled 淘沙博士 subtitle framework.
 - Treat the skill as an analytical lens and source-route guide, not as a factual memory store.
 
+## Web Research
+
+- Use `tavily-skill` as the default for open-web discovery and structured web retrieval.
+- Prefer direct access when an authoritative URL, document, dataset, or API is already known.
+- Treat search results as discovery leads; verify material claims against canonical or primary sources.
+- Follow domain-specific skills for source scope, coverage requirements, retrieval workflow, and fallback handling.
+
 ## Personal Knowledge Library
 
 `library/` is the user's personal knowledge library. It is not a default memory store for roundtable guests. A host or other caller decides whether any agent reads or writes it.

@@ -18,6 +18,7 @@ Run an idempotent daily monitor: inspect compact local state first, visit only d
 - Treat each dataset's `last_checked_at` as its successful coverage watermark; failed checks never advance it.
 - Do not write routine monitoring output into `library/`. A separate caller may later invoke `library-integrate` for a durable conclusion.
 - Do not manufacture values when an official page is unavailable. Record the error and retry on the next run.
+- Use `tavily-skill` only as a constrained discovery fallback when a registered official endpoint cannot be accessed or located. Tavily results do not establish coverage.
 - Keep statistical series and official events distinct. A draft plan, approval, budget, construction notice, and completed project are different stages.
 - Keep configured market commentary outside the official registry, official release cards, official synthesis, and official watermarks. Label it as publisher analysis, not official data or independently verified fact.
 
@@ -72,7 +73,10 @@ For each due dataset:
    - Apply returned `filters` to avoid collecting unrelated notices from broad official listings.
 2. Walk entries newest-first until crossing `scan_window.start_exclusive`; collect every release or update inside the window, not only the newest one.
 3. Compare with `latest_known`, then process unseen periods oldest-first. If none exists and no revision is indicated, stop without opening older history.
-4. If direct access fails, search only the registered official domain. Do not substitute a media reproduction.
+4. If direct access or official listing navigation fails, use `tavily-skill` as fallback discovery, constrained to the registered official domain and relevant `scan_window`; build the query from the dataset name, indicators, and returned `filters`.
+   - Treat each result as a lead and open the canonical official page before extraction.
+   - Do not substitute a media reproduction or count the dataset as checked unless its full `scan_window` was covered.
+   - If fallback discovery is unavailable or insufficient, record an access error and leave the watermark unchanged.
 
 ### 3. Extract only new or possibly revised releases
 
