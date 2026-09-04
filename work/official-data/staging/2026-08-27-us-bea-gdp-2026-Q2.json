@@ -1,0 +1,118 @@
+{
+  "dataset_id": "us-bea-gdp",
+  "reference_period": "2026-Q2",
+  "published_at": "2026-08-26T08:30:00-04:00",
+  "retrieved_at": "2026-08-27T09:07:07+08:00",
+  "source_title": "GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026",
+  "source_url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+  "release_status": "second estimate",
+  "values": [
+    {
+      "metric": "Real GDP",
+      "value": 1.5,
+      "unit": "%",
+      "basis": "SAAR quarter-on-quarter",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "note": "Advance estimate: 1.5%; Q1 2026: 2.1%"
+    },
+    {
+      "metric": "Current-dollar GDP",
+      "value": 8.0,
+      "unit": "%",
+      "basis": "SAAR quarter-on-quarter",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "note": "Advance estimate: 7.9%"
+    },
+    {
+      "metric": "Real final sales to private domestic purchasers",
+      "value": 4.2,
+      "unit": "%",
+      "basis": "SAAR quarter-on-quarter",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "note": "Advance estimate: 3.9%"
+    },
+    {
+      "metric": "Real gross domestic income",
+      "value": 2.2,
+      "unit": "%",
+      "basis": "SAAR quarter-on-quarter",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "note": "Q1 2026: 1.2%; not available in advance estimate"
+    },
+    {
+      "metric": "Gross domestic purchases price index",
+      "value": 5.8,
+      "unit": "%",
+      "basis": "SAAR quarter-on-quarter",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "note": "Advance estimate: 5.7%"
+    },
+    {
+      "metric": "PCE price index",
+      "value": 5.3,
+      "unit": "%",
+      "basis": "SAAR quarter-on-quarter",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "note": "Advance estimate: 5.1%"
+    },
+    {
+      "metric": "PCE price index excluding food and energy",
+      "value": 3.6,
+      "unit": "%",
+      "basis": "SAAR quarter-on-quarter",
+      "seasonal_adjustment": "seasonally adjusted annual rate",
+      "note": "Advance estimate: 3.4%"
+    },
+    {
+      "metric": "Corporate profits from current production change",
+      "value": 400.9,
+      "unit": "USD billion",
+      "basis": "quarterly level change",
+      "seasonal_adjustment": "BEA quarterly estimate",
+      "note": "Q1 change: $74.4 billion"
+    }
+  ],
+  "revisions": [
+    "Real GDP remained 1.5% SAAR; the precise revision was downward by less than 0.1 percentage point and rounded to the same headline rate.",
+    "Real final sales to private domestic purchasers were revised up 0.3 percentage point to 4.2%.",
+    "Gross domestic purchases prices were revised up 0.1 percentage point to 5.8%; PCE and core PCE prices were each revised up 0.2 percentage point to 5.3% and 3.6%.",
+    "Consumer spending was revised up because services were revised higher, partly offset by lower goods; imports were also revised up and offset the GDP contribution."
+  ],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "美国二季度实际GDP年化增速仍为1.5%，但私人国内最终销售上修至4.2%，同时PCE价格增速上修，显示私人内需比headline更强、价格压力也更高。",
+    "changes": [
+      "实际GDP第二次估计仍显示1.5%，精确值较初值下修不足0.1个百分点，四舍五入后不变。",
+      "私人国内最终销售由3.9%上修至4.2%，消费服务上修、商品下修，进口上修抵消了部分增长贡献。",
+      "PCE总价格与核心PCE价格分别由5.1%和3.4%上修至5.3%和3.6%。"
+    ],
+    "behavioral_readout": "这次修订更支持“美国私人部门在二季度仍愿意消费和投资，但更多动力来自服务，同时进口需求也更强”，而不是总需求随GDP headline同步明显走弱；与此同时，消费价格分项被上修，说明需求韧性没有伴随同等幅度的价格降温。",
+    "affected_groups": [],
+    "implications": [
+      "推断：只看1.5%的GDP headline会低估二季度私人国内需求强度。",
+      "推断：私人内需上修与价格上修并存，使增长与通胀的政策权衡更难，而不是给出单向衰退信号。"
+    ],
+    "alternative_explanations": [
+      "进口在GDP核算中作为减项，但进口上升也可能反映国内需求较强，不能单独解读为经济走弱。",
+      "消费服务上修主要依赖新获得的医疗服务调查数据，商品和进口也因零售、能源与贸易源数据而调整。",
+      "9月30日年度更新和第三次估计可能进一步重写季度路径。"
+    ],
+    "verification_needed": [
+      "BEA 9月30日二季度GDP第三次估计与年度更新",
+      "BEA二季度消费、固定投资和进口贡献明细的后续修订",
+      "BEA 8月个人收入与支出及PCE价格"
+    ],
+    "caveats": [
+      "季度增速为季调年化率，不能直接与同比或普通环比比较。",
+      "这是第二次估计，不是最终值。",
+      "企业利润增加额是季度变动，不是利润总额或同比增速。"
+    ],
+    "confidence": "high"
+  },
+  "official_citations": [
+    {
+      "label": "BEA GDP Second Estimate, 2nd Quarter 2026",
+      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026"
+    }
+  ]
+}

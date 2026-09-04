@@ -1,0 +1,115 @@
+{
+  "dataset_id": "us-bea-pce",
+  "reference_period": "2026-07",
+  "published_at": "2026-08-26T08:30:00-04:00",
+  "retrieved_at": "2026-08-27T09:07:07+08:00",
+  "source_title": "Personal Income and Outlays, July 2026",
+  "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+  "release_status": "official",
+  "values": [
+    {
+      "metric": "Current-dollar personal income",
+      "value": 0.4,
+      "unit": "%",
+      "basis": "month-on-month",
+      "seasonal_adjustment": "BEA monthly estimate",
+      "note": "June: 0.2%; July dollar increase: $115.1 billion"
+    },
+    {
+      "metric": "Current-dollar disposable personal income",
+      "value": 0.5,
+      "unit": "%",
+      "basis": "month-on-month",
+      "seasonal_adjustment": "BEA monthly estimate",
+      "note": "June: 0.2%; July dollar increase: $125.9 billion"
+    },
+    {
+      "metric": "Current-dollar PCE",
+      "value": 0.2,
+      "unit": "%",
+      "basis": "month-on-month",
+      "seasonal_adjustment": "BEA monthly estimate",
+      "note": "June: 0.3%; July dollar increase: $36.3 billion"
+    },
+    {
+      "metric": "Real PCE",
+      "value": 0.0,
+      "unit": "%",
+      "basis": "month-on-month",
+      "seasonal_adjustment": "BEA monthly estimate",
+      "note": "BEA states less than 0.1%; June: 0.4%"
+    },
+    {
+      "metric": "PCE price index",
+      "value": 0.2,
+      "unit": "%",
+      "basis": "month-on-month",
+      "seasonal_adjustment": "BEA monthly estimate",
+      "note": "Year-on-year: 3.7%; June month-on-month: -0.1%"
+    },
+    {
+      "metric": "PCE price index excluding food and energy",
+      "value": 0.2,
+      "unit": "%",
+      "basis": "month-on-month",
+      "seasonal_adjustment": "BEA monthly estimate",
+      "note": "Year-on-year: 3.3%; June month-on-month: 0.1%"
+    },
+    {
+      "metric": "Current-dollar services PCE change",
+      "value": 86.2,
+      "unit": "USD billion",
+      "basis": "July monthly dollar change",
+      "seasonal_adjustment": "BEA monthly estimate",
+      "note": "Partly offset by a $49.9 billion decrease in goods spending"
+    },
+    {
+      "metric": "Personal saving rate",
+      "value": 3.0,
+      "unit": "%",
+      "basis": "July 2026 level",
+      "seasonal_adjustment": "BEA monthly estimate",
+      "note": "Personal saving: $712.0 billion"
+    }
+  ],
+  "revisions": [
+    "BEA updated April through June estimates; compensation revisions reflect updated BLS CES data, and Medicaid revisions reflect updated Centers for Medicare & Medicaid Services information."
+  ],
+  "methodology_changes": [],
+  "analysis": {
+    "headline": "美国7月名义个人收入增长0.4%、快于名义消费支出的0.2%，但PCE价格环比转升0.2%，实际消费几乎没有增长。",
+    "changes": [
+      "名义个人收入环比由6月的0.2%升至0.4%，可支配个人收入由0.2%升至0.5%。",
+      "名义PCE环比由0.3%放缓至0.2%，实际PCE由0.4%降至不足0.1%。",
+      "PCE总价格指数由环比-0.1%转为0.2%，核心PCE价格由0.1%升至0.2%；两者同比仍为3.7%和3.3%。"
+    ],
+    "behavioral_readout": "这组数据更像是家庭当月把新增收入的一部分留作储蓄、消费从商品转向服务，而不是总消费全面加速：收入增速快于支出，名义服务支出增加862亿美元、商品支出减少499亿美元，实际总消费几乎不增。但单月结构也可能受价格、季节与耐用品购买时点影响。",
+    "affected_groups": [],
+    "implications": [
+      "推断：7月需求量的降温主要体现在商品与实际总消费，而服务名义支出仍有韧性。",
+      "推断：价格环比回升且实际消费接近停滞，使“增长降温”和“通胀黏性”同时存在。"
+    ],
+    "alternative_explanations": [
+      "服务与商品的名义差异可能部分来自价格变化，而非完全由实际消费量变化造成。",
+      "耐用品购买时点、税收和转移支付变化可能放大单月收入、支出与储蓄率波动。",
+      "BEA已修订4月至6月数据，9月30日年度更新还可能再次改变近期路径。"
+    ],
+    "verification_needed": [
+      "BEA 2026年8月个人收入与支出及9月30日年度更新",
+      "BEA实际PCE按商品与服务分项",
+      "BEA个人储蓄率后续两个月走势"
+    ],
+    "caveats": [
+      "实际PCE的0.0%是新闻稿表格四舍五入值；正文表述为不足0.1%。",
+      "PCE价格指数与CPI口径不同。",
+      "单月数据不足以确认消费或储蓄趋势。"
+    ],
+    "confidence": "high"
+  },
+  "official_citations": [
+    {
+      "label": "BEA Personal Income and Outlays, July 2026",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+    }
+  ]
+}

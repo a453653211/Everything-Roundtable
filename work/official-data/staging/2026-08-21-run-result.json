@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-21",
+  "started_at": "2026-08-21T08:04:05+08:00",
+  "coverage_end": "2026-08-21T08:04:05+08:00",
+  "finished_at": "2026-08-21T08:07:42+08:00",
+  "checked": [
+    "cn-mof-fiscal",
+    "cn-cfets-lpr",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-cfets-lpr",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-cfets-lpr/2026-08--v1.md"
+    }
+  ],
+  "synthesis": {
+    "headline": "今日唯一新增是8月LPR继续持平，属于例行基准报价，尚不足以改变对融资条件的现有判断。",
+    "sections": [
+      {
+        "scope": "全国",
+        "dataset_ids": [
+          "cn-cfets-lpr"
+        ],
+        "significance": "routine",
+        "stage": "正式报价已于2026年8月20日公布并生效至下次发布",
+        "judgment": "1年期和5年期以上LPR仍为3.0%和3.5%，本期没有通过LPR渠道新增普遍降息信号；实际贷款成本仍需看银行加点与贷款成交利率。",
+        "watch_next": "中国人民银行金融机构人民币贷款加权平均利率及下一期LPR公告"
+      }
+    ],
+    "deep_dive_candidates": [
+      "LPR持平背景下贷款加权平均利率与按揭重定价是否仍在下行"
+    ],
+    "confidence": "high"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "注册入口可打开并指向 stats.customs.gov.cn，但目标站 HTTP 返回412且 HTTPS TLS连接失败，无法建立可验证的官方统计基线；失败未推进水位。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-26",
+  "started_at": "2026-08-26T08:01:26+08:00",
+  "coverage_end": "2026-08-26T08:01:26+08:00",
+  "finished_at": "2026-08-26T08:07:13+08:00",
+  "checked": [
+    "sh-district-strategic-plans"
+  ],
+  "results": [],
+  "summary": "本次完整检查了上海区级战略规划的到期窗口，没有发现符合注册标题范围的新增或官方修订；海关贸易基线因正式统计查询站访问失败留待下次重试。",
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "注册的海关“我要查”页面可访问且仍指向 stats.customs.gov.cn，但正式统计查询站 HTTP 返回 412、HTTPS TLS 连接失败；官方站内检索未提供可替代的当前统计发布页，无法建立可验证基线。"
+    }
+  ]
+}

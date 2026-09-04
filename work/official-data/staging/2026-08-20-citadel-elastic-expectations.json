@@ -1,0 +1,35 @@
+{
+  "url": "https://www.citadelsecurities.com/news-and-insights/global-macro-strategy/elastic-expectations/",
+  "title": "Elastic Expectations",
+  "published_at": "2026-08-18",
+  "retrieved_at": "2026-08-20T09:00:00+08:00",
+  "series": "Global Macro Strategy",
+  "author": "Frank Flight",
+  "summary_zh": "作者认为，近期数据初步支持AI需求具有较高价格弹性：单位智能成本下降正在带来更快的使用量扩张，从而维持算力需求和生态总支出。",
+  "evidence": [
+    {
+      "fact": "使用量加权的token价格自6月底下降40%，而7月AI人均支出在企业前1%、前10%和中位数样本中分别环比增长约49%、25%和9%。",
+      "basis": "Silicon Data价格指数与Ramp AI Index企业交易数据，由Citadel Securities计算和汇编"
+    },
+    {
+      "fact": "H100现货价格较5月高点下降41%后从6月低点回升20%；文中称B200约6.17美元/小时，近期高于5月峰值。",
+      "basis": "Kalshi、Silicon Data与Ornn数据，由Citadel Securities汇编；市场年轻且分散"
+    },
+    {
+      "fact": "文中估算超大规模云厂商2026年二季度云收入达到1063亿美元，同比增长约43%、环比增长约15%。",
+      "basis": "Bloomberg与公司财报数据，由Citadel Securities汇编"
+    }
+  ],
+  "forecasts": [
+    {
+      "claim": "若AI需求弹性机制继续成立，更低的token与推理成本将与更高的使用量、企业AI支出和相对坚挺的算力价格并存，而不是使生态总需求同步下降。",
+      "horizon": "作者未给出明确截止日；以未来1—2个季度作为观察窗口",
+      "verification": "后续Ramp AI人均支出、Silicon Data token价格、H100/B200租赁与远期价格，以及超大规模云厂商季度云收入和资本开支。"
+    }
+  ],
+  "caveats": [
+    "这是Citadel Securities作者的机构观点，不是官方数据、独立验证或投资建议。",
+    "Ramp样本、GPU租赁和预测市场数据由第三方或出版方汇编；相关市场年轻、分散且口径不透明。",
+    "token价格未充分按模型质量和有效任务产出调整，企业AI支出增长也高度集中于已深度采用AI的头部企业。"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-25",
+  "started_at": "2026-08-25T08:01:55+08:00",
+  "coverage_end": "2026-08-25T08:01:58+08:00",
+  "finished_at": "2026-08-25T08:20:34+08:00",
+  "checked": [
+    "cn-mof-fiscal",
+    "sh-rsj-minimum-wage",
+    "sh-rsj-average-wage",
+    "sh-ghzyj-approved-plans",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-mof-fiscal",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-mof-fiscal/2026-07--v1.md"
+    },
+    {
+      "dataset_id": "sh-rsj-average-wage",
+      "status": "new",
+      "record_path": "work/official-data/releases/sh-rsj-average-wage/2025--v1.md"
+    }
+  ],
+  "synthesis": {
+    "headline": "今天最重要的不是上海社保基数约1.2%的例行上调，而是全国财政继续分层：税收改善未带动支出显著加速，土地出让收入仍下降三成以上。",
+    "sections": [
+      {
+        "scope": "全国",
+        "dataset_ids": [
+          "cn-mof-fiscal"
+        ],
+        "significance": "medium",
+        "stage": "2026年1—7月累计统计结果已正式发布，改善机制仍待后续数据验证",
+        "judgment": "一般预算收入因税收增速上行而增强，但一般预算支出增速回落、地方支出仅增长0.5%，土地出让收入仍下降30.8%，不能据此判断地方财力已全面修复。",
+        "watch_next": "财政部1—8月财政收支，以及国家统计局房地产开发投资和商品房销售数据"
+      },
+      {
+        "scope": "上海",
+        "dataset_ids": [
+          "sh-rsj-average-wage"
+        ],
+        "significance": "medium",
+        "stage": "2025年度全口径平均工资统计值已发布；2026年度社保缴费上下限自7月1日执行，补差须在9月底前完成",
+        "judgment": "社保缴费上下限均约上调1.2%，直接影响处于上下限边界的参保人和单位，但该平均工资不是工资中位数，不能解释为上海劳动者普遍加薪。",
+        "watch_next": "上海人社局补差执行说明及下一年度社保基数公告；居民工资性收入用于交叉验证"
+      }
+    ],
+    "deep_dive_candidates": [
+      "税收收入加速与一般预算支出放缓为何并存",
+      "土地出让收入和土地相关支出下降对地方项目资金链的约束",
+      "上海社保缴费基数上调对边界工资人群与用人单位的实际补差金额"
+    ],
+    "confidence": "medium"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "注册的海关‘我要查’入口可达并显示‘海关统计数据查询’，但前端查询接口返回HTTP 404，统计功能未形成可导航的官方查询页，无法建立可验证基线；本次不推进水位，留待下次重试。"
+    }
+  ]
+}

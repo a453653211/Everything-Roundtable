@@ -1,0 +1,36 @@
+{
+  "url": "https://www.citadelsecurities.com/news-and-insights/global-macro-strategy/out-of-the-woods-a-more-constructive-outlook-for-fixed-income/",
+  "title": "Out of the Woods? A More Constructive Outlook for Fixed Income",
+  "published_at": "2026-08-25",
+  "retrieved_at": "2026-08-26T08:13:32+08:00",
+  "series": "Global Macro Strategy",
+  "author": "Frank Flight",
+  "summary_zh": "作者认为，未来数月美国长端国债收益率的风险更偏向下行，主要依据是美联储信誉担忧可能已被过度计价、趋势策略空头较拥挤，以及跨资产增长—政策估值在历史相似阶段通常伴随债券上涨。",
+  "evidence": [
+    {
+      "fact": "作者的CTA趋势策略模拟显示，长端债券仓位相对近期历史处于-2.28个标准差，继续下跌引发的新增卖盘可能有限，而持续反弹可能迫使空头回补。",
+      "basis": "Citadel Securities内部趋势模型，未由本监测独立复现"
+    },
+    {
+      "fact": "作者称，自2003年以来64个增长与政策因子相近的样本中，收益率随后60天平均下降12个基点、120天平均下降25个基点，71%的样本最终更低。",
+      "basis": "作者基于Bloomberg与Citadel Securities跨资产模型的历史回测"
+    },
+    {
+      "fact": "当起始收益率同时高于4.5%时，作者识别出16个历史样本，收益率随后60天平均下降48个基点、120天平均下降67个基点。",
+      "basis": "作者的条件历史样本；样本量有限且存在高起点带来的机械回落空间"
+    }
+  ],
+  "forecasts": [
+    {
+      "claim": "未来数月美国长端国债收益率更可能下行，债券价格上涨的非对称性高于继续走弱。",
+      "horizon": "自2026年8月25日起60—120天",
+      "verification": "分别在60天和120天窗口观察美国长端国债收益率相对文章发布日期的基点变化，并对照CTA仓位是否回补"
+    }
+  ],
+  "caveats": [
+    "这是Citadel Securities平台上具名作者的机构观点，不是官方数据，也不是对其模型和回测结果的独立验证。",
+    "高收益率条件下的历史样本仅16个，且高起始收益率本身会增加下行空间；历史关系不保证未来重现。",
+    "文章将9月美联储会议描述为接近五五开，不把单次会议视为全球固定收益走势的唯一转折点。",
+    "出版方声明该材料不构成投资研究、要约或投资建议。"
+  ]
+}

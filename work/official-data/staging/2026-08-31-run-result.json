@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-31",
+  "started_at": "2026-08-31T08:01:19+08:00",
+  "coverage_end": "2026-08-31T08:05:10+08:00",
+  "finished_at": "2026-08-31T08:08:56+08:00",
+  "checked": [
+    "sh-ghzyj-planning-notices",
+    "sh-district-strategic-plans",
+    "sh-jtw-transport-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "sh-ghzyj-planning-notices",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "sh-jtw-transport-plans",
+      "status": "unchanged"
+    }
+  ],
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "注册入口可访问，当前官方配置仍指向 http://stats.customs.gov.cn；统计站 HTTP 返回 412，HTTPS 在忽略证书校验后仍返回 504，无法建立可验证的当前统计基线。失败未推进水位，留待下次重试。"
+    }
+  ],
+  "summary": "本次成功覆盖3个到期上海官方来源，未发现扫描窗口内符合登记范围的新增或官方修订；海关统计基线仍因官方查询站不可用而待重试。"
+}

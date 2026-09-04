@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-01",
+  "started_at": "2026-09-01T12:00:25+08:00",
+  "coverage_end": "2026-09-01T12:01:18+08:00",
+  "finished_at": "2026-09-01T12:08:20+08:00",
+  "checked": [
+    "cn-nbs-pmi",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-nbs-pmi",
+      "status": "unchanged"
+    },
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "status": "unchanged"
+    }
+  ],
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "注册入口 https://online.customs.gov.cn/mySearch/ 可访问，但正式统计站 http://stats.customs.gov.cn 返回 HTTP 412，HTTPS 连接仍因官方证书链失败；本次无法建立可验证的当前官方基线，未推进成功覆盖水位。"
+    },
+    {
+      "dataset_id": "us-bls-employment",
+      "message": "发布日历登记页面返回 HTTP 403，正常浏览器读取超时，受限 Tavily 发现因本机未配置凭据不可用；未把昨天已验证的排期冒充今日覆盖，schedule.json 未刷新。"
+    },
+    {
+      "dataset_id": "us-bls-cpi",
+      "message": "发布日历登记页面返回 HTTP 403，正常浏览器读取超时，受限 Tavily 发现因本机未配置凭据不可用；未把昨天已验证的排期冒充今日覆盖，schedule.json 未刷新。"
+    },
+    {
+      "dataset_id": "us-bls-ppi",
+      "message": "发布日历登记页面返回 HTTP 403，正常浏览器读取超时，受限 Tavily 发现因本机未配置凭据不可用；未把昨天已验证的排期冒充今日覆盖，schedule.json 未刷新。"
+    }
+  ],
+  "summary": "本次成功覆盖2个到期官方来源，没有发现新增或官方修订；海关统计基线仍待重试，BLS发布日历因访问失败未推进校准水位。"
+}

@@ -1,0 +1,116 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "失业率受劳动力参与率与劳动年龄人口变化影响，不能等同于新增或减少的岗位数量。",
+      "部分国家使用趋势项或移动平均，成员国差异会被欧元区总量掩盖。"
+    ],
+    "behavioral_readout": "这组组合更符合总量就业状况横盘，而不是7月出现全面恶化：总体失业率和欧元区失业人数环比持平，青年指标改善；但6月历史值被上修且失业人数同比增加，说明也不能把稳定解读为强劲复苏。",
+    "caveats": [
+      "失业率采用ILO定义，不能当作失业人口占全部青年或全部人口的比例。",
+      "季调序列会在新增月度数据与年度模型更新时修订。"
+    ],
+    "changes": [
+      "欧元区7月失业率为6.4%，与上修后的6月持平，同比高0.1个百分点；欧盟失业率为6.1%。",
+      "欧元区失业人数环比持平于1126.4万，同比增加17.5万；欧盟环比减少4.1万、同比增加29.6万。",
+      "欧元区青年失业率由6月15.0%降至14.9%，欧盟由15.6%降至15.1%。"
+    ],
+    "confidence": "high",
+    "headline": "欧元区7月失业率在上修后的6.4%持平，青年失业率回落，但失业人数同比仍增加17.5万，劳动力市场更像横盘而非明显改善。",
+    "implications": [
+      "推论：7月数据不足以证明企业正在普遍扩大招聘，也没有显示当月出现广泛裁员冲击。"
+    ],
+    "verification_needed": [
+      "Eurostat 2026年二季度EU-LFS完整就业、失业与劳动力参与指标（2026年9月11日）。",
+      "Eurostat 2026年8月失业率与失业人数（2026年10月1日）。"
+    ]
+  },
+  "content_fingerprint": "ef7d27ba460d61a90099c568b6e23960a65e9451ee10571f973403838b4f033a",
+  "dataset_id": "eu-eurostat-unemployment",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "Eurostat unemployment release, July 2026",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp"
+    }
+  ],
+  "published_at": "2026-09-01T11:00:00Z",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-07",
+  "release_status": "official",
+  "retrieved_at": "2026-09-02T12:08:03+08:00",
+  "revisions": [
+    "The June 2026 euro-area unemployment rate was revised from 6.3% to 6.4%.",
+    "The June 2026 EU unemployment rate was revised from 6.0% to 6.1%.",
+    "Lithuania's rate was revised down by 0.7 percentage points; Cyprus was revised up by 0.8 points, Bulgaria and Romania by 0.5 points each, and Estonia, Latvia and Poland by 0.3 points each."
+  ],
+  "source_title": "Euro area unemployment at 6.4%",
+  "source_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp",
+  "values": [
+    {
+      "basis": "July 2026",
+      "metric": "Euro area unemployment rate",
+      "note": "unchanged from revised June 2026; July 2025: 6.3%",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 6.4
+    },
+    {
+      "basis": "July 2026",
+      "metric": "EU unemployment rate",
+      "note": "unchanged from revised June 2026; July 2025: 6.0%",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 6.1
+    },
+    {
+      "basis": "July 2026 level",
+      "metric": "Euro area unemployed persons",
+      "note": "unchanged from June 2026; up 175 thousand from July 2025",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "million persons",
+      "value": 11.264
+    },
+    {
+      "basis": "July 2026 level",
+      "metric": "EU unemployed persons",
+      "note": "down 41 thousand from June 2026; up 296 thousand from July 2025",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "million persons",
+      "value": 13.516
+    },
+    {
+      "basis": "July 2026, persons under 25",
+      "metric": "Euro area youth unemployment rate",
+      "note": "June 2026: 15.0%; July 2025: 14.6%",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 14.9
+    },
+    {
+      "basis": "July 2026, persons under 25",
+      "metric": "EU youth unemployment rate",
+      "note": "June 2026: 15.6%; July 2025: 14.9%",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 15.1
+    },
+    {
+      "basis": "July 2026",
+      "metric": "Euro area female unemployment rate",
+      "note": "unchanged from June 2026",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 6.6
+    },
+    {
+      "basis": "July 2026",
+      "metric": "Euro area male unemployment rate",
+      "note": "unchanged from June 2026",
+      "seasonal_adjustment": "seasonally adjusted",
+      "unit": "%",
+      "value": 6.2
+    }
+  ]
+}

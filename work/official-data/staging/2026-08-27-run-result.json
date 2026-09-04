@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-27",
+  "started_at": "2026-08-27T08:54:25+08:00",
+  "coverage_end": "2026-08-27T08:54:25+08:00",
+  "finished_at": "2026-08-27T09:10:00+08:00",
+  "checked": [
+    "us-bea-pce",
+    "us-bea-gdp",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "us-bea-pce",
+      "status": "new",
+      "record_path": "work/official-data/releases/us-bea-pce/2026-07--v1.md"
+    },
+    {
+      "dataset_id": "us-bea-gdp",
+      "status": "revision",
+      "record_path": "work/official-data/releases/us-bea-gdp/2026-Q2--v2.md"
+    }
+  ],
+  "synthesis": {
+    "headline": "今天美国数据的主线不是GDP headline进一步变差，而是私人需求比初值更强、价格降温不足，同时7月实际消费近乎停滞且储蓄率升至3.0%，增长降温更像分项分化而非全面衰退。",
+    "sections": [
+      {
+        "scope": "美国",
+        "dataset_ids": [
+          "us-bea-pce",
+          "us-bea-gdp"
+        ],
+        "significance": "medium",
+        "stage": "7月月度统计已发布；二季度GDP为第二次估计，9月30日年度更新与第三次估计尚未完成",
+        "judgment": "二季度私人国内最终销售上修至4.2%、PCE价格增速上修；到7月，收入增速快于支出，商品支出下降、服务支出增加，实际PCE不足0.1%。这说明私人需求仍有韧性但已分化，尚不能判定为全面衰退或通胀趋势性回落。",
+        "watch_next": "BEA 9月30日年度更新、二季度GDP第三次估计及8月个人收入与支出"
+      }
+    ],
+    "deep_dive_candidates": [
+      "美国服务消费的名义韧性有多少来自价格、多少来自实际消费量",
+      "9月30日年度更新是否改写二季度私人内需和近期储蓄率路径"
+    ],
+    "confidence": "medium"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "海关政务服务导航页可达并展示‘海关统计数据查询’，但动态浏览器加载超时；其指向的 stats.customs.gov.cn 今日仍返回 HTTP 412，HTTPS SSL 连接失败，无法建立可验证的当前官方基线。失败未推进 last_checked_at，留待下次重试。"
+    }
+  ]
+}

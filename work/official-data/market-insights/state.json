@@ -2,10 +2,10 @@
   "version": 1,
   "source_id": "citadel-securities-market-insights",
   "category_url": "https://www.citadelsecurities.com/news-and-insights/category/market-insights/",
-  "last_successful_check": "2026-08-18T07:14:03+08:00",
-  "last_attempted_at": "2026-08-18T07:14:03+08:00",
+  "last_successful_check": "2026-09-04T12:05:30+08:00",
+  "last_attempted_at": "2026-09-04T12:05:30+08:00",
   "last_error": null,
-  "category_lastmod": "2026-08-17T19:32:44+00:00",
+  "category_lastmod": "2026-09-01T18:59:55+00:00",
   "items": {
     "https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/august-checklist/": {
       "title": "August Checklist",
@@ -64,6 +64,46 @@
       "first_seen_at": "2026-08-18T07:13:18+08:00",
       "baseline": false,
       "record_path": "work\\official-data\\market-insights\\records\\2026-08-17--high-touch-rewired.md"
+    },
+    "https://www.citadelsecurities.com/news-and-insights/global-macro-strategy/elastic-expectations/": {
+      "title": "Elastic Expectations",
+      "series": "Global Macro Strategy",
+      "published_at": "2026-08-18",
+      "first_seen_at": "2026-08-20T09:00:00+08:00",
+      "baseline": false,
+      "record_path": "work\\official-data\\market-insights\\records\\2026-08-18--elastic-expectations.md"
+    },
+    "https://www.citadelsecurities.com/news-and-insights/macro-thoughts/hard-choices/": {
+      "title": "Hard Choices",
+      "series": "Some Macro Thoughts",
+      "published_at": "2026-08-24",
+      "first_seen_at": "2026-08-25T08:24:25+08:00",
+      "baseline": false,
+      "record_path": "work\\official-data\\market-insights\\records\\2026-08-24--hard-choices.md"
+    },
+    "https://www.citadelsecurities.com/news-and-insights/global-macro-strategy/out-of-the-woods-a-more-constructive-outlook-for-fixed-income/": {
+      "title": "Out of the Woods? A More Constructive Outlook for Fixed Income",
+      "series": "Global Macro Strategy",
+      "published_at": "2026-08-25",
+      "first_seen_at": "2026-08-26T08:13:32+08:00",
+      "baseline": false,
+      "record_path": "work\\official-data\\market-insights\\records\\2026-08-25--out-of-the-woods-a-more-constructive-outlook-for-fixed-income.md"
+    },
+    "https://www.citadelsecurities.com/news-and-insights/macro-thoughts/jensen-and-jackson-pave-the-way/": {
+      "title": "Jensen and Jackson Pave the Way",
+      "series": "Some Macro Thoughts",
+      "published_at": "2026-08-31",
+      "first_seen_at": "2026-09-01T12:14:48+08:00",
+      "baseline": false,
+      "record_path": "work\\official-data\\market-insights\\records\\2026-08-31--jensen-and-jackson-pave-the-way.md"
+    },
+    "https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/september-setup/": {
+      "title": "September Setup: The Asymmetry Has Changed",
+      "series": "Global Market Intelligence",
+      "published_at": "2026-08-31",
+      "first_seen_at": "2026-09-01T12:14:48+08:00",
+      "baseline": false,
+      "record_path": "work\\official-data\\market-insights\\records\\2026-08-31--september-setup.md"
     }
   }
 }

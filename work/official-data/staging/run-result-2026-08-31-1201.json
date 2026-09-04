@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-31",
+  "started_at": "2026-08-31T12:01:10+08:00",
+  "coverage_end": "2026-08-31T12:01:10+08:00",
+  "finished_at": "2026-08-31T12:04:00+08:00",
+  "checked": [
+    "cn-nbs-pmi"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-nbs-pmi",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-nbs-pmi/2026-08--v1.md"
+    }
+  ],
+  "synthesis": {
+    "headline": "8月制造业订单出现回补，但非制造业需求、综合产出和用工未同步改善，不能据此判断为全面景气反转。",
+    "sections": [
+      {
+        "scope": "全国",
+        "dataset_ids": [
+          "cn-nbs-pmi"
+        ],
+        "significance": "medium",
+        "stage": "2026年8月调查统计结果已发布，持续性和硬数据兑现仍待验证",
+        "judgment": "制造业生产、新订单和采购量回到50%以上，但综合PMI仅49.5%，非制造业新订单44.1%，且中小企业和用工指数仍低于50%；当前证据更支持局部订单回补，而非需求已广泛转强。",
+        "watch_next": "8月工业增加值、工业企业营业收入与利润、库存和应收账款，以及9月制造业和非制造业新订单PMI"
+      }
+    ],
+    "deep_dive_candidates": [
+      "制造业订单回补能否转化为收入、利润和更健康的库存及应收账款",
+      "原材料购进价格扩散快于出厂价格对企业利润率的压力",
+      "大型企业与中小企业景气及用工分化是否持续"
+    ],
+    "confidence": "medium"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "注册导航页可访问并显示海关统计数据查询入口，但其正式统计站 http://stats.customs.gov.cn 返回HTTP 412，HTTPS忽略证书校验后仍返回HTTP 504；本次仍无法建立可验证的当前官方基线，未推进成功覆盖水位。"
+    }
+  ]
+}

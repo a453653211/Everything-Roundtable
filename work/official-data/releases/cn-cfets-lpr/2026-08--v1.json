@@ -1,0 +1,67 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "实际融资条件仍可能通过银行加点、存款利率、结构性货币政策工具或其他政策利率变化而调整。",
+      "存量贷款是否重定价取决于合同约定的重定价周期。"
+    ],
+    "behavioral_readout": "这组报价更符合贷款基准定价继续稳定，而不是通过本期LPR下调来推动新增贷款普遍降价；但银行实际贷款利率仍取决于加点、借款人风险、期限和其他政策工具。",
+    "caveats": [
+      "LPR是贷款定价参考，不是所有借款人的实际成交利率。"
+    ],
+    "changes": [
+      "1年期LPR为3.0%，与2026年7月20日报价持平。",
+      "5年期以上LPR为3.5%，与2026年7月20日报价持平。"
+    ],
+    "confidence": "high",
+    "headline": "8月1年期和5年期以上LPR分别维持3.0%和3.5%，贷款定价基准未通过本期LPR进一步下调。",
+    "implications": [
+      "推断：本期LPR没有为新增企业贷款和与5年期以上LPR挂钩的贷款提供额外的基准利率下调。"
+    ],
+    "verification_needed": [
+      "全国银行间同业拆借中心下一期LPR公告",
+      "中国人民银行金融机构人民币贷款加权平均利率",
+      "中国人民银行社会融资规模和人民币贷款数据"
+    ]
+  },
+  "content_fingerprint": "30b4e0ba6adbe0213b973ac6f7e3776c0b4d73fd99e8538457d2ef257000f9f2",
+  "dataset_id": "cn-cfets-lpr",
+  "methodology_changes": [],
+  "official_citations": [
+    {
+      "label": "中国货币网LPR公告原文",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20260820/3399885.html"
+    },
+    {
+      "label": "中国货币网LPR说明",
+      "url": "https://www.chinamoney.com.cn/chinese/bklpr/"
+    }
+  ],
+  "published_at": "2026-08-20T09:00:00+08:00",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-08",
+  "release_status": "official",
+  "retrieved_at": "2026-08-21T08:06:47+08:00",
+  "revisions": [],
+  "source_title": "2026年8月20日全国银行间同业拆借中心受权公布贷款市场报价利率（LPR）公告",
+  "source_url": "https://www.chinamoney.com.cn/chinese/rdgz/20260820/3399885.html",
+  "values": [
+    {
+      "basis": "2026年8月20日报价",
+      "metric": "1年期贷款市场报价利率（LPR）",
+      "note": "较2026年7月20日持平",
+      "seasonal_adjustment": "不适用",
+      "unit": "%",
+      "value": 3.0
+    },
+    {
+      "basis": "2026年8月20日报价",
+      "metric": "5年期以上贷款市场报价利率（LPR）",
+      "note": "较2026年7月20日持平",
+      "seasonal_adjustment": "不适用",
+      "unit": "%",
+      "value": 3.5
+    }
+  ]
+}

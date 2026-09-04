@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-04",
+  "started_at": "2026-09-04T12:02:23+08:00",
+  "coverage_end": "2026-09-04T12:02:46+08:00",
+  "finished_at": "2026-09-04T12:04:37+08:00",
+  "checked": ["sh-district-strategic-plans"],
+  "results": [],
+  "summary": "本次成功检查上海区级战略规划，未发现新增或官方修订；海关统计查询及官方补救列表访问失败，仍无法建立可验证基线。",
+  "check_details": [
+    {
+      "dataset_id": "sh-district-strategic-plans",
+      "source_urls": ["https://www.shanghai.gov.cn/gwk/search/index.html", "https://www.shanghai.gov.cn/gwk/search/data"],
+      "scan_window": {"start_exclusive": "2026-09-03T12:01:21+08:00", "end_inclusive": "2026-09-04T12:02:46+08:00"},
+      "method": "官方索引及JSON端点；按登记的三组关键词、空附加筛选逐页读取全部结果，pageSize=100，按id去重，按display_date判断窗口。",
+      "queries": [
+        {"keyword": "国民经济和社会发展第十五个五年规划纲要", "pages": 1, "returned_count": 96},
+        {"keyword": "空间布局“十五五”规划", "pages": 2, "returned_count": 111},
+        {"keyword": "城市更新“十五五”规划", "pages": 2, "returned_count": 122}
+      ],
+      "returned_count": 329,
+      "unique_count": 206,
+      "window_candidates": [],
+      "exclusions": [
+        "普陀区科技创新十五五规划display_date为2026-09-03 11:21:07，早于下限，且属专题规划。",
+        "市级住房和城乡建设管理十五五规划display_date为2026-09-03 10:43:18，早于下限，且不属区级标题范围。",
+        "今日create_date重建的黄浦金融业发展规划和普陀国土空间近期规划，其display_date分别为9月1日和8月20日；不能把后台创建时间当作新发布或官方修订。"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "登记导航页可达；正式统计站http://stats.customs.gov.cn返回HTTP 412，HTTPS连接SSL失败。经Tavily限customs.gov.cn域、2026-08-01至2026-09-04查找当前基线，仅定位到7月统计快讯和月报线索；直接打开海关统计规范列表及2026年统计月报列表均超时。未用搜索摘录替代官方原文，未建立基线、未推进成功水位。"
+    }
+  ]
+}

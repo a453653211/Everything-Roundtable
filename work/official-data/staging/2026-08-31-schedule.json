@@ -1,4 +1,5 @@
 {
+  "refreshed_at": "2026-08-31T08:04:13+08:00",
   "covered_datasets": [
     "cn-nbs-cpi",
     "cn-nbs-ppi",
@@ -20,6 +21,14 @@
     "sh-tjj-prices"
   ],
   "events": [
+    {
+      "calendar_url": "https://www.stats.gov.cn/fbyg/",
+      "dataset_id": "cn-nbs-pmi",
+      "expected_at": "2026-08-31T09:30:00+08:00",
+      "reference_period": "2026-08",
+      "window_end": "2026-09-01",
+      "window_start": "2026-08-31"
+    },
     {
       "calendar_url": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar",
       "dataset_id": "eu-eurostat-hicp",
@@ -43,6 +52,14 @@
       "reference_period": "2026-08",
       "window_end": "2026-09-05",
       "window_start": "2026-09-04"
+    },
+    {
+      "calendar_url": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar",
+      "dataset_id": "eu-eurostat-gdp",
+      "expected_at": "2026-09-07T11:00:00+02:00",
+      "reference_period": "2026-Q2",
+      "window_end": "2026-09-08",
+      "window_start": "2026-09-07"
     },
     {
       "calendar_url": "https://www.stats.gov.cn/fbyg/",
@@ -93,14 +110,6 @@
       "window_start": "2026-09-11"
     },
     {
-      "calendar_url": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar",
-      "dataset_id": "eu-eurostat-gdp",
-      "expected_at": "2026-09-07T11:00:00+02:00",
-      "reference_period": "2026-Q2",
-      "window_end": "2026-09-08",
-      "window_start": "2026-09-07"
-    },
-    {
       "calendar_url": "https://www.stats.gov.cn/fbyg/",
       "dataset_id": "cn-nbs-housing70",
       "expected_at": "2026-09-15T09:30:00+08:00",
@@ -117,20 +126,20 @@
       "window_start": "2026-09-15"
     },
     {
+      "calendar_url": "https://tjj.sh.gov.cn/fbjh/index.html",
+      "dataset_id": "sh-tjj-activity",
+      "expected_at": "2026-09-16T00:00:00+08:00",
+      "reference_period": "2026-08",
+      "window_end": "2026-09-18",
+      "window_start": "2026-09-16"
+    },
+    {
       "calendar_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "dataset_id": "us-fed-fomc",
       "expected_at": "2026-09-16T00:00:00-04:00",
       "reference_period": "2026-09-15/16",
       "window_end": "2026-09-17",
       "window_start": "2026-09-16"
-    },
-    {
-      "calendar_url": "https://tjj.sh.gov.cn/fbjh/index.html",
-      "dataset_id": "sh-tjj-activity",
-      "expected_at": "2026-09-17T00:00:00+08:00",
-      "reference_period": "2026-08",
-      "window_end": "2026-09-19",
-      "window_start": "2026-09-17"
     },
     {
       "calendar_url": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar",
@@ -155,87 +164,6 @@
       "reference_period": "2026-08",
       "window_end": "2026-10-01",
       "window_start": "2026-09-30"
-    },
-    {
-      "calendar_url": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar",
-      "dataset_id": "eu-eurostat-unemployment",
-      "expected_at": "2026-10-01T11:00:00+02:00",
-      "reference_period": "2026-08",
-      "window_end": "2026-10-02",
-      "window_start": "2026-10-01"
-    },
-    {
-      "calendar_url": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar",
-      "dataset_id": "eu-eurostat-hicp",
-      "expected_at": "2026-10-02T11:00:00+02:00",
-      "reference_period": "2026-09",
-      "window_end": "2026-10-03",
-      "window_start": "2026-10-02"
-    },
-    {
-      "calendar_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
-      "dataset_id": "us-bls-employment",
-      "expected_at": "2026-10-02T08:30:00-04:00",
-      "reference_period": "2026-09",
-      "window_end": "2026-10-03",
-      "window_start": "2026-10-02"
-    },
-    {
-      "calendar_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
-      "dataset_id": "us-bls-cpi",
-      "expected_at": "2026-10-14T08:30:00-04:00",
-      "reference_period": "2026-09",
-      "window_end": "2026-10-15",
-      "window_start": "2026-10-14"
-    },
-    {
-      "calendar_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
-      "dataset_id": "us-bls-ppi",
-      "expected_at": "2026-10-15T08:30:00-04:00",
-      "reference_period": "2026-09",
-      "window_end": "2026-10-16",
-      "window_start": "2026-10-15"
-    },
-    {
-      "calendar_url": "https://tjj.sh.gov.cn/fbjh/index.html",
-      "dataset_id": "sh-tjj-prices",
-      "expected_at": "2026-10-15T00:00:00+08:00",
-      "reference_period": "2026-09",
-      "window_end": "2026-10-16",
-      "window_start": "2026-10-15"
-    },
-    {
-      "calendar_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "dataset_id": "us-fed-fomc",
-      "expected_at": "2026-10-28T00:00:00-04:00",
-      "reference_period": "2026-10-27/28",
-      "window_end": "2026-10-29",
-      "window_start": "2026-10-28"
-    },
-    {
-      "calendar_url": "https://www.bea.gov/news/schedule",
-      "dataset_id": "us-bea-gdp",
-      "expected_at": "2026-10-29T08:30:00-04:00",
-      "reference_period": "2026-Q3",
-      "window_end": "2026-10-30",
-      "window_start": "2026-10-29"
-    },
-    {
-      "calendar_url": "https://www.bea.gov/news/schedule",
-      "dataset_id": "us-bea-pce",
-      "expected_at": "2026-10-29T08:30:00-04:00",
-      "reference_period": "2026-09",
-      "window_end": "2026-10-30",
-      "window_start": "2026-10-29"
-    },
-    {
-      "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
-      "dataset_id": "eu-ecb-policy",
-      "expected_at": "2026-10-29T00:00:00+01:00",
-      "reference_period": "2026-10-29",
-      "window_end": "2026-10-30",
-      "window_start": "2026-10-29"
     }
-  ],
-  "refreshed_at": "2026-09-02T12:03:27+08:00"
+  ]
 }

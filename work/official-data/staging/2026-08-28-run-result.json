@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-28",
+  "started_at": "2026-08-28T08:00:00+08:00",
+  "coverage_end": "2026-08-28T08:01:34+08:00",
+  "finished_at": "2026-08-28T08:16:44+08:00",
+  "checked": [
+    "cn-nbs-industrial-profits",
+    "sh-district-strategic-plans"
+  ],
+  "results": [
+    {
+      "dataset_id": "cn-nbs-industrial-profits",
+      "status": "new",
+      "record_path": "work/official-data/releases/cn-nbs-industrial-profits/2026-07--v1.md"
+    }
+  ],
+  "synthesis": {
+    "headline": "全国工业利润仍在修复，但7月增速放缓且存货、应收增长快于营收，改善更像利润率与少数行业驱动，尚不能确认需求全面转强。",
+    "sections": [
+      {
+        "scope": "全国",
+        "dataset_ids": [
+          "cn-nbs-industrial-profits"
+        ],
+        "significance": "medium",
+        "stage": "2026年1—7月统计结果已发布，需求广度与持续性仍待后续官方数据验证",
+        "judgment": "累计利润同比增长17.6%、仍快于营收，但7月当月增速由6月的15.1%降至11.2%，同时存货和应收增速高于营收，利润改善具有明显行业分化。",
+        "watch_next": "国家统计局8月工业企业利润、制造业PMI新订单与产成品库存，以及8月工业增加值和PPI"
+      }
+    ],
+    "deep_dive_candidates": [
+      "电子行业利润翻倍能否延续并转化为制造业投资",
+      "汽车、钢铁和建材利润下降中的价格与销量因素",
+      "存货与应收增速快于营收对企业现金流的含义"
+    ],
+    "confidence": "medium"
+  },
+  "errors": [
+    {
+      "dataset_id": "cn-customs-trade",
+      "message": "海关政务服务‘我要查’页面今日可达并显示‘海关统计数据查询’，但点击后未能打开正式统计系统；stats.customs.gov.cn 的 HTTP 入口仍返回412，HTTPS证书链不受信任，无法建立可验证的当前官方基线。失败未推进last_checked_at，留待下次重试。"
+    }
+  ]
+}

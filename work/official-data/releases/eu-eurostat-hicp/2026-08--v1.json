@@ -1,0 +1,114 @@
+{
+  "analysis": {
+    "affected_groups": [],
+    "alternative_explanations": [
+      "能源基数效应或外部供给冲击可以在需求没有同步增强时推高总通胀。",
+      "初值覆盖的信息少于月中终值，分项与成员国数据仍可能修订。"
+    ],
+    "behavioral_readout": "这组组合更符合能源价格冲击把总通胀推高，而不是居民需求全面加速：能源涨幅显著扩大，但服务和核心口径同步放缓。HICP只观察价格，不能据此判断家庭实际购买量。",
+    "caveats": [
+      "本次为初值，不是完整终值发布。",
+      "2026年起欧元区汇总口径由EA20变为EA21，跨年长序列比较需考虑组成变化。"
+    ],
+    "changes": [
+      "8月HICP同比3.3%、环比0.4%，高于7月终值同比2.9%。",
+      "能源同比由7月10.3%升至14.3%，服务同比由3.3%降至3.0%。",
+      "剔除能源、食品、酒和烟草的核心口径由2.5%降至2.4%，食品口径持平于1.2%。"
+    ],
+    "confidence": "medium",
+    "headline": "欧元区8月HICP初值同比升至3.3%，但上行主要来自能源同比由10.3%跳至14.3%，服务与核心通胀反而放缓。",
+    "implications": [
+      "推论：短期总通胀压力明显抬升，但持续性取决于能源冲击是否扩散到服务和更广泛的核心分项。"
+    ],
+    "verification_needed": [
+      "Eurostat 2026年8月HICP终值及能源、服务贡献（2026年9月17日）。",
+      "Eurostat 2026年9月HICP初值，观察能源上行是否延续并向核心分项扩散。"
+    ]
+  },
+  "content_fingerprint": "d9b0dc70ad6b7abdfca6c8ff17accff45a664138061a3acf1e1f8a448d1331c4",
+  "dataset_id": "eu-eurostat-hicp",
+  "methodology_changes": [
+    "From January 2026 the euro area aggregate is EA21 following Bulgaria's entry; Eurostat applies a chain index formula to reflect the evolving composition."
+  ],
+  "official_citations": [
+    {
+      "label": "Eurostat August 2026 HICP flash estimate",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-01092026-ap"
+    }
+  ],
+  "published_at": "2026-09-01T11:00:00Z",
+  "record_status": "new",
+  "record_version": 1,
+  "reference_period": "2026-08",
+  "release_status": "official flash estimate",
+  "retrieved_at": "2026-09-02T12:08:03+08:00",
+  "revisions": [],
+  "source_title": "Euro area annual inflation up to 3.3%",
+  "source_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-01092026-ap",
+  "values": [
+    {
+      "basis": "August 2026 year-on-year, flash estimate",
+      "metric": "Euro area all-items HICP annual rate",
+      "note": "July 2026 final: 2.9%; August 2025: 2.0%; EA21 aggregate",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 3.3
+    },
+    {
+      "basis": "August 2026 month-on-month, flash estimate",
+      "metric": "Euro area all-items HICP monthly rate",
+      "note": "",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 0.4
+    },
+    {
+      "basis": "August 2026 year-on-year, flash estimate",
+      "metric": "Energy HICP annual rate",
+      "note": "July 2026 final: 10.3%; August monthly rate: 2.9%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 14.3
+    },
+    {
+      "basis": "August 2026 year-on-year, flash estimate",
+      "metric": "Services HICP annual rate",
+      "note": "July 2026: 3.3%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 3.0
+    },
+    {
+      "basis": "August 2026 year-on-year, flash estimate",
+      "metric": "HICP excluding energy, food, alcohol and tobacco annual rate",
+      "note": "July 2026: 2.5%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 2.4
+    },
+    {
+      "basis": "August 2026 year-on-year, flash estimate",
+      "metric": "HICP excluding energy annual rate",
+      "note": "unchanged from July 2026",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 2.2
+    },
+    {
+      "basis": "August 2026 year-on-year, flash estimate",
+      "metric": "Food, alcohol and tobacco HICP annual rate",
+      "note": "unchanged from July 2026",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 1.2
+    },
+    {
+      "basis": "August 2026 year-on-year, flash estimate",
+      "metric": "Non-energy industrial goods HICP annual rate",
+      "note": "July 2026: 0.9%",
+      "seasonal_adjustment": "not stated",
+      "unit": "%",
+      "value": 1.2
+    }
+  ]
+}
